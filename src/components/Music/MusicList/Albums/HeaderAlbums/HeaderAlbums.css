@@ -1,0 +1,45 @@
+/* -------------------Button_back--------------------- */
+  
+.headerAlbums__buttonBack {
+  display: flex;
+  height: 40px;
+  color: #1877F2;
+  margin-left: 15px;
+}
+
+
+.headerAlbums__buttonBack svg {
+  width: 30px;
+  height: 40px;
+}
+
+.headerAlbums__buttonBack h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  color: #1877F2;
+}  
+  /* ------------------------------------------------------------- */
+  
+  .headerAlbums hr {
+    margin: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid rgb(240, 236, 236);
+  }
+  
+  .headerAlbums a {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .headerAlbums a:hover h3 {
+    color: #F62A54;
+  }
+  
+  .headerAlbums h1 {
+      margin-left: 55px;
+      color: #1877F2;
+  }

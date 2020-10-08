@@ -1,0 +1,46 @@
+/* -------------------Button_back--------------------- */
+
+.headerArtists__buttonBack {
+  display: flex;
+  height: 40px;
+  color: #1877F2;
+  margin-left: 15px;
+}
+
+
+.headerArtists__buttonBack svg {
+  width: 30px;
+  height: 40px;
+}
+
+.headerArtists__buttonBack h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  color: #1877F2;
+}
+
+
+/* ------------------------------------------------------------- */
+
+.headerArtists {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.headerArtists a {
+  display: flex;
+  text-decoration: none;
+}
+
+.headerArtists a:hover h3 {
+  color: #F62A54;
+}
+
+.headerArtists h1 {
+    margin-left: 55px;
+    color: #1877F2;
+}
+
+

@@ -1,0 +1,87 @@
+.bodyOwnPlayListsRouter__ActionSwitcherroot {
+  max-width: 350px;
+}
+
+.bodyOwnPlayListsRouter__ActionSwitcherroot:focus {
+  outline: none;
+}
+
+.bodyOwnPlayListsRouter__ActionSwitcherroot hr {
+  margin: 0;
+  height: 0;
+  border: none;
+  border-top: 1px solid rgb(240, 236, 236);
+
+}
+
+.bodyOwnPlayListsRouter__ActionSwitcher svg {
+  width: 28px;
+  height: 28px;
+  margin-top: 10px;
+}
+
+.bodyOwnPlayListsRouter__ActionSwitcherdescriptionHeader {
+  max-width: 350px;
+  display: flex;
+}
+
+.bodyOwnPlayListsRouter__ActionSwitcherdescriptionHeader img {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.bodyOwnPlayListsRouter__ActionSwitcherdescriptionHeader svg {
+  margin-left: 0px;
+  z-index: 2000;
+  width: 20px;
+  height: 20px;
+}
+
+.bodyOwnPlayListsRouter__ActionSwitcherdescriptionHeader svg:hover {
+  cursor: pointer;
+  filter: opacity(70%)
+}
+
+.bodyOwnPlayListsRouter__ActionSwitchertitleAndAuthor {
+  margin-left: 10px;
+}
+
+.bodyOwnPlayListsRouter__ActionSwitchertitleAndAuthor h3 {
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+  color: #1877F2;
+}
+
+.bodyOwnPlayListsRouter__ActionSwitchertitleAndAuthor p {
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(163, 163, 163)
+}
+
+.bodyOwnPlayListsRouter__ActionSwitcherdeleteFromPlayList {
+  display: flex;
+  height: 30px;
+}
+
+.bodyOwnPlayListsRouter__ActionSwitcherdeleteFromPlayList h3 {
+  margin-top: 3px;
+  margin-left: 120px;
+  color: rgb(163, 163, 163);
+}
+
+.bodyOwnPlayListsRouter__ActionSwitcherdeleteFromPlayList svg {
+  margin-top: 3px;
+  margin-left: 0px;
+  width: 28px;
+  height: 28px;
+}
+

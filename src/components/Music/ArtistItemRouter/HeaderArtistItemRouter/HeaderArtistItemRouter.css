@@ -1,0 +1,46 @@
+/* -------------------Button_back--------------------- */
+
+.headerArtistItemRouter__buttonBack {
+  display: flex;
+  height: 40px;
+  color: #1877F2;
+  margin-left: 15px;
+}
+
+
+.headerArtistItemRouter__buttonBack svg {
+  width: 30px;
+  height: 40px;
+}
+
+.headerArtistItemRouter__buttonBack h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  color: #1877F2;
+}
+  
+  
+  /* ------------------------------------------------------------- */
+
+  
+  .headerArtistItemRouter {
+    border-bottom: 1px solid #e9e9e9;
+  }
+  
+  .headerArtistItemRouter a {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .headerArtistItemRouter a:hover h3 {
+    color: #F62A54;
+  
+  }
+  
+  .headerArtistItemRouter h1 {
+      margin-left: 55px;
+      color: #1877F2;
+  }
