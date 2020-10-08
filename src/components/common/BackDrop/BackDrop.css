@@ -1,0 +1,10 @@
+.backdrop {
+    z-index: 50;
+    display: block;
+    background: rgba(255, 255, 255, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

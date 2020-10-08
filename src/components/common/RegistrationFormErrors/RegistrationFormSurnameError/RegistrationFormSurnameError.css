@@ -1,0 +1,50 @@
+
+.error__surname {
+    width: 300px;
+    /* right: 713px;
+    top: 276px; */
+    z-index: 400;
+    opacity: 1;
+    height: 0;
+    position: absolute;
+    outline: none;
+    font-size: 12px;
+    margin-left: -130px;
+    margin-top: 15px;
+}
+
+.error__surname__label {
+    right: 0px;
+    position: absolute;
+}
+
+.error__surname__body {
+    padding-right: 18px;
+    /* padding-bottom: 18px; */
+}
+
+.error__surname__content {
+    background-color: #be4b49;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(139, 3, 0, .75), 0 1px 10px rgba(0, 0, 0, .35);
+    color: #fff;
+    font-size: 13px;
+    max-width: 300px;
+    padding: 13px;
+    position: relative;
+}
+
+.error__surname__icon {
+    background-image: url(https://en-gb.facebook.com/rsrc.php/v3/yN/r/bn50JeIPkQ7.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -33px -183px;
+    height: 11px;
+    top: -10px;
+    right: 110px;
+    width: 22px;
+    overflow: hidden;
+    position: absolute;
+    font-style: italic;
+}
