@@ -1,0 +1,14 @@
+.profile__header__description {
+    position: relative;
+    margin-top: -125px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__header__description__wrapper {
+    display: block;
+}
+
+

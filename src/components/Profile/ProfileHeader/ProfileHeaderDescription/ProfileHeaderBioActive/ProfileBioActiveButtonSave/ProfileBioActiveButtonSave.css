@@ -1,0 +1,32 @@
+.profile__header__bio__activeButtonSave {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  height: 36px;
+  border-radius: 6px;
+  padding: 0px 12px;
+  background-color: #1877F2;
+}
+
+.profile__header__bio__activeButtonSave:hover {
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+.profile__header__bio__activeButtonSave:active {
+  transform: scale(0.97);
+}
+
+.profile__header__bio__activeButtonSave span {
+  margin: 0;
+  text-overflow: ellipsis;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  font-weight: 600;
+  font-size: .9375rem;
+  max-height: 20px;
+}

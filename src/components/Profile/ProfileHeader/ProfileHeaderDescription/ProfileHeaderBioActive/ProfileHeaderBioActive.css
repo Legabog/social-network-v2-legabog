@@ -1,0 +1,145 @@
+.profile__header__bio__active {
+    width: 300px;
+    margin-top: 5px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.1765;
+    color: #65676B;
+    font-size: 1.0625rem;
+}
+
+.profile__header__bio__activeTextarea {
+    display: flex;
+    width: 300px;
+    height: 78px;
+}
+
+.profile__header__bio__active textarea {
+    width: 100%;
+    resize: none;
+    color: #050505;
+    background-color:#F0F2F5;
+    border: 1px solid #CED0D4;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+.profile__header__bio__active textarea:focus {
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #1877F2;
+}
+
+.profile__header__bio__active textarea:hover {
+    filter: brightness(80%)
+}
+
+.profile__header__bio__activeSpan {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.profile__header__bio__activeSpan span {
+    font-weight: normal;
+    color: #65676B;
+    line-height: 1.2308;
+    font-size: .8125rem;
+}
+
+.profile__header__bio__activePanel {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    height: 36px;
+}
+
+.profile__header__bio__activePanel svg {
+    width: 20px;
+    height: 20px;
+}
+
+.profile__header__bio__activePanel span {
+    margin-left: 10px;
+    word-break: break-word;
+    color: #050505;
+    font-weight: normal;
+    font-size: .9375rem;
+    line-height: 1.3333;
+}
+
+.profile__header__bio__activeButtons {
+    display: flex;
+    margin-left: 100px;
+}
+
+.profile__header__bio__activeButtonCancel {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    height: 36px;
+    margin-right: 5px;
+    border-radius: 6px;
+    padding: 0px 12px;
+    background-color: #eff2f5;
+}
+
+.profile__header__bio__activeButtonCancel:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+
+}
+
+.profile__header__bio__activeButtonCancel:active {
+    transform: scale(0.97);
+}
+
+.profile__header__bio__activeButtonCancel span {
+    margin: 0;
+    text-overflow: ellipsis;
+    color: #050505;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-weight: 600;
+    font-size: .9375rem;
+    max-height: 20px;
+}
+
+
+.profile__header__bio__activeButtonSave-disabled {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    height: 36px;
+    border-radius: 6px;
+    padding: 0px 12px;
+    background-color: #eff2f5;
+}
+
+.profile__header__bio__activeButtonSave-disabled:hover {
+    cursor: not-allowed;
+
+}
+
+.profile__header__bio__activeButtonSave-disabled span {
+    margin: 0;
+    text-overflow: ellipsis;
+    color: rgb(179, 175, 175);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-weight: 600;
+    font-size: .9375rem;
+    max-height: 20px;
+}
