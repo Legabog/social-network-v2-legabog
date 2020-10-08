@@ -1,0 +1,102 @@
+.prifleUpdateAvatar__body__Section {
+    display: block;
+    width: 670px;
+    min-height: 150px;
+}
+
+.prifleUpdateAvatar__body__Section span {
+    display: flex;
+    font-weight: 600;
+    color: #050505;
+    line-height: 1.1765;
+    font-size: 1.0625rem;
+}
+
+.prifleUpdateAvatar__body__Section__imgLine {
+    margin-top: 20px;
+    display: flex;
+}
+
+.prifleUpdateAvatar__body__Section__imgLine img {
+    object-fit: cover;
+    width: 105px;
+    height: 105px;
+    border-radius: 6px;
+    margin-right: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin-bottom: 16px;
+}
+
+.prifleUpdateAvatar__body__Section__imgLine img:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.prifleUpdateAvatar__body__Section__imgLine img:active {
+    transform: scale(0.95);
+}
+
+.prifleUpdateAvatar__body__Section__imgLineOversize {
+    margin-top: 10px;
+    display: block;
+}
+
+.prifleUpdateAvatar__body__Section__imgLineOversize-main {
+    display: flex;
+}
+
+.prifleUpdateAvatar__body__Section__imgLineOversize-secondary {
+    margin-top: 5px;
+    width: 100%;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 16px;
+}
+
+.prifleUpdateAvatar__body__Section__imgLineOversize img {
+    object-fit: cover;
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    border-radius: 6px;
+    margin-right: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.prifleUpdateAvatar__body__Section__imgLineOversize img:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.prifleUpdateAvatar__body__Section__imgLineOversize img:active {
+    transform: scale(0.95);
+}
+
+.prifleUpdateAvatar__body__Section__imgLineOversize-button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #E4E6EB;
+}
+
+.prifleUpdateAvatar__body__Section__imgLineOversize-button span {
+    color: #050505;
+    font-size: .9375rem;
+    line-height: 1.3333;
+    font-weight: 600;
+}
+
+.prifleUpdateAvatar__body__Section__imgLineOversize-button:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.prifleUpdateAvatar__body__Section__imgLineOversize-button:active {
+    transform: scale(0.95);
+}

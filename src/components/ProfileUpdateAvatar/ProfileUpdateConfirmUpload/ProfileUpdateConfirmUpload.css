@@ -1,0 +1,134 @@
+.profileUpdateConfirmUpload {
+    display: block;
+}
+
+.profileUpdateConfirmUpload__tempAvatar__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.profileUpdateConfirmUpload__tempAvatar {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #EFF2F5;
+    border-radius: 6px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.profileUpdateConfirmUpload__tempAvatar img {
+    object-fit: cover;
+    width: 299px;
+    height: 299px;
+    border-radius: 300px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1); */
+}
+
+.profileUpdateConfirmUpload__description {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.profileUpdateConfirmUpload__description svg {
+    color: gray;
+}
+
+.profileUpdateConfirmUpload__description span {
+    margin-left: 16px;
+    line-height: 1.1765;
+    font-size: 1.0625rem;
+    font-weight: normal;
+    color: #65676B;
+}
+
+.profileUpdateConfirmUpload__buttons__wrapper {
+    display: flex;
+    padding: 16px;
+}
+
+.profileUpdateConfirmUpload__buttons {
+    display: flex;
+    margin-left: 450px;
+}
+
+.profileUpdateConfirmUpload__cancelButton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 36px;
+    padding: 0px 12px;
+    border-radius: 6px;
+}
+
+.profileUpdateConfirmUpload__cancelButton span {
+    color: #1876F2;
+}
+
+.profileUpdateConfirmUpload__cancelButton:hover {
+    background-color: #EFF2F5;
+    cursor: pointer;
+}
+
+.profileUpdateConfirmUpload__cancelButton:active {
+    transform: scale(0.95);
+    background-color: #ECF3FF;
+}
+
+/* Save button */
+
+.profileUpdateConfirmUpload__saveButton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 36px;
+    margin-left: 10px;
+    padding: 0px 40px;
+    border-radius: 6px;
+    background-color: #1876F2;
+}
+
+.profileUpdateConfirmUpload__saveButton span {
+    color: #fff;
+}
+
+.profileUpdateConfirmUpload__saveButton:hover {
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.profileUpdateConfirmUpload__saveButton:active {
+    transform: scale(0.95);
+}
+
+/* Save button disabled */
+
+.profileUpdateConfirmUpload__saveButton__disabled {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 36px;
+    margin-left: 10px;
+    padding: 0px 40px;
+    border-radius: 6px;
+    background-color: #EFF2F5;
+}
+
+.profileUpdateConfirmUpload__saveButton__disabled span {
+    color: gray;
+}
+
+.profileUpdateConfirmUpload__saveButton__disabled:hover {
+    filter: brightness(95%);
+    cursor: not-allowed;
+}

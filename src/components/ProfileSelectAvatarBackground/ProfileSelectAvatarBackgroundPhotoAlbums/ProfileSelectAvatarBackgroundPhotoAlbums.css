@@ -1,0 +1,12 @@
+.prifleSelectAvatarBackground__photoAlbums__wrapper {
+    padding-left: 16px;
+    display: block;
+}
+
+.prifleSelectAvatarBackground__photoAlbums {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}

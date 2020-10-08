@@ -1,0 +1,35 @@
+.prifleSelectAvatarBackground__recentPhotos__wrapper {
+    overflow-y: auto;
+    text-align: left;
+    padding-left: 16px;
+    min-height: 0;
+    height: fit-content;
+}
+
+.prifleSelectAvatarBackground__recentPhotos {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.prifleSelectAvatarBackground__recentPhotos img {
+    width: 165px;
+    height: 100px;
+    margin-right: 6px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    object-fit: cover;
+}
+
+.prifleSelectAvatarBackground__recentPhotos img:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.prifleSelectAvatarBackground__recentPhotos img:active {
+    transform: scale(0.95);
+}
