@@ -1,0 +1,75 @@
+.WelcomeSearchSection__wrapper {
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    padding: 16px;
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 500px;
+    height: 130px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.WelcomeSearchSection {
+    padding: 8px 16px;
+    display: block;
+    text-align: left;
+    justify-self: start;
+}
+
+.WelcomeSearchSection__descriptionMain {
+}
+
+.WelcomeSearchSection__descriptionMain span {
+    word-break: break-word;
+    color: #050505;
+    font-size: 1.25rem;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.WelcomeSearchSection__descriptionSecondary {
+    margin-top: 2px;
+}
+
+.WelcomeSearchSection__descriptionSecondary span {
+    word-break: break-word;
+    color: #65676B;
+    font-weight: normal;
+    line-height: 1.1765;
+    font-size: 1.0625rem;
+}
+
+.WelcomeSearchSection__input {
+    width: 440px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    background-color: #eff2f5;
+    margin-top: 20px;
+    padding: 0px 16px;
+    border-radius: 999px;
+}
+
+.WelcomeSearchSection__input:hover {
+    cursor: pointer;
+}
+
+.WelcomeSearchSection__input > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.WelcomeSearchSection__input > input {
+    width: 100%;
+    border: none;
+    height: 40px;
+    font-size: .9375rem;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.WelcomeSearchSection__input > input:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,255 @@
+.loginRoute__wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loginRoute__body {
+    margin-top: 80px;
+}
+
+.loginRoute__header {
+    padding-bottom: 16px;
+}
+
+.loginRoute__header > h1 {
+    color: #2e81f4;
+    font-weight: 800;
+}
+
+.loginRoute__form { 
+    background-color: #fff; 
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 400px;
+}
+
+.loginRoute__form__header {
+    padding: 24px 0 16px 0;
+    display: block;
+    text-align: center;
+
+}
+
+.loginRoute__form__header > span {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.loginRoute__form__body {
+
+}
+
+.loginRoute__email {
+    width: 364px;
+    padding: 6px 0;
+    margin: auto;
+    zoom: 1;
+}
+
+.loginRoute__einput {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    padding-right:40px;
+    width: 330px;
+
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+
+}
+
+.loginRoute__einput:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.loginRoute__password {
+    width: 364px;
+    padding: 6px 0;
+    margin: auto;
+    zoom: 1;
+}
+
+.loginRoute__passinput {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+
+.loginRoute__passinput:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.loginRoute__loginButton {
+    display: block;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.loginButton {
+    background-color: #1877f2;
+    margin: 0;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+
+.loginButton:hover {
+    background-color: #166fe5;
+}
+
+.loginButton:focus {
+    outline: none;
+}
+
+.loginRoute__forgottenAccount {
+    margin-top: 16px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.loginRoute__forgottenAccount > a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.loginRoute__forgottenAccount > a:hover {
+    text-decoration: underline;
+}
+
+.loginRoute__or {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.loginRoute__or:before,
+.loginRoute__or:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 160px;
+    height: 2px;
+    background-color: #dadde1;
+    position: relative;
+}
+
+.loginRoute__or:before {
+    margin-top: 5px;
+    margin-left: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    left: -15px;
+}
+.loginRoute__or:after {
+    margin-top: 5px;
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -15px;
+}
+
+.or {
+    color: #96999e;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.loginRoute__errorIcon {
+    display: flex;
+}
+
+.warning__icon {
+    position: absolute;
+    color: red;
+    margin-top: 14px;
+    margin-left: 330px;
+}
+
+.error__info {
+    color: #f02849;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.error__info > a {
+    color: #f02849;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}

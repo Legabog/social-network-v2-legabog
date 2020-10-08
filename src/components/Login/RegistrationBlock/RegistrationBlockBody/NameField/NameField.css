@@ -1,0 +1,49 @@
+.namefield {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+}
+
+.nameinput {
+    width: 170px;
+    padding: 11px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    background: #f5f6f7;
+    border-color: #ccd0d5;
+    border-radius: 5px;
+    margin: 0;
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+
+.nameinput:focus {
+    outline: none;
+}
+
+.error__icon {
+    right: 10px;
+    top: 8px;
+    transform: scale(.65);
+    position: absolute;
+    color: red;
+}
+
+.error__icon:hover {
+    cursor: pointer;
+}

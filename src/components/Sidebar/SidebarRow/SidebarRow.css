@@ -1,0 +1,62 @@
+.sidebarRow {
+    min-width: 330px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebarRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.sidebarRow:active {
+    background-color: #bfc2c4;
+    border-radius: 10px;
+}
+
+.sidebarRow > span {
+    word-break: break-word;
+    color: #050505;
+    font-size: .9375rem;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.3333;
+    margin-left: 20px;
+}
+
+.sidebarRow > .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: #2e81f4;
+}
+
+.sidebarRow__iconFromSprote {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.sidebarRow__iconFromSprote svg {
+    width: 30px;
+    height: 30px;
+}
+
+.sidebarRow__img {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.sidebarRow__img img {
+    object-fit: cover;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}

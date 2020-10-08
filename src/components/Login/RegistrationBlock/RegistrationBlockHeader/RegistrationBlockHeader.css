@@ -1,0 +1,36 @@
+.registrationblock__top {
+    background-color: #fff;
+    margin-top: 0;
+    padding-top: 10px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    position: relative;
+    width: 432px;
+    text-align: left;
+   
+}
+
+.registrationblock__top__main {
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+
+.registrationblock__top__description {
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.close__icon {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}

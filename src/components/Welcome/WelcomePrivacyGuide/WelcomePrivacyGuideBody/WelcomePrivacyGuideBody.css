@@ -1,0 +1,136 @@
+.WelcomePrivacyGuideBody__wrapper {
+    display: flex;
+    padding: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.WelcomePrivacyGuideBody {
+    display: block;
+}
+
+.WelcomePrivacyGuideBody__title {
+    display: flex;
+    text-align: left;
+}
+
+.WelcomePrivacyGuideBody__title span {
+    color: #050505;
+    word-break: break-word;
+    font-weight: 600;
+    line-height: 1.1765;
+    font-size: 1.0625rem;
+}
+
+.WelcomePrivacyGuideBody__description {
+    display: flex;
+    height: 60px;
+    text-align: left;
+}
+
+.WelcomePrivacyGuideBody__description span {
+    word-break: break-word;
+    color: #65676B;
+    font-weight: normal;
+    font-size: .9375rem;
+    text-align: left;
+    line-height: 1.3333;
+}
+
+.WelcomePrivacyGuideBody__img img {
+    border-radius: 6px;
+    object-fit: cover;
+    margin-top: 10px;
+    width: 520px;
+    height: 440px;
+}
+
+.WelcomePrivacyGuideBody__progressBar {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;
+    border-radius: 500px;
+    width: 520px;
+    height: 10px;
+    background-color: #eff2f5;
+}
+
+.WelcomePrivacyGuideBody__progressBar__progressLine {
+    display: flex;
+    height: 10px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    background-color: #1877F2;
+}
+
+.WelcomePrivacyGuideBody__footer {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.WelcomePrivacyGuideBody__buttonNext {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    width: 40px;
+    height: 36px;
+    padding: 0 40px;
+    background-color: #1876F2;
+    border-radius: 8px;
+}
+
+.WelcomePrivacyGuideBody__buttonNext span {
+    color: #fff;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+
+}
+
+.WelcomePrivacyGuideBody__buttonNext:hover {
+    cursor: pointer;
+    filter: brightness(95%)
+}
+
+.WelcomePrivacyGuideBody__buttonNext:active {
+    transform: scale(0.95);
+    filter: brightness(90%)
+}
+
+.WelcomePrivacyGuideBody__buttonFinish {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    width: 40px;
+    height: 36px;
+    padding: 0 40px;
+    background-color: #1876F2;
+    border-radius: 8px;
+}
+
+.WelcomePrivacyGuideBody__buttonFinish span {
+    color: #fff;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+
+}
+
+.WelcomePrivacyGuideBody__buttonFinish:hover {
+    cursor: pointer;
+    filter: brightness(95%)
+}
+
+.WelcomePrivacyGuideBody__buttonFinish:active {
+    transform: scale(0.95);
+    filter: brightness(90%)
+}
