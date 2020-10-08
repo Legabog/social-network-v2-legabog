@@ -1,0 +1,19 @@
+<svg width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+
+ <title>chevron_down_outline_28</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Page-1">
+   <g id="chevron_down_outline_28">
+    <rect id="svg_1" height="28" width="28" y="0" x="0"/>
+    <path fill-rule="nonzero" fill="#4a76a8" id="↳-Icon-Color" d="m7.65079,11.24074c-0.41932,-0.35942 -1.05062,-0.31086 -1.41005,0.10847c-0.35942,0.41932 -0.31086,1.05062 0.10847,1.41005l7,6c0.37449,0.32099 0.92709,0.32099 1.30158,0l7,-6c0.41933,-0.35943 0.46789,-0.99073 0.10847,-1.41005c-0.35943,-0.41933 -0.99073,-0.46789 -1.41005,-0.10847l-6.34921,5.44218l-6.34921,-5.44218z"/>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+ <title>play_48</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Page-2">
+   <g id="play_48">
+    <rect height="48" width="48" id="Rectangle-737"/>
+    <path fill="#4a76a8" id="Mask" d="m14.39918,8.7645l24.02167,13.84989c0.76553,0.44138 1.02831,1.41976 0.58694,2.1853c-0.14061,0.24387 -0.34307,0.44633 -0.58694,0.58693l-24.02167,13.8499c-0.76553,0.44137 -1.74392,0.17859 -2.1853,-0.58694c-0.14012,-0.24303 -0.21388,-0.51864 -0.21388,-0.79917l0,-27.6998c0,-0.88365 0.71634,-1.6 1.6,-1.6c0.28054,0 0.55614,0.07376 0.79918,0.21389z"/>
+   </g>
+  </g>
+ </g>
+</svg>
