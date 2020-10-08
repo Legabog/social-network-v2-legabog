@@ -1,0 +1,58 @@
+.profile__header__avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 210px;
+}
+
+.profile__header__avatar img:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.profile__header__avatar img:active{
+    border-radius: 180px;
+    transform: scale(0.97);
+    filter: brightness(70%);
+}
+
+.profile__header__avatar .MuiAvatar-root.MuiAvatar-circle.MuiAvatar-colorDefault:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.profile__header__avatar .MuiAvatar-root.MuiAvatar-circle.MuiAvatar-colorDefault:active {
+    border-radius: 180px;
+    transform: scale(0.97);
+    filter: brightness(70%);
+}
+
+
+.profile__header__photo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    background-color: #E4E6EB;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 130px
+}
+
+.profile__header__photo:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.profile__header__photo:active {
+    transform: scale(0.90);
+}
+
+.profile__header__avatar input {
+    display: none;
+}
