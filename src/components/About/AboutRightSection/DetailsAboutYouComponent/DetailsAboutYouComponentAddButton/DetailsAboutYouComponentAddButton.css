@@ -1,0 +1,31 @@
+.DetailsAboutYouComponent__addButton {
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    width: 555px;
+    height: 36px;
+    margin-bottom: 24px;
+}
+
+.DetailsAboutYouComponent__addButton:hover {
+    cursor: pointer;
+}
+
+.DetailsAboutYouComponent__addButton svg {
+    padding: 6px;
+    color: #1877F2;
+}
+
+.DetailsAboutYouComponent__addButton__description {
+    display: flex;
+}
+
+.DetailsAboutYouComponent__addButton__description span {
+    word-break: break-word;
+    font-size: .9375rem;
+    font-weight: 500;
+    line-height: 1.3333;
+    padding: 6px;
+    color: #1877F2;
+}

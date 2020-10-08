@@ -1,0 +1,21 @@
+.ContactAndBasicInfoComponent__wrapper {
+    display: flex;
+    text-align: center;
+    padding: 16px 32px 32px 16px;
+}
+
+.ContactAndBasicInfoComponent {
+    display: block;
+}
+
+.ContactAndBasicInfoComponent hr {
+    margin-right: 16px;
+    background-color: #CED0D4;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    margin-top: 8px;
+    background: #dadde1;
+    border-width: 0;
+    color: #dadde1;
+    height: 1px;
+}
