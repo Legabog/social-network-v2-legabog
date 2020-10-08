@@ -1,0 +1,165 @@
+.button__notifications__menu__wrapper {
+    position: absolute;
+    overflow: auto;
+    display: block;
+    top: 57px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    width: 360px;
+    min-height: 215px;
+    border-radius: 8px;
+    max-width: calc(100vw - 24px);
+    max-height: calc(100vh - 60px);
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+}
+
+.button__notifications__menu__wrapper::-webkit-scrollbar {
+    background-color: #eff2f5;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.button__notifications__menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background-color: #eff2f5;
+    border-top-right-radius: 8px;
+}
+
+.button__notifications__menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-color: #eff2f5;
+    border-bottom-right-radius: 8px;
+}
+
+.button__notifications__menu__wrapper::-webkit-scrollbar-thumb {
+    background-color: #cccecf;
+}
+
+.button__notifications__menu__header {
+    display: flex;
+    color: #050505;
+    font-weight: 600;
+}
+
+
+.button__notifications__menu__options {
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 120px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+}
+
+.button__notifications__menu__options > svg {
+    color: gray;
+    margin-top: 8px;
+}
+
+.button__notifications__menu__options:hover {
+    background-color: #eff2f5;
+}
+
+.button__notifications__menu__options:active {
+    filter: contrast(80%);
+    transform: scale(0.98);
+}
+
+.button__notifications__menu__body {
+    display: block;
+}
+
+.notifications__menu__body__img {
+    padding: 24px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.notifications__menu__body__img img {
+    width: 112px;
+    height: 112px;
+}
+
+.notifications__menu__body__description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.notifications__menu__body__description span {
+    word-break: break-word;
+    font-size: 1.25rem;
+    min-width: 0;
+    font-weight: 700;
+    max-width: 100%;
+    line-height: 1.2;
+    color: #65676B;
+}
+
+.notificationsOptions {
+    min-width: 350px;
+    margin-top: 50px;
+    position: absolute;
+    height: fit-content;
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+
+.options__sections {
+    display: block;
+    padding: 10px;
+}
+
+.options__section__border {
+    width: 312px;
+    margin-right: -8px;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    display: flex;
+}
+
+.options__section__border:hover {
+    background-color: #e9ebec;
+    cursor: pointer;
+}
+
+.options__section__border:active {
+    background-color: #bfc2c4;
+    cursor: pointer;
+}
+
+.options__section__border > span {
+    color: #050505;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.options__section__icon {
+    width: 36px;
+    height: 36px;
+    color: gray;
+}
+
+.notificationsOptions__icon svg {
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+    margin-top: -36px;
+    margin-left: 295px;
+    color: #fff;
+}
+

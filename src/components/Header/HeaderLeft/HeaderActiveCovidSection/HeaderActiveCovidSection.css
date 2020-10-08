@@ -1,0 +1,73 @@
+.covid__section__header {
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+.covid__section__header > h4 {
+    color: #050505;
+    font-weight: 600;
+ }
+
+.covid__section__border {
+    margin-left: -8px;
+    margin-right: -8px;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    display: flex;
+}
+
+.covid__section__border:hover {
+    background-color: rgb(224, 219, 219);
+    cursor: pointer;
+}
+
+.covid__section__border > span {
+    color: #050505;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.covid__section__icon {
+    width: 36px;
+    height: 36px;
+    background-color: #F0F2F5;
+    border-radius: 50px;
+}
+
+.covid__section__icon > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.covid__section__searches__header {
+    display: flex;
+}
+
+.covid__section__searches__header > span {
+    width: 40px;
+    height: 25px;
+    border-radius: 4px;
+    text-align: center;
+    color: #1877F2;
+    margin-left: 140px;
+}
+
+.covid__section__searches__header > span:hover {
+    background-color: rgb(224, 219, 219);
+    cursor: pointer;
+}
+
+.covid__section__searches__header > h4 {
+    color: #050505;
+    font-weight: 600;
+}
+
+.last__div {
+    height: 10px;
+}
+
+.covid__section__border > span {
+    width: 160px;
+}
