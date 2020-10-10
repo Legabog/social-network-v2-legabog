@@ -91,8 +91,8 @@ import {
   lifeEventsAddLifeEvent,
   lifeEventsDeleteLifeEvent,
   changeFieldFirebase,
-
 } from "./redux/about-component-reducer";
+import { toggleProfileEditDetails } from "./redux/profile-edit-details-about-you-reducer"
 import { getMusicAlbumsData } from "./redux/musicalbums-reducer";
 import {
   addToPlayList,
@@ -226,7 +226,7 @@ class App extends React.Component {
               render={() => (
                 <>
                   <Header {...this.props} />
-                  <div className="app__body">
+                  <div className="body">
                     <Sidebar {...this.props} />
                     <Feed {...this.props} />
                     <Widgets />
@@ -242,7 +242,7 @@ class App extends React.Component {
                 <>
                   <Suspense fallback={<Preloader />}>
                     <Header {...this.props} />
-                    <div className="app__body">
+                    <div className="body">
                       <Music />
                     </div>
                   </Suspense>
@@ -257,7 +257,7 @@ class App extends React.Component {
                 <>
                   <Suspense fallback={<Preloader />}>
                     <Header {...this.props} />
-                    <div className="app__body">
+                    <div className="body">
                       <MusicList />
                     </div>
                   </Suspense>
@@ -272,7 +272,7 @@ class App extends React.Component {
                 <>
                   <Suspense fallback={<Preloader />}>
                     <Header {...this.props} />
-                    <div className="app__body">
+                    <div className="body">
                       <ArtistsList />
                     </div>
                   </Suspense>
@@ -289,7 +289,7 @@ class App extends React.Component {
                   <>
                     <Suspense fallback={<Preloader />}>
                       <Header {...this.props} />
-                      <div className="app__body">
+                      <div className="body">
                         <ArtistItemRouter nameArtist={e.author} />
                       </div>
                     </Suspense>
@@ -307,7 +307,7 @@ class App extends React.Component {
                   <>
                     <Suspense fallback={<Preloader />}>
                       <Header {...this.props} />
-                      <div className="app__body">
+                      <div className="body">
                         <MusicPlayer
                           nameArtist={e.author}
                           albumTitle={e.title}
@@ -339,7 +339,7 @@ class App extends React.Component {
                 <>
                   <Suspense fallback={<Preloader />}>
                     <Header {...this.props} />
-                    <div className="app__body">
+                    <div className="body">
                       <AlbumsList />
                     </div>
                   </Suspense>
@@ -354,7 +354,7 @@ class App extends React.Component {
                 <>
                   <Suspense fallback={<Preloader />}>
                     <Header {...this.props} />
-                    <div className="app__body">
+                    <div className="body">
                       <PlayLists />
                     </div>
                   </Suspense>
@@ -369,7 +369,7 @@ class App extends React.Component {
                 <>
                   <Suspense fallback={<Preloader />}>
                     <Header {...this.props} />
-                    <div className="app__body">
+                    <div className="body">
                       <CreateAlbum
                         fetch={this.props.fetch}
                         addToPlayList={this.props.createNewPlayList}
@@ -390,7 +390,7 @@ class App extends React.Component {
                   <>
                     <Suspense fallback={<Preloader />}>
                       <Header {...this.props} />
-                      <div className="app__body">
+                      <div className="body">
                         <OwnPlayListsRouter
                           id={e._id}
                           img={e.playlistcoverUrl}
@@ -427,7 +427,7 @@ class App extends React.Component {
               render={() => (
                 <>
                   <Header {...this.props} />
-                  <div className="app__body">
+                  <div className="body">
                     <Sidebar {...this.props} />
                     <Welcome {...this.props} />
                     <Widgets />
@@ -753,7 +753,12 @@ const mapStateToProps = (state) => {
     privacyGuideOpacity: state.welcomeComponentReducer.privacyGuideOpacity,
     // about component
     fullUserInfoAbout: state.aboutComponentReducer.fullUserInfoAbout,
-    fetchFullUserInfoAbout: state.aboutComponentReducer.fetchFullUserInfoAbout
+    fetchFullUserInfoAbout: state.aboutComponentReducer.fetchFullUserInfoAbout,
+    // profile edit details component
+    profileEditDetailsVisibility:
+      state.profileEditDetailsReducer.profileEditDetailsVisibility,
+    profileEditDetailsOpacity:
+      state.profileEditDetailsReducer.profileEditDetailsOpacity,
   };
 };
 
@@ -828,6 +833,7 @@ export default compose(
     placeslivedAddACity,
     placeslivedDeleteACity,
     changeFieldFirebase,
+    toggleProfileEditDetails,
     signIn,
     signUp,
     autoLogin,

@@ -3,7 +3,7 @@
     min-height: 100vh;
 }
 
-.app__body {
+.body {
     display: flex;
     justify-content: center;
 }

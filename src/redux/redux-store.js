@@ -10,6 +10,7 @@ import profileSelectAvatarBackgroundReducer from "./profile-select-avatar-backgr
 import welcomeComponentReducer from "./welcome-component-reducer";
 import profileBodyReducer from "./profile-body-reducer"
 import aboutComponentReducer from "./about-component-reducer"
+import profileEditDetailsReducer from "./profile-edit-details-about-you-reducer"
 
 import thunk from "redux-thunk";
 
@@ -22,6 +23,7 @@ let root_reducer = combineReducers({
   musicPlayerReducer,
   profileUpdateAvatarReducer,
   profileSelectAvatarBackgroundReducer,
+  profileEditDetailsReducer,
   welcomeComponentReducer,
   profileBodyReducer,
   aboutComponentReducer
