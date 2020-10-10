@@ -6,13 +6,13 @@ import "./MenuMessangerInput.css";
 
 const MenuMessangerInput = (props) => {
 
-  const focusInput = () => {
-    document.getElementById("menuMessangerInput").focus();
+  const focusInput = (id) => {
+    document.getElementById(id).focus();
   };
   
   return (
     <div
-      className="menuMessanger__input__wrapper"
+      className="button-messanger-menu__input__wrapper"
     >
       {props.ButtonMessangerMenuInput ? (
         <IconButton
@@ -33,26 +33,29 @@ const MenuMessangerInput = (props) => {
       <div
         className={
           props.ButtonMessangerMenuInput
-            ? "menuMessanger__input__active"
-            : "menuMessanger__input"
+            ? "button-messanger-menu__input_active"
+            : "button-messanger-menu__input"
         }
         onClick={(e) => {
-          focusInput("headerinputsearch");
+          focusInput("button-messanger-menu-input");
           props.toggleButtonMessangerMenuInput(true);
         }}
       >
         {props.ButtonMessangerMenuInput ? null : (
           <SearchIcon
             onClick={(e) => {
-              focusInput("menuMessangerInput");
+              focusInput("button-messanger-menu-input");
               props.toggleButtonMessangerMenuInput(true);
             }}
           />
         )}
         <input
           type="text"
-          id="menuMessangerInput"
+          id="button-messanger-menu-input"
           placeholder="Search Messanger"
+          onBlur={() => {
+            props.toggleButtonMessangerMenuInput(false);
+          }}
         />
       </div>
     </div>

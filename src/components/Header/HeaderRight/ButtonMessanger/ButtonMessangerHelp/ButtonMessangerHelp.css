@@ -1,4 +1,4 @@
-.header__option__messanger__help {
+.button-messanger__help {
     width: 100px;
     z-index: 100;
     border-radius: 8px;
@@ -13,6 +13,6 @@
     transition: opacity 0.3s, visibility 0s linear 0.3s;
 }
 
-.header__option__messanger__help > span {
+.button-messanger__help > span {
     color: #eff2f5;
 }

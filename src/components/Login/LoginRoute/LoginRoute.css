@@ -1,23 +1,23 @@
-.loginRoute__wrapper {
+.login-route__wrapper {
     display: flex;
     justify-content: center;
     height: 100vh;
 }
 
-.loginRoute__body {
+.login-route {
     margin-top: 80px;
 }
 
-.loginRoute__header {
+.login-route__header {
     padding-bottom: 16px;
 }
 
-.loginRoute__header > h1 {
+.login-route__header > h1 {
     color: #2e81f4;
     font-weight: 800;
 }
 
-.loginRoute__form { 
+.login-route__body {
     background-color: #fff; 
     border-radius: 8px;
     border: 1px solid #dddfe2;
@@ -27,36 +27,36 @@
     width: 400px;
 }
 
-.loginRoute__form__header {
+.login-route__body__header {
     padding: 24px 0 16px 0;
     display: block;
     text-align: center;
-
 }
 
-.loginRoute__form__header > span {
+.login-route__body__header > span {
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 22px;
 }
 
-.loginRoute__form__body {
-
-}
-
-.loginRoute__email {
+.login-route__body__input {
+    display: block;
     width: 364px;
     padding: 6px 0;
     margin: auto;
     zoom: 1;
 }
 
-.loginRoute__einput {
+.login-route__body__input_error {
+    display: flex;
+}
+
+.login-route__input {
     border-radius: 6px;
     font-size: 17px;
     padding: 14px 16px;
     padding-right:40px;
-    width: 330px;
+    width: 305px;
 
     border: 1px solid #dddfe2;
     color: #1d2129;
@@ -79,57 +79,42 @@
 
 }
 
-.loginRoute__einput:focus {
+.login-route__input:focus {
     outline: none;
     box-shadow: 0 0 0 2px #e7f3ff;
 }
 
-.loginRoute__password {
-    width: 364px;
-    padding: 6px 0;
-    margin: auto;
-    zoom: 1;
+.login-route__warning-icon {
+    position: absolute;
+    color: red;
+    margin-top: 14px;
+    margin-left: 330px;
 }
 
-.loginRoute__passinput {
-    border-radius: 6px;
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-
-    border: 1px solid #dddfe2;
-    color: #1d2129;
-    height: 22px;
+.login-route__error-info {
+    color: #f02849;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 13px;
     line-height: 16px;
-    vertical-align: middle;
-
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    -webkit-rtl-ordering: logical;
-    cursor: text;
-    font: 400 13.3333px Arial;
+    margin-top: 8px;
+    text-align: left;
 }
 
-.loginRoute__passinput:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px #e7f3ff;
+.login-route__error-info > a {
+    color: #f02849;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.loginRoute__loginButton {
+.login-route__body__button {
     display: block;
     padding-top: 6px;
     text-align: center;
     font-size: 12px;
 }
 
-.loginButton {
+.button-signin {
     background-color: #1877f2;
     margin: 0;
     color: #fff;
@@ -154,22 +139,22 @@
     transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
 }
 
-.loginButton:hover {
+.button-signin:hover {
     background-color: #166fe5;
 }
 
-.loginButton:focus {
+.button-signin:focus {
     outline: none;
 }
 
-.loginRoute__forgottenAccount {
+.login-route__body__restore-account {
     margin-top: 16px;
     display: block;
     text-align: center;
     font-size: 12px;
 }
 
-.loginRoute__forgottenAccount > a {
+.login-route__body__restore-account > a {
     color: #1877f2;
     font-size: 14px;
     font-weight: 500;
@@ -178,11 +163,11 @@
     text-align: center;
 }
 
-.loginRoute__forgottenAccount > a:hover {
+.login-route__body__restore-account > a:hover {
     text-decoration: underline;
 }
 
-.loginRoute__or {
+.login-route__body__or {
     margin-left: 8px;
     margin-right: 8px;
     width: auto;
@@ -194,8 +179,8 @@
     white-space: nowrap;
 }
 
-.loginRoute__or:before,
-.loginRoute__or:after {
+.login-route__body__or:before,
+.login-route__body__or:after {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -205,13 +190,13 @@
     position: relative;
 }
 
-.loginRoute__or:before {
+.login-route__body__or:before {
     margin-top: 5px;
     margin-left: -100%;
     /* Указываем в пикселях отступ линии от текста заголовка */
     left: -15px;
 }
-.loginRoute__or:after {
+.login-route__body__or:after {
     margin-top: 5px;
     margin-right: -100%;
     /* Указываем в пикселях отступ линии от текста заголовка */
@@ -227,29 +212,4 @@
     vertical-align: middle;
 }
 
-.loginRoute__errorIcon {
-    display: flex;
-}
 
-.warning__icon {
-    position: absolute;
-    color: red;
-    margin-top: 14px;
-    margin-left: 330px;
-}
-
-.error__info {
-    color: #f02849;
-    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    line-height: 16px;
-    margin-top: 8px;
-    text-align: left;
-}
-
-.error__info > a {
-    color: #f02849;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
-}

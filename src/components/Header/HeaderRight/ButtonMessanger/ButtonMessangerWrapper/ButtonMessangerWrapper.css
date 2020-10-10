@@ -1,4 +1,4 @@
-.button__messanger__wrapper {
+.button-messanger__wrapper {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     margin-right: 8px;
 }
 
-.button__messanger {
+.button-messanger {
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -19,15 +19,15 @@
     border-radius: 999px;
 }
 
-.button__messanger:hover {
+.button-messanger:hover {
     filter: contrast(80%);
 }
 
-.button__messanger:active {
+.button-messanger:active {
     transform: scale(0.98);
 }
 
-.button__messanger__active {
+.button-messanger_active {
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -40,20 +40,20 @@
     border-radius: 999px;
 }
 
-.button__messanger__active:hover {
+.button-messanger_active:hover {
     filter: contrast(80%);
 }
 
-.button__messanger__active:active {
+.button-messanger_active:active {
     transform: scale(0.98);
 }
 
-.button__messanger > svg {
+.button-messanger > svg {
     color: #050505;
     margin-top: 8px;
 }
 
-.button__messanger__active > svg {
+.button-messanger_active > svg {
     color:  #1877F2;
     margin-top: 8px;
 }

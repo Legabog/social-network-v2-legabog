@@ -1,4 +1,4 @@
-.button__notifications__menu__wrapper {
+.button-notifications-menu__wrapper {
     position: absolute;
     overflow: auto;
     display: block;
@@ -18,34 +18,34 @@
     transition: opacity 0.3s, visibility 0s linear 0.3s;
 }
 
-.button__notifications__menu__wrapper::-webkit-scrollbar {
+.button-notifications-menu__wrapper::-webkit-scrollbar {
     background-color: #eff2f5;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
-.button__notifications__menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
+.button-notifications-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
     background-color: #eff2f5;
     border-top-right-radius: 8px;
 }
 
-.button__notifications__menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
+.button-notifications-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
     background-color: #eff2f5;
     border-bottom-right-radius: 8px;
 }
 
-.button__notifications__menu__wrapper::-webkit-scrollbar-thumb {
+.button-notifications-menu__wrapper::-webkit-scrollbar-thumb {
     background-color: #cccecf;
 }
 
-.button__notifications__menu__header {
+.button-notifications-menu__header {
     display: flex;
     color: #050505;
     font-weight: 600;
 }
 
 
-.button__notifications__menu__options {
+.button-notifications-menu__options-icon {
     cursor: pointer;
     z-index: 2;
     margin-left: 120px;
@@ -57,43 +57,43 @@
     border-radius: 999px;
 }
 
-.button__notifications__menu__options > svg {
+.button-notifications-menu__options-icon > svg {
     color: gray;
     margin-top: 8px;
 }
 
-.button__notifications__menu__options:hover {
+.button-notifications-menu__options-icon:hover {
     background-color: #eff2f5;
 }
 
-.button__notifications__menu__options:active {
+.button-notifications-menu__options-icon:active {
     filter: contrast(80%);
     transform: scale(0.98);
 }
 
-.button__notifications__menu__body {
+.button-notifications-menu__body {
     display: block;
 }
 
-.notifications__menu__body__img {
+.button-notifications-menu__img {
     padding: 24px;
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
-.notifications__menu__body__img img {
+.button-notifications-menu__img > img {
     width: 112px;
     height: 112px;
 }
 
-.notifications__menu__body__description {
+.button-notifications-menu__description {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.notifications__menu__body__description span {
+.button-notifications-menu__description span {
     word-break: break-word;
     font-size: 1.25rem;
     min-width: 0;
@@ -103,7 +103,7 @@
     color: #65676B;
 }
 
-.notificationsOptions {
+.button-notifications-menu__options {
     min-width: 350px;
     margin-top: 50px;
     position: absolute;
@@ -115,12 +115,12 @@
 }
 
 
-.options__sections {
+.options-sections {
     display: block;
     padding: 10px;
 }
 
-.options__section__border {
+.options-sections__wrapper {
     width: 312px;
     margin-right: -8px;
     border-radius: 8px;
@@ -131,29 +131,29 @@
     display: flex;
 }
 
-.options__section__border:hover {
+.options-sections__wrapper:hover {
     background-color: #e9ebec;
     cursor: pointer;
 }
 
-.options__section__border:active {
+.options-sections__wrapper:active {
     background-color: #bfc2c4;
     cursor: pointer;
 }
 
-.options__section__border > span {
+.options-sections__wrapper > span {
     color: #050505;
     padding-top: 5px;
     padding-left: 10px;
 }
 
-.options__section__icon {
+.options-sections__icon {
     width: 36px;
     height: 36px;
     color: gray;
 }
 
-.notificationsOptions__icon svg {
+.options-sections__icon svg {
     position: absolute;
     z-index: 1;
     width: 70px;

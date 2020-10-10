@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import "./HeaderLeft.css";
 import HeaderInput from "../../common/HeaderInput/HeaderInput";
 import HeaderLogo from "../../common/HeaderLogo/HeaderLogo";
-import "./HeaderLeft.css";
-import HeaderActiveCovidSection from "./HeaderActiveCovidSection/HeaderActiveCovidSection";
+import SearchesBlock from "./SearchesBlock/SearchesBlock";
 
 const HeaderLeft = (props) => {
   const [activeInput, setActiveInput] = useState(false);
@@ -12,8 +12,8 @@ const HeaderLeft = (props) => {
   };
 
   return activeInput ? (
-    <div className="header__left__active">
-      <div className="header__left__active__head">
+    <div className="header__left_active">
+      <div className="header__left_active__head">
         <HeaderLogo
           activeInput={activeInput}
           toggleActiveInput={toggleActiveInput}
@@ -23,8 +23,8 @@ const HeaderLeft = (props) => {
           toggleActiveInput={toggleActiveInput}
         />
       </div>
-      <div className="header__left__active__body">
-        <HeaderActiveCovidSection />
+      <div className="header__left_active__body">
+        <SearchesBlock />
       </div>
     </div>
   ) : (

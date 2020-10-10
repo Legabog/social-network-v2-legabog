@@ -258,15 +258,15 @@ const RegistrationBlock = (props) => {
     setConfirmPassword("");
     setCheckedConfirmPassword(false);
 
-    document.getElementById("birthday__day__input").selectedIndex = 0;
-    document.getElementById("birthday__month__input").selectedIndex = 0;
-    document.getElementById("birthday__year__input").selectedIndex = 0;
+    document.getElementById("birthday-field__select-day").selectedIndex = 0;
+    document.getElementById("birthday-field__select-month").selectedIndex = 0;
+    document.getElementById("birthday-field__select-year").selectedIndex = 0;
     setCheckedBirthday(false);
 
     sexHandler(0);
-    document.getElementById("femaleinput").checked = false;
-    document.getElementById("maleinput").checked = false;
-    document.getElementById("otherinput").checked = false;
+    document.getElementById("gender-field-input-female").checked = false;
+    document.getElementById("gender-field-input-male").checked = false;
+    document.getElementById("gender-field-input-other").checked = false;
     setValidSex(true);
   };
 
@@ -274,28 +274,24 @@ const RegistrationBlock = (props) => {
 
   return (
     <div
-      className="registrationtable"
+      className="registration-block__wrapper"
       style={{
         visibility: `${props.visibilityRegistrationBlock}`,
         opacity: `${props.opacityRegistrationBlock}`,
       }}
     >
-      <div className="registrationblock">
-        <div className="registrationblock__main">
-          <div className="registrationblock__main__q">
+      <div className="registration-block__main-wrapper">
+        <div className="registration-block__main-block">
+          <div className="registration-block">
             <RegistrationBlockHeader
               displayRegistrationBlockFalse={
                 props.displayRegistrationBlockFalse
               }
               setDefaultInputsValues={setDefaultInputsValues}
             />
-            <hr
-              style={{
-                height: "0",
-                border: "none",
-                borderTop: "1px solid #f0ecec",
-              }}
-            />
+
+            <hr />
+
             <RegistrationBlockBody
               {...props}
               name={name}
@@ -346,6 +342,7 @@ const RegistrationBlock = (props) => {
               // ------------------------
               sex={sex}
               sexHandler={sexHandler}
+              validSexInput={validSexInput}
               validSex={validSex}
               sexValidator={sexValidator}
               // ------------------------

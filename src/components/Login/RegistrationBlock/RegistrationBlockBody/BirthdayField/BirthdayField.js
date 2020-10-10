@@ -3,10 +3,12 @@ import HelpOutlinedIcon from "@material-ui/icons/HelpOutlined";
 import ErrorIcon from "@material-ui/icons/Error";
 import { IconButton } from "@material-ui/core";
 import "./BirthdayField.css";
-import RegistrationFormBirthdayError from "../../../../common/RegistrationFormErrors/RegistrationFormBirthdayError/RegistrationFormBirthdayError";
-import RegistrationFormBirthdayInformation from "../../../../common/RegistrationFormBirthdayInformation/RegistrationFormBirthdayInformation";
+
+import RegistrationFieldError from "../../../../common/RegistrationFormErrors/RegistrationFieldError/RegistrationFieldError";
+import RegistrationFormInformation from "../../../../common/RegistrationFormInformation/RegistrationFormInformation";
 
 const BirthdayField = (props) => {
+
   const [displayBirthdayError, setDisplayBirthdayError] = useState("none");
   const [displayBirthdayInfo, setDisplayBirthdayInfo] = useState("none");
 
@@ -25,22 +27,22 @@ const BirthdayField = (props) => {
   };
 
   return (
-    <div className="birthday">
-      <div className="birthday__description">
+    <div className="birthday-field">
+      <div className="birthday-field__description">
         Date of birth
         <IconButton
-          id="birthday__help__button"
+          id="birthday-field__help-button"
           onBlur={toggleDisplayBirthdayInfo}
           onFocus={toggleDisplayBirthdayInfo}
           onClick={(e) => {
             e.preventDefault();
-            focusComponent("birthday__help__button");
+            focusComponent("birthday-field__help-button");
           }}
         >
-          <HelpOutlinedIcon style={{ width: "12px", height: "12px" }} />
+          <HelpOutlinedIcon />
         </IconButton>
         <ErrorIcon
-          className="error__birthdayIcon"
+          className="birthday-field__error-icon"
           style={{
             display:
               props.checkedBirthdayInput && props.birthdayValidator()
@@ -49,16 +51,16 @@ const BirthdayField = (props) => {
           }}
           onClick={() => {
             toggleDisplayBirthdayError();
-            focusComponent("birthday__day__input");
+            focusComponent("birthday-field__select-day");
           }}
         />
       </div>
 
-      <div className="birthday__selects">
-        <div className="birthday__day__div">
+      <div className="birthday-field__selects">
+        <div className="birthday-field__block">
           <select
-            className="birthday__day"
-            id="birthday__day__input"
+            className="birthday-field__block__select"
+            id="birthday-field__select-day"
             onClick={props.bdayHandler}
             onBlur={() => {
               props.checkBirthdayField(true);
@@ -111,10 +113,10 @@ const BirthdayField = (props) => {
           </select>
         </div>
 
-        <div className="birthday__month__div">
+        <div className="birthday-field__block">
           <select
-            className="birthday__month"
-            id="birthday__month__input"
+            className="birthday-field__block__select"
+            id="birthday-field__select-month"
             onClick={props.mdayHandler}
             onBlur={() => {
               props.checkBirthdayField(true);
@@ -148,10 +150,10 @@ const BirthdayField = (props) => {
           </select>
         </div>
 
-        <div className="birthday__year__div">
+        <div className="birthday-field__block">
           <select
-            className="birthday__year"
-            id="birthday__year__input"
+            className="birthday-field__block__select"
+            id="birthday-field__select-year"
             onClick={props.ydayHandler}
             onBlur={() => {
               props.checkBirthdayField(true);
@@ -263,8 +265,26 @@ const BirthdayField = (props) => {
           </select>
         </div>
       </div>
-      <RegistrationFormBirthdayError display={displayBirthdayError} />
-      <RegistrationFormBirthdayInformation
+      <RegistrationFieldError
+        display={displayBirthdayError}
+        // error
+        error_text={"It looks like you've entered the wrong info. Please make sure that you use your real date of birth."}
+        error_marginLeft={"-300px"}
+        error_marginTop={"-50px"}
+        error_backgroundPosition={"-49px -157px"}
+        error_height={"22px"}
+        error_width={"11px"}
+        error_top={"11px"}
+        error_right={"7px"}
+      />
+      <RegistrationFormInformation
+        info_text="Providing your date of birth helps make sure that you get the right
+        experience for your age. If you want to change who sees this, go to
+        the About section of your Profile. For more details, please visit
+        our Data Policy."
+        info_marginTop={"-80px"}
+        info_marginLeft={"-290px"}
+        info_e_marginTop={"-160px"}
         display={displayBirthdayInfo}
         toggleDisplayBirthdayInfo={toggleDisplayBirthdayInfo}
       />

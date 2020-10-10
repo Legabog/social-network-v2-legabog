@@ -4,7 +4,7 @@ import "./ButtonMessangerHelp.css";
 const ButtonMessangerHelp = (props) => {
   return (
     <div
-      className="header__option__messanger__help"
+      className="button-messanger__help"
       style={{
         opacity: props.helpMessangerOpacity,
         visibility: props.helpMessangerVisibility,

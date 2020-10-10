@@ -1,12 +1,12 @@
 .header__left {
-    min-width: 330px;
+    width: 330px;
     height: 60px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.header__left__active {
-    max-width: 330px;
+.header__left_active {
+    width: 330px;
     height: fit-content;
     display: block;
     background-color: #fff;
@@ -15,14 +15,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }  
 
-.header__left__active__head {
+.header__left_active__head {
     height: 60px;
     background-color: #fff;
     border: none;
     display: flex;
 }
 
-.header__left__active__body {
+.header__left_active__body {
     padding-left: 16px;
     padding-right: 16px;
 }

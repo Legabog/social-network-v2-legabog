@@ -5,12 +5,12 @@ import { IconButton } from "@material-ui/core";
 
 const RegistrationBlockHeader = (props) => {
   return (
-    <div className="registrationblock__top">
-      <div className="registrationblock__top__main">Sign Up</div>
-      <div className="registrationblock__top__description">
+    <div className="registration-block__header">
+      <div className="registration-block__header__description">Sign Up</div>
+      <div className="registration-block__header__sub-description">
         It's quick and easy.
       </div>
-      <div className="close__icon">
+      <div className="registration-block__header__close-icon">
         <IconButton
           onClick={() => {
             props.displayRegistrationBlockFalse();

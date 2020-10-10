@@ -1,4 +1,4 @@
-.button__create__wrapper {
+.button-create__wrapper {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     margin-right: 8px;
 }
 
-.button__create {
+.button-create {
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -19,15 +19,15 @@
     border-radius: 999px;
 }
 
-.button__create:hover {
+.button-create:hover {
     filter: contrast(80%);
 }
 
-.button__create:active {
+.button-create:active {
     transform: scale(0.98);
 }
 
-.button__create__active {
+.button-create_active {
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -40,20 +40,20 @@
     border-radius: 999px;
 }
 
-.button__create__active:hover {
+.button-create_active:hover {
     filter: contrast(80%);
 }
 
-.button__create__active:active {
+.button-create_active:active {
     transform: scale(0.98);
 }
 
-.button__create > svg {
+.button-create > svg {
     color: #050505;
     margin-top: 8px;
 }
 
-.button__create__active > svg {
+.button-create_active > svg {
     color:  #1877F2;
     margin-top: 8px;
 }

@@ -3,7 +3,7 @@
     height: 100vh;
 }
 
-.login__mainblock {
+.login__main-block {
     width: 100%;
     padding-top: 72px;
     padding-bottom: 112px;
@@ -46,13 +46,13 @@
     width: 500px;
 }
 
-.login__signinblock {
+.login__signin-block {
     display: block;
     height: 456px;
     width: 396px;
 }
 
-.login__signinblock__form {
+.login__signin-block__form {
     display: block;
     padding-bottom: 24px;
     padding-top: 10px;
@@ -68,7 +68,7 @@
     text-align: center;
 }
 
-.login__signinblock__inputs_email {
+.login__signin-block__inputs {
     margin: auto;
     padding: 6px 0;
     text-align: center;
@@ -76,7 +76,7 @@
     width: 364px;
 }
 
-.input__email {
+.signin-block__input {
     border-radius: 6px;
     font-size: 17px;
     padding: 14px 16px;
@@ -101,55 +101,22 @@
     font: 400 13.3333px Arial;
 }
 
-.input__email:focus {
+#login-password {
+    margin-top: 12px;
+}
+
+.signin-block__input:focus {
     outline: none !important;
 }
 
-.login__signinblock__inputs_password {
-    margin: auto;
-    padding: 6px 0;
-    text-align: center;
-    font-size: 17px;
-    width: 364px;
-}
-
-.input__password {
-    border-radius: 6px;
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-    background: #FFFFFF repeat-x;
-    border: 1px solid #dddfe2;
-    color: #1d2129;
-    height: 22px;
-    line-height: 16px;
-    vertical-align: middle;
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    -webkit-rtl-ordering: logical;
-    cursor: text;
-    font: 400 13.3333px Arial;
-}
-
-.input__password:focus {
-    outline: none !important;
-}
-
-.login__signinblock__login__button {
+.login__signin-block__button {
     display: block;
     padding-top: 6px;
     text-align: center;
     font-size: 12px;
 }
 
-.login__button {
+.button-signin {
     background-color: #1877f2;
     margin: 0;
     color: #fff;
@@ -174,22 +141,22 @@
     transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
 }
 
-.login__button:hover {
+.button-signin:hover {
     background-color: #166fe5;
 }
 
-.login__button:focus {
+.button-signin:focus {
     outline: none;
 }
 
-.login__signinblock__restore__password {
+.login__signin-block__restore-password {
     margin-top: 16px;
     display: block;
     text-align: center;
     font-size: 12px;
 }
 
-.login__signinblock__restore__password > a {
+.login__signin-block__restore-password > a {
     color: #1877f2;
     font-size: 14px;
     font-weight: 500;
@@ -198,11 +165,11 @@
     text-align: center;
 }
 
-.login__signinblock__restore__password > a:hover {
+.login__signin-block__restore-password > a:hover {
     text-decoration: underline;
 }
 
-.login__signinblock__hr{
+.login__signin-block__hr {
     align-items: center;
     border-bottom: 1px solid #dadde1;
     display: flex;
@@ -210,14 +177,7 @@
     text-align: center;
 }
 
-.login__signinblock__create_account_button {
-    padding-top: 6px;
-    display: block;
-    text-align: center;
-    font-size: 12px;
-}
-
-.create__an__account__button {
+.button-create-account {
     border: none;
     border-radius: 6px;
     font-size: 17px;
@@ -240,15 +200,15 @@
     vertical-align: middle;
 }
 
-.create__an__account__button:hover {
+.button-create-account:hover {
     background-color: #36a420;
 }
 
-.create__an__account__button:focus {
+.button-create-account:focus {
     outline: none;
 }
 
-.login__signinblock__help {
+.login__signin-block__help {
     border-top: none;
     color: #1c1e21;
     font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
@@ -259,7 +219,7 @@
     text-align: center;
 }
 
-.login__signinblock__help > a {
+.login__signin-block__help > a {
     color: #1c1e21;
     font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -269,6 +229,6 @@
     text-align: center;
 }
 
-.login__signinblock__help > a:hover {
+.login__signin-block__help > a:hover {
     text-decoration: underline;
 }

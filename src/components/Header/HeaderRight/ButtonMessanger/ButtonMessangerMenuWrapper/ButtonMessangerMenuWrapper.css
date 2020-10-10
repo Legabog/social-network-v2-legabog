@@ -1,4 +1,4 @@
-.button__messanger__menu__wrapper {
+.button-messanger-menu__wrapper {
     position: absolute;
     overflow: auto;
     display: block;
@@ -19,48 +19,48 @@
 }
 
 
-.button__messanger__menu__wrapper::-webkit-scrollbar {
+.button-messanger-menu__wrapper::-webkit-scrollbar {
     background-color: #eff2f5;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
-.button__messanger__menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
+.button-messanger-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
     background-color: #eff2f5;
     border-top-right-radius: 8px;
 }
 
-.button__messanger__menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
+.button-messanger-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
     background-color: #eff2f5;
     border-bottom-right-radius: 8px;
 }
 
-.button__messanger__menu__wrapper::-webkit-scrollbar-thumb {
+.button-messanger-menu__wrapper::-webkit-scrollbar-thumb {
     background-color: #cccecf;
 }
 
-.button__messanger__menu__header {
+.button-messanger-menu__header {
     display: flex;
     text-align: center;
 }
 
-.button__messanger__menu__header > h2 {
+.button-messanger-menu__header > h2 {
     color: #050505;
     font-weight: 700;
     height: fit-content;
 }
 
-.menu__header__panel {
+.button-messanger-menu__panel {
     margin-left: 80px;
     height: 40px;
     display: flex;
 }
 
-.button__create__menu__body {
+.button-messanger-menu__body {
     display: block;
 }
 
-.button__create__menu__searches {
+.button-messanger-menu__searches {
     padding-right: 16px;
     padding-top: 16px;
     padding-left: 16px;
@@ -68,7 +68,31 @@
     text-align: center;
 }
 
-.button__create__menu__searches hr {
+.button-messanger-menu__searches > span {
+    word-break: break-word;
+    text-align: center;
+    font-weight: normal;
+    color: #050505;
+}
+
+.button-messanger-menu__description  > span {
+    word-break: break-word;
+    text-align: center;
+    color: #8A8D91;
+    font-weight: normal;
+}
+
+.button-messanger-menu__searches a {
+    font-weight: 600;
+    color: #1877F2;
+    text-decoration: none;
+}
+
+.button-messanger-menu__searches a:hover {
+    text-decoration: underline;
+}
+
+.button-messanger-menu__searches hr {
     min-width: 392px;
     margin-left: -32px;
     background-color: #CED0D4;
@@ -80,26 +104,7 @@
     height: 1px;
 }
 
-.button__create__menu__searches > span {
-    word-break: break-word;
-    text-align: center;
-    font-weight: normal;
-    color: #050505;
-}
 
-.button__create__menu__searches__description  > span {
-    word-break: break-word;
-    text-align: center;
-    color: #8A8D91;
-    font-weight: normal;
-}
 
-.button__create__menu__searches a {
-    font-weight: 600;
-    color: #1877F2;
-    text-decoration: none;
-}
 
-.button__create__menu__searches a:hover {
-    text-decoration: underline;
-}
+

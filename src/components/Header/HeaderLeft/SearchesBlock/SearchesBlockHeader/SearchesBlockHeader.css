@@ -1,0 +1,43 @@
+.searches-block__header {
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+.searches-block__header > h4 {
+    color: #050505;
+    font-weight: 600;
+ }
+
+.searches-block__border {
+    margin-left: -8px;
+    margin-right: -8px;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+}
+
+.searches-block__border:hover {
+    background-color: rgb(224, 219, 219);
+    cursor: pointer;
+}
+
+.searches-block__border > span {
+    color: #050505;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.searches-block__border__icon {
+    width: 36px;
+    height: 36px;
+    background-color: #F0F2F5;
+    border-radius: 50px;
+}
+
+.searches-block__border__icon > .MuiSvgIcon-root {
+    width: 24px;
+    height: 24px;
+    margin-top: 6px;
+    margin-left: 6px;
+    color: gray;
+}

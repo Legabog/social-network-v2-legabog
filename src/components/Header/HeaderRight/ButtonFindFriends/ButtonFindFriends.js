@@ -9,16 +9,18 @@ const ButtonFindFriends = (props) => {
     <div
       className={
         location.pathname === "/friends"
-          ? "button__find__friends__wrapper__active"
-          : "button__find__friends__wrapper"
+          ? "button-find-friends__wrapper_active"
+          : "button-find-friends__wrapper"
       }
     >
       <NavLink to={"/friends"}>
-        <div className={
-        location.pathname === "/friends"
-          ? "button__find__friends__active"
-          : "button__find__friends"
-      }>
+        <div
+          className={
+            location.pathname === "/friends"
+              ? "button-find-friends_active"
+              : "button-find-friends"
+          }
+        >
           <span>Find Friends</span>
         </div>
       </NavLink>

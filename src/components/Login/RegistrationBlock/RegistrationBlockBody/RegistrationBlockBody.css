@@ -1,12 +1,5 @@
-.registrationblock__body {
+.registration-block__body {
     display: block;
     border-radius: 8px;
     background-color: #fff;
-}
-
-.fullname__field {
-    display: flex;
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-bottom: 10px;
 }

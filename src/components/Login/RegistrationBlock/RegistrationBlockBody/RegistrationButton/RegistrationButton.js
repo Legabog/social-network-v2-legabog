@@ -3,10 +3,10 @@ import "./RegistrationButton.css";
 
 const RegistrationButton = (props) => {
   return (
-    <div className="registration__button">
+    <div className="registration-block__registration-button">
       <button
         type="submit"
-        className="regbutton"
+        className="registration-block-registration-button"
         onClick={() => {
           props.validationInputsFields();
           props.validationResult();
@@ -15,13 +15,13 @@ const RegistrationButton = (props) => {
         Sign Up
       </button>
       <span
-        className="registration__loader"
+        className="registration-block__loader"
         style={{
           display: props.registrationFetching ? null : "none",
         }}
       >
         <img
-          className="regloader"
+          className="registration-block-loader"
           src="https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/vF9DX0rAdyp.gif"
           alt="loader"
         />

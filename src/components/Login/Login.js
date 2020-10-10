@@ -33,14 +33,14 @@ const Login = (props) => {
     // let qwe = history.push("/login")
 
     e.preventDefault();
-    props.signIn(inputEmail, inputPassword, history, "/login")    
+    props.signIn(inputEmail, inputPassword, history, "/login");
     setInputEmail("");
     setInputPassword("");
   };
 
   return (
     <div className="login">
-      <div className="login__mainblock">
+      <div className="login__main-block">
         <div className="login__block">
           <div className="login__description">
             <h1>Social-network by legabog</h1>
@@ -49,16 +49,16 @@ const Login = (props) => {
               with your friends.
             </h2>
           </div>
-          <div className="login__signinblock">
-            <div className="login__signinblock__form">
+          <div className="login__signin-block">
+            <div className="login__signin-block__form">
               <form>
-                <div className="login__signinblock__inputs">
-                  <div className="login__signinblock__inputs_email">
+                <div className="login__signin-block__inputs">
+                  <div className="login__signin-block__input">
                     <input
-                      className="input__email"
+                      className="signin-block__input"
                       type="text"
                       name="email"
-                      id="email"
+                      id="login-email"
                       placeholder="Email"
                       value={inputEmail}
                       onChange={inputEmailHandler}
@@ -74,12 +74,12 @@ const Login = (props) => {
                       }}
                     />
                   </div>
-                  <div className="login__signinblock__inputs_password">
+                  <div className="login__signin-block__input">
                     <input
-                      className="input__password"
+                      className="signin-block__input"
                       type="password"
                       name="password"
-                      id="password"
+                      id="login-password"
                       placeholder="Password"
                       value={inputPassword}
                       onChange={inputPasswordHandler}
@@ -98,9 +98,9 @@ const Login = (props) => {
                     />
                   </div>
                 </div>
-                <div className="login__signinblock__login__button">
+                <div className="login__signin-block__button">
                   <button
-                    className="login__button"
+                    className="button-signin"
                     name="login"
                     type="submit"
                     id="login__button"
@@ -109,13 +109,13 @@ const Login = (props) => {
                     Login
                   </button>
                 </div>
-                <div className="login__signinblock__restore__password">
+                <div className="login__signin-block__restore-password">
                   <a href="/">Forgotten password?</a>
                 </div>
-                <div className="login__signinblock__hr"></div>
-                <div className="login__signinblock__create_account_button">
+                <div className="login__signin-block__hr"></div>
+                <div className="login__signin-block__button">
                   <NavLink
-                    className="create__an__account__button"
+                    className="button-create-account"
                     to={"/"}
                     onClick={props.displayRegistrationBlockTrue}
                   >
@@ -124,7 +124,7 @@ const Login = (props) => {
                 </div>
               </form>
             </div>
-            <div className="login__signinblock__help">
+            <div className="login__signin-block__help">
               <NavLink to={"/"}>Create a Page</NavLink>
               &nbsp; of a celebrity, music band or company.
             </div>

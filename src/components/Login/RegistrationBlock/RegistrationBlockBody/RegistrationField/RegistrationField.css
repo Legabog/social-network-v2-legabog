@@ -1,0 +1,53 @@
+.registration-block__input {
+    padding: 10px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.registration-block__input > input {
+    width: 100%;
+    padding: 11px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    background: #f5f6f7;
+    border-color: #ccd0d5;
+    border-radius: 5px;
+    margin: 0;
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+
+.registration-block__input > input:focus {
+    outline: none;
+}
+
+.registration-block__input__error-icon {
+    right: 25px;
+    top: 18px;
+    transform: scale(.65);
+    position: absolute;
+    color: red;
+}
+
+.registration-block__input__error-icon:hover {
+    cursor: pointer;
+}
+

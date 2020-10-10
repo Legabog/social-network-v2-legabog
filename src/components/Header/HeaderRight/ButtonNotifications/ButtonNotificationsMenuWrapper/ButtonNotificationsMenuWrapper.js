@@ -15,16 +15,16 @@ const ButtonNotificationsMenuWrapper = (props) => {
 
   return (
     <div
-      className={"button__notifications__menu__wrapper"}
+      className={"button-notifications-menu__wrapper"}
       style={
         props.activeButton === 2
           ? { opacity: 1, visibility: "visible" }
           : { opacity: 0, visibility: "hidden" }
       }
     >
-      <div className="button__notifications__menu__header">
+      <div className="button-notifications-menu__header">
         <h1>Notifications</h1>
-        <div className="button__notifications__menu__options">
+        <div className="button-notifications-menu__options-icon">
           <MoreHorizIcon
             onClick={() => {
               optionPanel ? toggleOptionPanel(false) : toggleOptionPanel(true);
@@ -32,15 +32,15 @@ const ButtonNotificationsMenuWrapper = (props) => {
           />
         </div>
         <div
-          className="notificationsOptions"
+          className="button-notifications-menu__options"
           style={{ display: optionPanel ? null : "none" }}
         >
-          <div className="notificationsOptions__icon">
-            <ArrowDropUpIcon  />
+          <div className="button-notifications-menu__options-icon">
+            <ArrowDropUpIcon />
           </div>
-          <div className="options__sections">
-            <div className="options__section__border">
-              <div className="options__section__icon">
+          <div className="options-sections">
+            <div className="options-sections__wrapper">
+              <div className="options-sections__icon">
                 <CheckIcon
                   style={{
                     width: "24px",
@@ -53,8 +53,8 @@ const ButtonNotificationsMenuWrapper = (props) => {
               <span>Mark all as read</span>
             </div>
 
-            <div className="options__section__border">
-              <div className="options__section__icon">
+            <div className="options-sections__wrapper">
+              <div className="options-sections__icon">
                 <SettingsIcon
                   style={{
                     width: "24px",
@@ -67,8 +67,8 @@ const ButtonNotificationsMenuWrapper = (props) => {
               <span>Notifications settings</span>
             </div>
 
-            <div className="options__section__border">
-              <div className="options__section__icon">
+            <div className="options-sections__wrapper">
+              <div className="options-sections__icon">
                 <DesktopWindowsIcon
                   style={{
                     width: "24px",
@@ -83,15 +83,15 @@ const ButtonNotificationsMenuWrapper = (props) => {
           </div>
         </div>
       </div>
-      <div className="button__notifications__menu__body">
-        <div className="notifications__menu__body__img">
+      <div className="button-notifications-menu__body">
+        <div className="button-notifications-menu__img">
           <img
             src="https://www.facebook.com/images/comet/empty_states_icons/notifications/null_states_notifications_gray_wash.svg"
             alt="description"
           />
         </div>
 
-        <div className="notifications__menu__body__description">
+        <div className="button-notifications-menu__description">
           <span>You have no notifications</span>
         </div>
       </div>

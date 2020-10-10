@@ -4,7 +4,7 @@ import "./ButtonNotificationsHelp.css";
 const ButtonNotificationsHelp = (props) => {
   return (
     <div
-      className="header__option__notifications__help"
+      className="button-notifications__help"
       style={{
         opacity: props.helpNotificationsOpacity,
         visibility: props.helpNotificationsVisibility,

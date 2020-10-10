@@ -1,5 +1,5 @@
 
-.button__create__menu__wrapper {
+.button-create-menu__wrapper {
     position: absolute;
     overflow: auto;
     display: block;
@@ -19,7 +19,7 @@
     transition: opacity 0.3s, visibility 0s linear 0.3s;
 }
 
-.button__create__menu__wrapper hr {
+.button-create-menu__wrapper hr {
     margin-right: 16px;
     background-color: #CED0D4;
     margin-left: 16px;
@@ -32,32 +32,32 @@
     height: 1px;
 }
 
-.button__create__menu__wrapper::-webkit-scrollbar {
+.button-create-menu__wrapper::-webkit-scrollbar {
     background-color: #eff2f5;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
-.button__create__menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
+.button-create-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
     background-color: #eff2f5;
     border-top-right-radius: 8px;
 }
 
-.button__create__menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
+.button-create-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
     background-color: #eff2f5;
     border-bottom-right-radius: 8px;
 }
 
-.button__create__menu__wrapper::-webkit-scrollbar-thumb {
+.button-create-menu__wrapper::-webkit-scrollbar-thumb {
     background-color: #cccecf;
 }
 
-.button__create__menu__header h2 {
+.button-create-menu__header h2 {
     color: #050505;
     font-weight: 600;
 }
 
-.button__create__section__border {
+.button-create-menu__header {
     margin-left: -8px;
     margin-right: -8px;
     border-radius: 8px;
@@ -66,50 +66,4 @@
     padding-right: 8px;
     padding-bottom: 8px;
     display: flex;
-}
-
-.button__create__section__border:hover {
-    background-color: #e9ebec;
-    cursor: pointer;
-}
-
-.button__create__section__border:active {
-    background-color: #bfc2c4;
-    cursor: pointer;
-}
-
-.button__create__description {
-    display: block;
-}
-
-.button__create__description__category {
-    padding-left: 12px;
-}
-
-.button__create__description__help {
-    padding-left: 12px;
-}
-
-.button__create__description__category > span {
-    color: #050505;
-}
-
-.button__create__description__help > span {
-    color: #65676B;
-}
-
-.button__create__section__icon {
-    width: 36px;
-    height: 36px;
-    min-width: 36px;
-    max-width: 36px;
-    min-height: 36px;
-    max-width: 36px;
-    margin-top: 5px;
-    background-color: #F0F2F5;
-    border-radius: 50px;
-}
-
-.button__create__section__icon > .MuiSvgIcon-root {
-    color: gray;
 }

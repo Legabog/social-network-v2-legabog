@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./HeaderRight.css";
+
 import ButtonFindFriends from "./ButtonFindFriends/ButtonFindFriends";
 import ButtonCreate from "./ButtonCreate/ButtonCreate";
 import ButtonMessanger from "./ButtonMessanger/ButtonMessanger";
@@ -15,24 +16,30 @@ const HeaderRight = (props) => {
 
   return (
     <div className="header__right">
+
       <ButtonFindFriends />
+
       <ButtonCreate
         activeButton={activeButton}
         toggleActiveButton={toggleActiveButton}
       />
+
       <ButtonMessanger
         activeButton={activeButton}
         toggleActiveButton={toggleActiveButton}
       />
+
       <ButtonNotifications
         activeButton={activeButton}
         toggleActiveButton={toggleActiveButton}
       />
+
       <ButtonAccount
         {...props}
         activeButton={activeButton}
         toggleActiveButton={toggleActiveButton}
       />
+      
     </div>
   );
 };

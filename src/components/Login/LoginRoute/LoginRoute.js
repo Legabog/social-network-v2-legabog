@@ -25,26 +25,26 @@ const LoginRoute = (props) => {
   };
 
   return (
-    <div className="loginRoute__wrapper">
-      <div className="loginRoute__body">
-        <div className="loginRoute__header">
+    <div className="login-route__wrapper">
+      <div className="login-route">
+        <div className="login-route__header">
           <h1>Social network by legabog</h1>
         </div>
-        <div className="loginRoute__form">
-          <div className="loginRoute__form__header">
+        <div className="login-route__body">
+          <div className="login-route__body__header">
             <span>
               <div>Log in to Social network by legabog</div>
             </span>
           </div>
-          <div className="loginRoute__form__body">
-            <div className="loginRoute__email">
-              <div className="loginRoute__errorIcon">
+          <div className="login-route__body__form">
+            <div className="login-route__body__input">
+              <div className="login-route__body__input_error">
                 <input
                   type="text"
                   name="email"
-                  id="email"
+                  id="login-route-email"
                   placeholder="Email"
-                  className="loginRoute__einput"
+                  className="login-route__input"
                   value={inputEmail}
                   onChange={inputEmailHandler}
                   style={{
@@ -52,14 +52,14 @@ const LoginRoute = (props) => {
                   }}
                 />
                 <WarningRoundedIcon
-                  className="warning__icon"
+                  className="login-route__warning-icon"
                   style={{
                     display: props.loginError ? null : "none",
                   }}
                 />
               </div>
               <div
-                className="error__info"
+                className="login-route__error-info"
                 style={{ display: props.loginError ? null : "none" }}
               >
                 The email address or phone number that you've entered doesn't
@@ -73,21 +73,21 @@ const LoginRoute = (props) => {
               </div>
             </div>
 
-            <div className="loginRoute__password">
+            <div className="login-route__body__input">
               <input
                 type="password"
                 name="password"
-                id="password"
+                id="login-route-password"
                 placeholder="Password"
-                className="loginRoute__passinput"
+                className="login-route__input"
                 value={inputPassword}
                 onChange={inputPasswordHandler}
               />
             </div>
 
-            <div className="loginRoute__loginButton">
+            <div className="login-route__body__button">
               <button
-                className="loginButton"
+                className="button-signin"
                 name="login"
                 type="submit"
                 id="loginButton"
@@ -96,16 +96,16 @@ const LoginRoute = (props) => {
                 Login
               </button>
             </div>
-            <div className="loginRoute__forgottenAccount">
+            <div className="login-route__body__restore-account">
               <NavLink to={"/login"}>Forgotten account?</NavLink>
             </div>
-            <div className="loginRoute__or">
+            <div className="login-route__body__or">
               <span className="or">or</span>
             </div>
 
-            <div className="login__signinblock__create_account_button">
+            <div className="login-route__body__button">
               <NavLink
-                className="create__an__account__button"
+                className="button-create-account"
                 to={"/login"}
                 onClick={props.displayRegistrationBlockTrue}
               >

@@ -4,12 +4,12 @@ import "./ButtonNotificationsWrapper.css";
 
 const ButtonNotificationsWrapper = (props) => {
   return (
-    <div className={"button__notifications__wrapper"}>
+    <div className={"button-notifications__wrapper"}>
       <div
         className={
           props.activeButton === 2
-            ? "button__notifications__active"
-            : "button__notifications"
+            ? "button-notifications_active"
+            : "button-notifications"
         }
         onClick={() => {
           props.activeButton === 2

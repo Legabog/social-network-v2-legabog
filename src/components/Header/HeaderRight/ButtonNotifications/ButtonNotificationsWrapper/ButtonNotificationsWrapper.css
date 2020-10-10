@@ -1,4 +1,4 @@
-.button__notifications__wrapper {
+.button-notifications__wrapper {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     margin-right: 8px;
 }
 
-.button__notifications {
+.button-notifications {
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -19,15 +19,15 @@
     border-radius: 999px;
 }
 
-.button__notifications:hover {
+.button-notifications:hover {
     filter: contrast(80%);
 }
 
-.button__notifications:active {
+.button-notifications:active {
     transform: scale(0.98);
 }
 
-.button__notifications__active {
+.button-notifications_active {
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -40,20 +40,20 @@
     border-radius: 999px;
 }
 
-.button__notifications__active:hover {
+.button-notifications_active:hover {
     filter: contrast(80%);
 }
 
-.button__notifications__active:active {
+.button-notifications_active:active {
     transform: scale(0.98);
 }
 
-.button__notifications > svg {
+.button-notifications > svg {
     color: #050505;
     margin-top: 8px;
 }
 
-.button__notifications__active > svg {
+.button-notifications_active > svg {
     color:  #1877F2;
     margin-top: 8px;
 }

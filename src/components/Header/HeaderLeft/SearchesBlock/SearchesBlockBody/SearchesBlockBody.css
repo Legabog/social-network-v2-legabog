@@ -1,0 +1,24 @@
+.searches-block__body__header {
+    display: flex;
+}
+
+
+.searches-block__body__header > span:hover {
+    background-color: rgb(224, 219, 219);
+    cursor: pointer;
+}
+
+.searches-block__body__header > h4 {
+    color: #050505;
+    font-weight: 600;
+}
+
+.searches-block__body__header > span {
+    width: 40px;
+    height: 25px;
+    border-radius: 4px;
+    text-align: center;
+    color: #1877F2;
+    margin-left: 140px;
+}
+

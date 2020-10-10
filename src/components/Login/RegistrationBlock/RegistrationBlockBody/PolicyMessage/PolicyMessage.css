@@ -1,10 +1,10 @@
-.policy__message {
+.policy-message {
     padding-left: 16px;
     position: relative;
     width: 400px;
 }
 
-.policy__message > p {
+.policy-message > p {
     width: auto;
     color: #777;
     font-size: 11px;

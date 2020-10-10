@@ -1,4 +1,4 @@
-.button__find__friends__wrapper {
+.button-find-friends__wrapper {
     min-width: 112px;
     display: flex;
     height: 40px;
@@ -12,7 +12,7 @@
     border-radius: 999px;
 }
 
-.button__find__friends__wrapper__active {
+.button-find-friends__wrapper_active {
     display: flex;
     min-width: 112px;
     height: 40px;
@@ -26,23 +26,23 @@
     border-radius: 999px;
 }
 
-.button__find__friends__wrapper:active {
+.button-find-friends__wrapper:active {
     transform: scale(0.98);
 }
 
-.button__find__friends__wrapper__active:active {
+.button-find-friends__wrapper_active:active {
     transform: scale(0.98);
 }
 
-.button__find__friends__wrapper:hover {
+.button-find-friends__wrapper:hover {
     filter: contrast(80%);
 }
 
-.button__find__friends__wrapper__active:hover {
+.button-find-friends__wrapper_active:hover {
     filter: contrast(80%);
 }
 
-.button__find__friends__wrapper__active > a {
+.button-find-friends__wrapper_active > a {
     height: 33px;
     max-height: 33px;
     text-decoration: none;
@@ -55,7 +55,7 @@
     touch-action: manipulation;
 }
 
-.button__find__friends__wrapper > a {
+.button-find-friends__wrapper > a {
     height: 33px;
     max-height: 33px;
     text-decoration: none;
@@ -66,20 +66,20 @@
     touch-action: manipulation;
 }
 
-.button__find__friends {
+.button-find-friends {
     font-weight: 600;
     color: #050505;
 }
 
-.button__find__friends > span {
+.button-find-friends > span {
     white-space: nowrap;
 }
 
-.button__find__friends__active > span {
+.button-find-friends_active > span {
     white-space: nowrap;
 }
 
-.button__find__friends__active {
+.button-find-friends_active {
     font-weight: 600;
     color: #1877F2;
 }
