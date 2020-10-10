@@ -1,10 +1,10 @@
-.confirmEmailRoute {
+.confirm-email-route__wrapper {
     display: flex;
     justify-content: center;
     height: 100vh;
 }
 
-.confirmEmailRoute__wrapper {
+.confirm-email-route {
     margin-top: 50px;
     width: 900px;
     height: 330px;
@@ -13,18 +13,17 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
-.confirmEmailRoute__header {
+.confirm-email-route__header {
     padding-top: 30px;
     text-align: center;
 }
 
-
-.confirmEmailRoute__header > h1 {
+.confirm-email-route__header > h1 {
     color: #2e81f4;
     font-weight: 800;
 }
 
-.confirmEmailRoute__header > hr {
+.confirm-email-route__header > hr {
     align-items: center;
     border: none;
     border-bottom: 1px solid #dadde1;
@@ -33,12 +32,12 @@
     text-align: center;
 }
 
-.confirmEmailRoute__body {
+.confirm-email-route__body {
     padding-top: 5px;
     text-align: center;
 }
 
-.confirmEmailRoute__body > h2 {
+.confirm-email-route__body > h2 {
     color: #1c1e21;
     font-size: 1.5em;
     font-weight: bold;
@@ -48,14 +47,14 @@
     line-height: 32px;
 }
 
-.confirmEmailRoute__buttonBack {
+.confirm-email-route__button-back {
     padding-top: 50px;
     display: block;
     text-align: center;
     font-size: 12px;
 }
 
-.buttonBack {
+.button-back {
     border: none;
     border-radius: 6px;
     font-size: 17px;
@@ -78,10 +77,10 @@
     vertical-align: middle;
 }
 
-.buttonBack:hover {
+.button-back:hover {
     background-color: #36a420;
 }
 
-.buttonBack:focus {
+.button-back:focus {
     outline: none;
 }

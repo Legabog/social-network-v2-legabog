@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from "react";
-import "./HeaderNavigationBar.css";
-import HeaderNavigationBarHome from "./HeaderNavigationBarHome/HeaderNavigationBarHome";
-import HeaderNavigationBarFriends from "./HeaderNavigationBarFriends/HeaderNavigationBarFriends";
-import HeaderNavigationBarGroups from "./HeaderNavigationBarGroups/HeaderNavigationBarGroups";
 import { NavLink, useLocation } from "react-router-dom";
+import "./HeaderNavigationBar.css";
+
+import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
+import HomeIcon from "@material-ui/icons/Home";
+import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
+import SupervisedUserCircleIcon from "@material-ui/icons/SupervisedUserCircle";
+
+import HeaderNavigationBarHelp from "./HeaderNavigationBarHelp/HeaderNavigationBarHelp";
+import HeaderNavigationBarItem from "./HeaderNavigationBarItem/HeaderNavigationBarItem";
 
 const HeaderNavigationBar = (props) => {
   // ----------Help Home
@@ -93,54 +98,60 @@ const HeaderNavigationBar = (props) => {
   });
 
   return (
-    <div className="header__navigation__bar">
+    <div className="header-navigation-bar">
       <NavLink to={"/"}>
-        <HeaderNavigationBarHome
+        <HeaderNavigationBarItem
+          link={"/"}
           activeLink={activeLink}
+          activeIcon={HomeIcon}
+          Icon={HomeOutlinedIcon}
           toggleActiveLink={toggleActiveLink}
-          toggleHelpHome={toggleHelpHome}
+          toggleHelp={toggleHelpHome}
         />
       </NavLink>
 
-      <div
-        className="header__option__home__help"
-        style={{ opacity: helpHomeOpacity, visibility: helpHomeVisibility }}
-      >
-        <span>Home</span>
-      </div>
+      <HeaderNavigationBarHelp
+        title={"Home"}
+        helpOpacity={helpHomeOpacity}
+        helpVisibility={helpHomeVisibility}
+        helpMarginLeft={"-260px"}
+      />
 
       <NavLink to={"/friends"}>
-        <HeaderNavigationBarFriends
+        <HeaderNavigationBarItem
+          link={"/friends"}
           activeLink={activeLink}
+          activeIcon={SupervisorAccountIcon}
+          Icon={SupervisorAccountIcon}
           toggleActiveLink={toggleActiveLink}
-          toggleHelpFriends={toggleHelpFriends}
+          toggleHelp={toggleHelpFriends}
         />
       </NavLink>
 
-      <div
-        className="header__option__friends__help"
-        style={{
-          opacity: helpFriendsOpacity,
-          visibility: helpFriendsVisibility,
-        }}
-      >
-        <span>Friends</span>
-      </div>
+      <HeaderNavigationBarHelp
+        title={"Friends"}
+        helpOpacity={helpFriendsOpacity}
+        helpVisibility={helpFriendsVisibility}
+        helpMarginLeft={"-10px"}
+      />
 
       <NavLink to={"/groups"}>
-        <HeaderNavigationBarGroups
+        <HeaderNavigationBarItem
+          link={"/groups"}
           activeLink={activeLink}
+          activeIcon={SupervisedUserCircleIcon}
+          Icon={SupervisedUserCircleIcon}
           toggleActiveLink={toggleActiveLink}
-          toggleHelpGroups={toggleHelpGroups}
+          toggleHelp={toggleHelpGroups}
         />
       </NavLink>
 
-      <div
-        className="header__option__groups__help"
-        style={{ opacity: helpGroupsOpacity, visibility: helpGroupsVisibility }}
-      >
-        <span>Groups</span>
-      </div>
+      <HeaderNavigationBarHelp
+        title={"Groups"}
+        helpOpacity={helpGroupsOpacity}
+        helpVisibility={helpGroupsVisibility}
+        helpMarginLeft={"240px"}
+      />
     </div>
   );
 };

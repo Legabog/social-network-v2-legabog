@@ -4,22 +4,22 @@ import { NavLink } from "react-router-dom";
 
 const ConfirmEmailRoute = (props) => {
   return (
-    <div className="confirmEmailRoute">
-      <div className="confirmEmailRoute__wrapper">
-        <div className="confirmEmailRoute__header">
+    <div className="confirm-email-route__wrapper">
+      <div className="confirm-email-route">
+        <div className="confirm-email-route__header">
           <h1>Verify your account</h1>
           <hr />
         </div>
-        <div className="confirmEmailRoute__body">
+        <div className="confirm-email-route__body">
           <h2>
             To complete registration, you have received an e-mail message.
             <br />
             Go to the specified url.
           </h2>
         </div>
-        <div className="confirmEmailRoute__buttonBack">
+        <div className="confirm-email-route__button-back">
           <NavLink
-            className="buttonBack"
+            className="button-back"
             to={""}
             onClick={props.displayRegistrationBlockFalse}
           >

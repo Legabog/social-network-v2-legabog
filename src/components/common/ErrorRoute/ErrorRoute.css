@@ -1,24 +1,24 @@
-.errorRoute {
+.error-route {
     display: block;
     height: 100vh;
 }
 
-.errorRoute__header {
+.error-route__header {
     padding-top: 100px;
     text-align: center;
 }
 
-.errorRoute__header > h1 {
+.error-route__header > h1 {
     color: #2e81f4;
     font-weight: 800;
 }
 
-.errorRoute__body {
+.error-route__body {
     padding-top: 20px;
     text-align: center;
 }
 
-.errorRoute__body > h2 {
+.error-route__body > h2 {
     color: #1c1e21;
     font-size: 1.5em;
     font-weight: bold;
@@ -28,14 +28,14 @@
     line-height: 32px;
 }
 
-.errorRoute__button__back {
+.error-route__button-back {
     padding-top: 20px;
     display: block;
     text-align: center;
     font-size: 12px;
 }
 
-.button__back {
+.button-back {
     border: none;
     border-radius: 6px;
     font-size: 17px;
@@ -58,10 +58,10 @@
     vertical-align: middle;
 }
 
-.button__back:hover {
+.button-back:hover {
     background-color: #36a420;
 }
 
-.button__back:focus {
+.button-back:focus {
     outline: none;
 }

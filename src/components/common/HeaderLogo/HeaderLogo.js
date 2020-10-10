@@ -1,26 +1,21 @@
 import React from "react";
+import "./HeaderLogo.css";
 import { IconButton } from "@material-ui/core";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import { NavLink } from "react-router-dom";
-import "./HeaderLogo.css";
 
 const HeaderLogo = (props) => {
   return (
-    <div className={props.activeInput ? "headerLogo__active" : "headerLogo"}>
+    <div className={props.activeInput ? "header__logo_active" : "header__logo"}>
       {props.activeInput ? (
-        <IconButton
-          style={{ width: "30px", height: "30px" }}
-          onClick={props.toggleActiveInput}
-        >
+        <IconButton onClick={props.toggleActiveInput}>
           <ArrowBackIcon />
         </IconButton>
       ) : (
-        <div className="header__logo">
-          <NavLink to={"/"}>
-            <GitHubIcon />
-          </NavLink>
-        </div>
+        <NavLink to={"/"}>
+          <GitHubIcon />
+        </NavLink>
       )}
     </div>
   );

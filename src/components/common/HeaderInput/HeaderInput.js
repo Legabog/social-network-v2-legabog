@@ -4,31 +4,38 @@ import "./HeaderInput.css";
 
 const HeaderInput = (props) => {
   const focusInput = (componentId) => {
-    document.getElementById("headerinputsearch").focus();
+    document.getElementById(componentId).focus();
   };
 
   return (
     <div
-      className={props.activeInput ? "header__input__active" : "header__input"}
+      className={props.activeInput ? "header__input_active" : "header__input"}
     >
       {props.activeInput ? null : (
         <SearchIcon
           onClick={(e) => {
             e.preventDefault();
-            focusInput("headerinputsearch");
             props.toggleActiveInput();
+            setTimeout(() => {
+              focusInput("header-input");
+            }, 100);
           }}
-          // onBlur={props.toggleActiveInput}
         />
       )}
       <input
         type="text"
-        id="headerinputsearch"
+        id="header-input"
         placeholder="Search Social Network"
         onClick={(e) => {
           e.preventDefault();
-          focusInput("headerinputsearch");
-          props.toggleActiveInput();
+          if (props.activeInput) {
+            focusInput("header-input");
+          } else {
+            props.toggleActiveInput();
+            setTimeout(() => {
+              focusInput("header-input");
+            }, 100);
+          }
         }}
         onBlur={props.toggleActiveInput}
       />

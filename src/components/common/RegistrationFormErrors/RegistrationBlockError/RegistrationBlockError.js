@@ -4,10 +4,10 @@ import "./RegistrationBlockError.css";
 const RegistrationBlockError = (props) => {
   return (
     <div
-      className="registration__error"
+      className="registration-block__error"
       style={{ display: props.registrationError ? null : "none" }}
     >
-      <div className="registration__error__main">
+      <div className="registration-block__error__description">
         We could not create your account.
         <br />
         We were not able to register you on our Social network.

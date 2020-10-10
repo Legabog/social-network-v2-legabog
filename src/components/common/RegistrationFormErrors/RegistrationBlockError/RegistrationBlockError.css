@@ -1,4 +1,4 @@
-.registration__error {
+.registration-block__error {
     margin-top: 16px;
     margin-left: 16px;
     margin-right: 16px;
@@ -10,7 +10,7 @@
     font-size: 12px;
 }
 
-.registration__error__main {
+.registration-block__error__description {
     padding: 7px 3px;
     line-height: 15px;
 }

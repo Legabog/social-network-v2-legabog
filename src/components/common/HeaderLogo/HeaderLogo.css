@@ -1,25 +1,14 @@
-.headerLogo {
-    padding-top: 10px;
-}
-
-.headerLogo__active {
-    padding-top: 15px; 
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.headerLogo > a {
- text-decoration: none;
-}
-
 .header__logo {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .header__logo > a {
     text-decoration: none;
 }
-
 
 .header__logo > a > svg {
     width: 40px;
@@ -30,3 +19,25 @@
 .header__logo > a > svg:hover {
     filter: opacity(80%)
 }
+
+.header__logo_active {
+    width: 40px;
+    height: 60px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo_active > svg {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
