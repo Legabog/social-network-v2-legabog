@@ -17,7 +17,7 @@ const SidebarRow = ({
 }) => {
   return navLink ? (
     <NavLink to={navLink}>
-      <div className="sidebarRow" onClick={toggleAdditionalSections}>
+      <div className="sidebar-row" onClick={toggleAdditionalSections}>
         {fetchAvatar ? (
           <ChangeAvatarSimplePreloader width={"32px"} height={"32px"} />
         ) : (
@@ -29,14 +29,14 @@ const SidebarRow = ({
     </NavLink>
   ) : (
     <a href={Link}>
-      <div className="sidebarRow" onClick={toggleAdditionalSections}>
+      <div className="sidebar-row" onClick={toggleAdditionalSections}>
         {src && <Avatar src={src} />}
         {Icon && <Icon />}
         {IconFromSprite ? (
-          <div className={"sidebarRow__iconFromSprote"}>{IconFromSprite}</div>
+          <div className={"sidebar-row__icon-from-sprite"}>{IconFromSprite}</div>
         ) : null}
         {Img ? (
-          <div className={"sidebarRow__img"}>
+          <div className={"sidebar-row__img"}>
             <img src={Img} alt="description" />
           </div>
         ) : null}

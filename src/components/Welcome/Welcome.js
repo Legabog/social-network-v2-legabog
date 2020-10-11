@@ -6,8 +6,8 @@ import WelcomeSearchSection from "./WelcomeSearchSection/WelcomeSearchSection";
 
 const Welcome = (props) => {
   return (
-    <div className={"WelcomeComponent__wrapper"}>
-      <div className={"WelcomeComponent"}>
+    <div className={"welcome__wrapper"}>
+      <div className={"welcome"}>
         <span>
           Welcome to Social Network by legabog,{" "}
           {props.user === null || props.user.Name === ""

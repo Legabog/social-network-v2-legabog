@@ -3,20 +3,20 @@ import "./WelcomePrivacyGuideBody.css";
 
 const WelcomePrivacyGuideBody = (props) => {
   return (
-    <div className={"WelcomePrivacyGuideBody__wrapper"}>
-      <div className={"WelcomePrivacyGuideBody"}>
-        <div className={"WelcomePrivacyGuideBody__title"}>
+    <div className={"welcome-privacy-guide-body__wrapper"}>
+      <div className={"welcome-privacy-guide-body"}>
+        <div className={"welcome-privacy-guide-body__title"}>
           <span>{props.title}</span>
         </div>
-        <div className={"WelcomePrivacyGuideBody__description"}>
+        <div className={"welcome-privacy-guide-body__description"}>
           <span>{props.description}</span>
         </div>
-        <div className={"WelcomePrivacyGuideBody__img"}>
+        <div className={"welcome-privacy-guide-body__img"}>
           <img src={props.slideUrl} alt="description" />
         </div>
-        <div className={"WelcomePrivacyGuideBody__progressBar"}>
+        <div className={"welcome-privacy-guide-body__progress-bar"}>
           <div
-            className={"WelcomePrivacyGuideBody__progressBar__progressLine"}
+            className={"welcome-privacy-guide-body__progress-line"}
             style={{
               width:
                 props.privacyGuideState === 0
@@ -31,9 +31,9 @@ const WelcomePrivacyGuideBody = (props) => {
           ></div>
         </div>
         {props.buttonNext ? (
-          <div className={"WelcomePrivacyGuideBody__footer"}>
+          <div className={"welcome-privacy-guide-body__footer"}>
             <div
-              className={"WelcomePrivacyGuideBody__buttonNext"}
+              className={"welcome-privacy-guide-body__button-next"}
               onClick={() => {
                 if (props.privacyGuideState === 0) {
                   props.togglePrivacyGuideState(1);
@@ -48,9 +48,9 @@ const WelcomePrivacyGuideBody = (props) => {
             </div>
           </div>
         ) : (
-          <div className={"WelcomePrivacyGuideBody__footer"}>
+          <div className={"welcome-privacy-guide-body__footer"}>
             <div
-              className={"WelcomePrivacyGuideBody__buttonFinish"}
+              className={"welcome-privacy-guide-body__button-finish"}
               onClick={() => {
                 props.togglePrivacyGuide(false);
                 props.togglePrivacyGuideState(0);

@@ -57,8 +57,10 @@ const Sidebar = React.memo((props) => {
 
       <SidebarRow Icon={GitHubIcon} title="Welcome" navLink={"/welcome"} />
       <SidebarRow Icon={LibraryMusicIcon} title="Music" navLink={"/music"} />
+
       <hr />
-      <div className={"sidebar__title__section"}>
+      
+      <div className={"sidebar__title-section"}>
         <span>Some deployed projects</span>
       </div>
 

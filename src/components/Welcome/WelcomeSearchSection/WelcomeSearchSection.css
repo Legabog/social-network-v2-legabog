@@ -1,4 +1,4 @@
-.WelcomeSearchSection__wrapper {
+.welcome-search-section__wrapper {
     display: flex;
     text-align: center;
     justify-self: center;
@@ -11,17 +11,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
-.WelcomeSearchSection {
+.welcome-search-section {
     padding: 8px 16px;
     display: block;
     text-align: left;
     justify-self: start;
 }
 
-.WelcomeSearchSection__descriptionMain {
-}
-
-.WelcomeSearchSection__descriptionMain span {
+.welcome-search-section__description-main > span {
     word-break: break-word;
     color: #050505;
     font-size: 1.25rem;
@@ -30,11 +27,11 @@
     line-height: 1.2;
 }
 
-.WelcomeSearchSection__descriptionSecondary {
+.welcome-search-section__description-secondary {
     margin-top: 2px;
 }
 
-.WelcomeSearchSection__descriptionSecondary span {
+.welcome-search-section__description-secondary > span {
     word-break: break-word;
     color: #65676B;
     font-weight: normal;
@@ -42,7 +39,7 @@
     font-size: 1.0625rem;
 }
 
-.WelcomeSearchSection__input {
+.welcome-search-section__input {
     width: 440px;
     display: flex;
     height: 40px;
@@ -53,15 +50,15 @@
     border-radius: 999px;
 }
 
-.WelcomeSearchSection__input:hover {
+.welcome-search-section__input:hover {
     cursor: pointer;
 }
 
-.WelcomeSearchSection__input > .MuiSvgIcon-root {
+.welcome-search-section__input > .MuiSvgIcon-root {
     color: gray;
 }
 
-.WelcomeSearchSection__input > input {
+.welcome-search-section__input > input {
     width: 100%;
     border: none;
     height: 40px;
@@ -70,6 +67,6 @@
     outline-width: 0;
 }
 
-.WelcomeSearchSection__input > input:hover {
+.welcome-search-section__input > input:hover {
     cursor: pointer;
 }

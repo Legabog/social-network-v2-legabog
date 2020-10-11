@@ -1,4 +1,4 @@
-.WelcomeComponent__wrapper {
+.welcome__wrapper {
     flex: 1 1;
     padding: 30px 50px;
     display: flex;
@@ -7,11 +7,11 @@
     transition: opacity 0.1s, visibility 0s linear 0.1s;
 }
 
-.WelcomeComponent {
+.welcome {
     display: block;
 }
 
-.WelcomeComponent span {
+.welcome span {
     word-break: break-word;
     color: #050505;
     font-size: 1.5rem;

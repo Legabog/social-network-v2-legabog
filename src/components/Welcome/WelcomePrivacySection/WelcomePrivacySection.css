@@ -1,4 +1,4 @@
-.WelcomePrivacySection__wrapper {
+.welcome-privacy-section__wrapper {
     display: flex;
     text-align: center;
     justify-self: center;
@@ -11,17 +11,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
-.WelcomePrivacySection {
+.welcome-privacy-section {
     padding: 8px 16px;
     display: block;
     text-align: left;
     justify-self: start;
 }
 
-.WelcomePrivacySection__descriptionMain {
-}
-
-.WelcomePrivacySection__descriptionMain span {
+.welcome-privacy-section__description-main > span {
     word-break: break-word;
     color: #050505;
     font-size: 1.25rem;
@@ -30,11 +27,11 @@
     line-height: 1.2;
 }
 
-.WelcomePrivacySection__descriptionSecondary {
+.welcome-privacy-section__description-secondary {
     margin-top: 2px;
 }
 
-.WelcomePrivacySection__descriptionSecondary span {
+.welcome-privacy-section__description-secondary > span {
     word-break: break-word;
     color: #65676B;
     font-weight: normal;
@@ -42,7 +39,7 @@
     font-size: 1.0625rem;
 }
 
-.WelcomePrivacySection__button {
+.welcome-privacy-section__button {
     display: flex;
     margin-top: 15px;
     text-align: center;
@@ -54,7 +51,7 @@
     border-radius: 8px;
 }
 
-.WelcomePrivacySection__button span {
+.welcome-privacy-section__button > span {
     color: #fff;
     word-break: break-word;
     font-weight: 600;
@@ -62,12 +59,12 @@
     font-size: 1.0625rem;
 }
 
-.WelcomePrivacySection__button:hover {
+.welcome-privacy-section__button:hover {
     cursor: pointer;
     filter: brightness(95%);
 }
 
-.WelcomePrivacySection__button:active {
+.welcome-privacy-section__button:active {
     transform: scale(0.95);
     filter: brightness(90%);
 }

@@ -7,13 +7,13 @@ import WelcomePrivacyGuideHeader from "./WelcomePrivacyGuideHeader/WelcomePrivac
 const WelcomePrivacyGuide = (props) => {
   return (
     <div
-      className={"WelcomePrivacyGuide__wrapper"}
+      className={"welcome-privacy-guide__wrapper"}
       style={{
         visibility: `${props.privacyGuideVisibility}`,
         opacity: `${props.privacyGuideOpacity}`,
       }}
     >
-      <div className={"WelcomePrivacyGuide"}>
+      <div className={"welcome-privacy-guide"}>
         {props.privacyGuideState === 0 ? (
           <WelcomePrivacyGuideHeader {...props} />
         ) : props.privacyGuideState === 1 ? (

@@ -1,4 +1,4 @@
-.WelcomePrivacyGuideBody__wrapper {
+.welcome-privacy-guide-body__wrapper {
     display: flex;
     padding: 16px;
     text-align: center;
@@ -6,16 +6,16 @@
     align-items: center;
 }
 
-.WelcomePrivacyGuideBody {
+.welcome-privacy-guide-body {
     display: block;
 }
 
-.WelcomePrivacyGuideBody__title {
+.welcome-privacy-guide-body__title {
     display: flex;
     text-align: left;
 }
 
-.WelcomePrivacyGuideBody__title span {
+.welcome-privacy-guide-body__title > span {
     color: #050505;
     word-break: break-word;
     font-weight: 600;
@@ -23,13 +23,13 @@
     font-size: 1.0625rem;
 }
 
-.WelcomePrivacyGuideBody__description {
+.welcome-privacy-guide-body__description {
     display: flex;
     height: 60px;
     text-align: left;
 }
 
-.WelcomePrivacyGuideBody__description span {
+.welcome-privacy-guide-body__description > span {
     word-break: break-word;
     color: #65676B;
     font-weight: normal;
@@ -38,7 +38,7 @@
     line-height: 1.3333;
 }
 
-.WelcomePrivacyGuideBody__img img {
+.welcome-privacy-guide-body__img > img {
     border-radius: 6px;
     object-fit: cover;
     margin-top: 10px;
@@ -46,7 +46,7 @@
     height: 440px;
 }
 
-.WelcomePrivacyGuideBody__progressBar {
+.welcome-privacy-guide-body__progress-bar {
     display: flex;
     text-align: left;
     justify-content: left;
@@ -57,7 +57,7 @@
     background-color: #eff2f5;
 }
 
-.WelcomePrivacyGuideBody__progressBar__progressLine {
+.welcome-privacy-guide-body__progress-line {
     display: flex;
     height: 10px;
     border-top-left-radius: 500px;
@@ -65,13 +65,13 @@
     background-color: #1877F2;
 }
 
-.WelcomePrivacyGuideBody__footer {
+.welcome-privacy-guide-body__footer {
     margin-top: 15px;
     display: flex;
     width: 100%;
 }
 
-.WelcomePrivacyGuideBody__buttonNext {
+.welcome-privacy-guide-body__button-next {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -84,7 +84,7 @@
     border-radius: 8px;
 }
 
-.WelcomePrivacyGuideBody__buttonNext span {
+.welcome-privacy-guide-body__button-next > span {
     color: #fff;
     white-space: nowrap;
     font-weight: 600;
@@ -93,17 +93,17 @@
 
 }
 
-.WelcomePrivacyGuideBody__buttonNext:hover {
+.welcome-privacy-guide-body__button-next:hover {
     cursor: pointer;
     filter: brightness(95%)
 }
 
-.WelcomePrivacyGuideBody__buttonNext:active {
+.welcome-privacy-guide-body__button-next:active {
     transform: scale(0.95);
     filter: brightness(90%)
 }
 
-.WelcomePrivacyGuideBody__buttonFinish {
+.welcome-privacy-guide-body__button-finish {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -116,7 +116,7 @@
     border-radius: 8px;
 }
 
-.WelcomePrivacyGuideBody__buttonFinish span {
+.welcome-privacy-guide-body__button-finish > span {
     color: #fff;
     white-space: nowrap;
     font-weight: 600;
@@ -125,12 +125,12 @@
 
 }
 
-.WelcomePrivacyGuideBody__buttonFinish:hover {
+.welcome-privacy-guide-body__button-finish:hover {
     cursor: pointer;
     filter: brightness(95%)
 }
 
-.WelcomePrivacyGuideBody__buttonFinish:active {
+.welcome-privacy-guide-body__button-finish:active {
     transform: scale(0.95);
     filter: brightness(90%)
 }

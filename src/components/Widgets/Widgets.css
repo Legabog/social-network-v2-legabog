@@ -1,1 +1,13 @@
-/*Widgets*/
+.widgets {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.widgets > iframe {
+    width: 340px;
+    height: 100%;
+    border: none;
+    overflow: hidden;  
+}

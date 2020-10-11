@@ -7,11 +7,11 @@
     overflow-x: hidden;
 }
 
-.sidebar a {
+.sidebar > a {
     text-decoration: none;
 }
 
-.sidebar hr {
+.sidebar > hr {
     margin-right: 16px;
     background-color: #CED0D4;
     margin-left: 16px;
@@ -23,7 +23,7 @@
     height: 1px;
 }
 
-.sidebar__title__section {
+.sidebar__title-section {
     margin-bottom: 20px;
     padding-left: 10px;
     display: flex;
@@ -31,7 +31,7 @@
 
 }
 
-.sidebar__title__section > span {
+.sidebar__title-section > span {
     text-align: left;
     word-break: break-word;
     font-weight: 600;

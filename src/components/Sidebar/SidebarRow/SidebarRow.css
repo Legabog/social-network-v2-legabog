@@ -1,4 +1,4 @@
-.sidebarRow {
+.sidebar-row {
     min-width: 330px;
     display: flex;
     align-items: center;
@@ -6,17 +6,17 @@
     cursor: pointer;
 }
 
-.sidebarRow:hover {
+.sidebar-row:hover {
     background-color: lightgray;
     border-radius: 10px;
 }
 
-.sidebarRow:active {
+.sidebar-row:active {
     background-color: #bfc2c4;
     border-radius: 10px;
 }
 
-.sidebarRow > span {
+.sidebar-row > span {
     word-break: break-word;
     color: #050505;
     font-size: .9375rem;
@@ -26,12 +26,12 @@
     margin-left: 20px;
 }
 
-.sidebarRow > .MuiSvgIcon-root {
+.sidebar-row > .MuiSvgIcon-root {
     font-size: xx-large;
     color: #2e81f4;
 }
 
-.sidebarRow__iconFromSprote {
+.sidebar-row__icon-from-sprite {
     display: flex;
     text-align: center;
     align-items: center;
@@ -40,12 +40,12 @@
     height: 30px;
 }
 
-.sidebarRow__iconFromSprote svg {
+.sidebar-row__icon-from-sprite svg {
     width: 30px;
     height: 30px;
 }
 
-.sidebarRow__img {
+.sidebar-row__img {
     display: flex;
     text-align: center;
     align-items: center;
@@ -54,7 +54,7 @@
     height: 30px;
 }
 
-.sidebarRow__img img {
+.sidebar-row__img > img {
     object-fit: cover;
     border-radius: 30px;
     width: 30px;
