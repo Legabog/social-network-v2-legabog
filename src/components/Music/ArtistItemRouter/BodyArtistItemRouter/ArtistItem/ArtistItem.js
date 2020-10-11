@@ -7,13 +7,13 @@ import MusicDefault from "../../../../../utils/assets/apple theme/music.jpg";
 const ArtistItem = (props) => {
   return (
     <NavLink to={`/music-player/${props.author}/${props.title}`}>
-      <div className={"artistRoute__item"}>
+      <div className={"artist-item-router__item"}>
         <img src={props.img || MusicDefault} alt="description" />
-        <div className={"artistRoute__description"}>
-          <h4 className={"artistRoute__album"}>
+        <div className={"artist-item-router__description"}>
+          <h4 className={"artist-item-router__album"}>
             <strong>{props.title}</strong>
           </h4>
-          <h4 className={"artistRoute__artist"}>
+          <h4 className={"artist-item-router__artist"}>
             <strong>{props.author}</strong>
           </h4>
         </div>

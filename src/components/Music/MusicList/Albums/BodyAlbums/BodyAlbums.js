@@ -6,7 +6,7 @@ import AlbumsPreloader from "./AlbumsPreloader/AlbumsPreloader";
 
 const BodyAlbums = (props) => {
   return (
-    <div className={"bodyAlbumsList"}>
+    <div className={"albums-body"}>
       {props.Fetching ? <AlbumsPreloader /> : null}
       {props.musicAlbums.map((e) => {
         return (

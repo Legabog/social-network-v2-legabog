@@ -29,7 +29,7 @@ export const ActionSwitcher = (props) => {
 
   return (
     <div
-      className={"ActionSwitcher"}
+      className={"action-switcher"}
       onMouseOver={() => {
         setHover(1);
       }}
@@ -47,7 +47,7 @@ export const ActionSwitcher = (props) => {
           transition: "none" || "none",
         }}
       >
-        <div className={"ActionSwitcher__icon"}>
+        <div className={"action-switcher__icon"}>
           {hover 
             ? <MoreHorizIcon style={{color: "#F62A54"}}/>
             : <MoreHorizIcon style={{color: "#1877F2"}}/>
@@ -60,12 +60,12 @@ export const ActionSwitcher = (props) => {
         keepMounted
         open={Boolean(anchorEl)}
         onClose={handleClose}
-        style={{width: "380px"}}
+        style={{width: "380px", marginLeft: "-20px"}}
       >
-        <div className={"ActionSwitcher__root"}>
-          <div className={"ActionSwitcher__descriptionHeader"}>
+        <div className={"action-switcher__root"}>
+          <div className={"action-switcher__description-header"}>
             <img src={props.albumCover} alt="mini_album_cover"/>
-            <div className={"ActionSwitcher__titleAndAuthor"}>
+            <div className={"action-switcher__title-and-author"}>
               <h3>{props.title}</h3>
               <p>{props.author}</p>
             </div>
@@ -88,7 +88,7 @@ export const ActionSwitcher = (props) => {
             style={{ color: "#4A76A8", textDecoration: "none" }}
             to={`/music-list/playlists`}
           >
-            <div className={"ActionSwitcher__addToPlayList"}>
+            <div className={"action-switcher__add"}>
               <AddIcon style={{color: "rgb(163, 163, 163)"}}/>
               <h3>Add to a Playlist</h3>
             </div>

@@ -1,11 +1,10 @@
 import React from "react";
-import "./BodyMusicList.css";
 
 import BodyMusicListItem from "./BodyMusicListItem/BodyMusicListItem.js";
 
 const BodyMusicList = (props) => {
   return (
-    <div className={"bodyMusicList"}>
+    <div className={"music-list-body"}>
       <BodyMusicListItem title={"Artists"} link={"artists"} />
       <BodyMusicListItem title={"Albums"} link={"albums"} />
       <div

@@ -12,10 +12,10 @@ const ItemArtists = (props) => {
   };
 
   return (
-    <div>
+    <>
       <NavLink to={`/music-list/artists/${props.nameArtist}`}>
         <div
-          className={"itemArtists"}
+          className={"artists-body__item"}
           onMouseOver={() => {
             setHover(1);
           }}
@@ -31,7 +31,7 @@ const ItemArtists = (props) => {
           )}
         </div>
       </NavLink>
-    </div>
+    </>
   );
 };
 

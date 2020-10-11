@@ -59,8 +59,8 @@ class HeaderCreateAlbum extends React.Component {
 
   render() {
     return (
-      <div className={"headerCreateAlbum"}>
-        <div className={"headerCreateAlbum__buttons"}>
+      <div className={"create-album-header"}>
+        <div className={"create-album-header__buttons"}>
           <NavLink
             to="/music-list/playlists"
             onMouseOver={() => {
@@ -70,7 +70,7 @@ class HeaderCreateAlbum extends React.Component {
               this.setHover(0);
             }}
           >
-            <div className={"headerCreateAlbum__buttonBack"}>
+            <div className={"create-album-header__button-back"}>
               {this.state.hover ? (
                 <ArrowBackIosIcon style={{ color: "#F62A54" }} />
               ) : (
@@ -82,7 +82,7 @@ class HeaderCreateAlbum extends React.Component {
 
           <NavLink to="/music-list/playlists" onClick={this.navLinkHandler}>
             <div
-              className={"headerCreateAlbum__buttonDone"}
+              className={"create-album-header__button-done"}
               onClick={() => {
                 if (!!this.state.name.trim()) {
                   if (this.state.img === DefaultPhoto) {
@@ -124,8 +124,8 @@ class HeaderCreateAlbum extends React.Component {
         </div>
 
         <h1>Create new playlist</h1>
-        <div className={"headerCreateAlbum__inputs"}>
-          <div className={"headerCreateAlbum__addPhoto"}>
+        <div className={"create-album-header__inputs"}>
+          <div className={"create-album-header__add-photo"}>
             <label htmlFor="image-loader">
               <img src={this.state.imgAvatar} alt="description" />
             </label>
@@ -139,18 +139,16 @@ class HeaderCreateAlbum extends React.Component {
               }}
             ></input>
           </div>
-          <div className={"headerCreateAlbum__inputs2"}>
-            <div>
+          <div className={"create-album-header__input-together"}>
+            <div className={"create-album-header__input1"}>
               <input
-                className={"headerCreateAlbum__input1"}
                 onChange={this.onChangeHandlerInput1}
                 inputvalue={this.state.input1}
                 placeholder="New playlist name"
               ></input>
             </div>
-            <div>
+            <div className={"create-album-header__input2"}>
               <input
-                className={"headerCreateAlbum__input2"}
                 onChange={this.onChangeHandlerInput2}
                 inputvalue={this.state.input2}
                 placeholder="Description"

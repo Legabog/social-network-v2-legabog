@@ -1,4 +1,4 @@
-.headerCreateAlbum__buttonBack {
+.create-album-header__button-back {
   display: flex;
   height: 40px;
   color: #1877F2;
@@ -6,12 +6,12 @@
 }
 
 
-.headerCreateAlbum__buttonBack svg {
+.create-album-header__button-back > svg {
   width: 30px;
   height: 40px;
 }
 
-.headerCreateAlbum__buttonBack h3 {
+.create-album-header__button-back > h3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,80 +22,81 @@
   
 /* ----------------------------------------------------------------- */
 
-.headerCreateAlbum__buttons {
+.create-album-header__buttons {
   display: flex;
 }
 
-.headerCreateAlbum__buttonDone {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #1877F2;
-    margin-left: 900px;
-  
-  }
-
-  .headerCreateAlbum__buttonDone {
-      cursor: pointer;
-  }
-  
-  .headerCreateAlbum__buttonDone h3 {
-    white-space: nowrap;
-    margin-left: 5px;
-    color: #1877F2;
-  }
-  
-  .headerCreateAlbum__buttonDone:hover h3 {
-    color: #F62A54;
-  }
-
-
-
-/* ------------------------------------------------------------------ */
-
-.headerCreateAlbum  a {
+.create-album-header__buttons > a {
   display: flex;
   width: 0px;
   text-decoration: none;
 }
 
-.headerCreateAlbum  a:hover h3 {
+.create-album-header__button-done {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1877F2;
+  margin-left: 900px;
+
+}
+
+.create-album-header__button-done {
+  cursor: pointer;
+}
+  
+.create-album-header__button-done > h3 {
+  white-space: nowrap;
+  margin-left: 5px;
+  color: #1877F2;
+}
+  
+.create-album-header__button-done:hover h3 {
   color: #F62A54;
 }
 
-.headerCreateAlbum h1 {
-    margin-left: 55px;
-    color: #1877F2;
+
+
+/* ------------------------------------------------------------------ */
+
+
+.create-album-header  a:hover h3 {
+  color: #F62A54;
 }
 
-  .headerCreateAlbum img {
-    margin-left: 55px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
-  }
+.create-album-header > h1 {
+  margin-left: 55px;
+  color: #1877F2;
+}
 
-  .headerCreateAlbum__inputs {
-      display: flex;
-      margin-bottom: 20px;
-  }
+.create-album-header > img {
+  margin-left: 55px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
 
-  .headerCreateAlbum__addPhoto:hover label {
-    filter: brightness(0.95);
-    cursor: pointer;
-  }
+.create-album-header__inputs {
+  display: flex;
+  margin-bottom: 20px;
+}
 
-  .headerCreateAlbum__addPhoto:active {
-    transform: scale(0.90);
-  }
+.create-album-header__add-photo:hover label {
+  filter: brightness(0.95);
+  cursor: pointer;
+}
 
-.headerCreateAlbum__addPhoto {
-  margin-top: 10px;
+.create-album-header__add-photo:active {
+  transform: scale(0.90);
+}
+
+.create-album-header__add-photo {
   width: 300px;
   height: 300px;
+  margin-top: 10px;
   margin-bottom: 20px;
-
+  margin-left: 55px;
 }
-.headerCreateAlbum__addPhoto img {
+.create-album-header__add-photo > label > img {
   margin-top: 10px;
   margin-bottom: 20px;
   width: 300px;
@@ -104,15 +105,15 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
-.headerCreateAlbum__addPhoto input {
+.create-album-header__add-photo > input {
   display: none;
 }
 
-  .headerCreateAlbum__inputs2 {
-    display: block;
+.create-album-header__input-together {
+  display: block;
 }
 
-.headerCreateAlbum__input1 {
+.create-album-header__input1 > input {
     border-radius: 6px;
     border: 1px solid #e9e9e9;
     padding-left: 20px;
@@ -120,51 +121,49 @@
     width: 570px;
     height: 60px;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 20px;
     color: #1877F2;
 }
 
-.headerCreateAlbum__input1::-webkit-input-placeholder { color: #1877F2 }
+.create-album-header__input1 > input::-webkit-input-placeholder { color: #1877F2 }
 
-.headerCreateAlbum__input1::-moz-placeholder { color: #1877F2}
+.create-album-header__input1 > input::-moz-placeholder { color: #1877F2}
 
-
-
-.headerCreateAlbum__input1:hover {
+.create-album-header__input1 > input:hover {
     cursor: pointer;
     background-color: rgb(214, 233, 255);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
-.headerCreateAlbum__input1:focus {
+.create-album-header__input1 > input:focus {
   outline: none;
 }
 
-.headerCreateAlbum__input2:focus {
+.create-album-header__input2 > input {
+  border-radius: 6px;
+  border: 1px solid #e9e9e9;
+   font-size: 250%;
+   padding-left: 20px;
+   width: 570px;
+   height: 60px;
+   margin-left: 20px;
+   margin-top: 170px;
+   color: #1877F2;
+}
+
+.create-album-header__input2 > input:focus {
   outline: none;
 }
 
-.headerCreateAlbum__input2:hover {
+.create-album-header__input2 > input:hover {
     cursor: pointer;
     background-color: rgb(214, 233, 255);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
-.headerCreateAlbum__input2 {
-   border-radius: 6px;
-   border: 1px solid #e9e9e9;
-    font-size: 250%;
-    padding-left: 20px;
-    width: 570px;
-    height: 60px;
-    margin-left: 70px;
-    margin-top: 170px;
-    color: #1877F2;
-}
+.create-album-header__input2 > input::-webkit-input-placeholder { color: #1877F2 }
 
-.headerCreateAlbum__input2::-webkit-input-placeholder { color: #1877F2 }
-
-.headerCreateAlbum__input2::-moz-placeholder { color: #1877F2 }
+.create-album-header__input2 > input::-moz-placeholder { color: #1877F2 }
 

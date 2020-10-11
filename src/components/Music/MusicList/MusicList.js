@@ -14,7 +14,7 @@ import {switchStateOfPlayLists} from "../../../redux/musicalplaylists-reducer"
 
 const MusicList = (props) => {
     return (
-      <div className={"musicList"}>
+      <div className={"music-list"}>
         <HeaderMusicList />
         <BodyMusicList switchStateOfPlayLists={props.switchStateOfPlayLists}/>
         <FooterMusicList

@@ -5,11 +5,11 @@ import { ActionSwitcher } from "./ActionSwitcher/ActionSwitcher.js";
 
 const TracksItem = (props) => {
   return (
-    <div className={"bodyMusicPlayer__item__wrapper"}>
+    <div className={"music-player-body__item-wrapper"}>
       {props.tracks.map((e) => {
         return (
-          <div key={e._id} className={"bodyMusicPlayer__item"}>
-            <div className={"bodyMusicPlayer__description"}>
+          <div key={e._id} className={"music-player-body__item"}>
+            <div className={"music-player-body__item-description"}>
               <h2
                 onClick={() => {
                   if (

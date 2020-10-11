@@ -5,7 +5,7 @@ import FooterItem from "./FooterItem/FooterItem.js";
 
 const FooterMusicList = React.memo((props) => {
   return (
-    <div className={"footerMusicList"}>
+    <div className={"music-list-footer"}>
       <h3>Recently played: </h3>
         {props.recentlyPlayed.map((e) => (
           <FooterItem

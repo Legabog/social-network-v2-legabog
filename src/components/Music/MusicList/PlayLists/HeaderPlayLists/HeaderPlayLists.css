@@ -1,17 +1,16 @@
-.headerPlayLists__buttonBack {
+.playlists-header__button-back {
   display: flex;
   height: 40px;
   color: #1877F2;
   margin-left: 15px;
 }
 
-
-.headerPlayLists__buttonBack svg {
+.playlists-header__button-back > svg {
   width: 30px;
   height: 40px;
 }
 
-.headerPlayLists__buttonBack h3 {
+.playlists-header__button-back > h3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,21 +22,22 @@
 /* --------------------------------------------------------- */
 
 
-.headerPlayLists {
+.playlists-header {
   border-bottom: 1px solid #e9e9e9;
 }
 
-.headerPlayLists a {
+
+.playlists-header > a {
   display: flex;
   width: 0px;
   text-decoration: none;
 }
 
-.headerPlayLists a:hover h3 {
+.playlists-header a:hover h3 {
   color: #F62A54;
 }
 
-.headerPlayLists h1 {
-    margin-left: 55px;
-    color: #1877F2;
+.playlists-header > h1 {
+  margin-left: 55px;
+  color: #1877F2;
 }

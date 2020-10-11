@@ -5,7 +5,7 @@ import ArtistItem from "./ArtistItem/ArtistItem.js";
 
 const BodyArtistItemRouter = (props) => {
   return (
-    <div className={"bodyArtistItemRouter"}>
+    <div className={"artist-item-router__body"}>
       {props.musicAlbums.map((e) => {
         if (e.author === props.nameArtist) {
           return (

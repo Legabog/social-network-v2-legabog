@@ -1,19 +1,22 @@
 /* -------------------Button_back--------------------- */
-  
-.headerAlbums__buttonBack {
+.albums-header__button-back {
   display: flex;
   height: 40px;
   color: #1877F2;
   margin-left: 15px;
 }
 
+.albums-header__button-back > a {
+  display: flex;
+  text-decoration: none;
+}
 
-.headerAlbums__buttonBack svg {
+.albums-header__button-back > a > svg {
   width: 30px;
   height: 40px;
 }
 
-.headerAlbums__buttonBack h3 {
+.albums-header__button-back > a > h3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,24 +25,16 @@
   color: #1877F2;
 }  
   /* ------------------------------------------------------------- */
+
+.albums-header {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.albums-header a:hover h3 {
+  color: #F62A54;
+}
   
-  .headerAlbums hr {
-    margin: 0;
-    height: 0;
-    border: none;
-    border-top: 1px solid rgb(240, 236, 236);
-  }
-  
-  .headerAlbums a {
-    display: flex;
-    text-decoration: none;
-  }
-  
-  .headerAlbums a:hover h3 {
-    color: #F62A54;
-  }
-  
-  .headerAlbums h1 {
-      margin-left: 55px;
-      color: #1877F2;
-  }
+.albums-header > h1 {
+  margin-left: 55px;
+  color: #1877F2;
+}

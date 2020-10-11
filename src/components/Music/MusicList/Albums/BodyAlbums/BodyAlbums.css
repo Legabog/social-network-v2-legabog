@@ -1,8 +1,5 @@
-.bodyAlbumsList {
+.albums-body {
   display: block;
   margin-bottom: 30px;
 }
 
-.bodyAlbumsList hr {
-  margin: 0;
-}

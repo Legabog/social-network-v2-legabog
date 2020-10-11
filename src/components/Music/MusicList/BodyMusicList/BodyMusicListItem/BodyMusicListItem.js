@@ -12,9 +12,9 @@ const BodyMusicListItem = (props) => {
   };
 
   return (
-    <React.Fragment>
+    <>
       <div
-        className={"bodyMusicList__item"}
+        className={"music-list-body__item"}
         onMouseOver={() => {
           setHover(1);
         }}
@@ -23,7 +23,7 @@ const BodyMusicListItem = (props) => {
         }}
       >
         <NavLink to={`/music-list/${props.link}`}>
-          <div className={"bodyMusicList__item"}>
+          <div className={"music-list-body__item"}>
             <h2>{props.title}</h2>
             {hover 
               ? <ArrowForwardIosIcon style={{color: "#F62A54"}}/>
@@ -32,7 +32,7 @@ const BodyMusicListItem = (props) => {
           </div>
         </NavLink>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

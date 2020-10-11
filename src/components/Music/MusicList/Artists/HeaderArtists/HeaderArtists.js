@@ -12,8 +12,8 @@ const HeaderArtists = (props) => {
   };
 
   return (
-    <div className={"headerArtists"}>
-      <div className={"headerArtists__buttonBack"}>
+    <div className={"artists-header"}>
+      <div className={"artists-header__button-back"}>
         <NavLink
           to="/music-list"
           onMouseOver={() => {

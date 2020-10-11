@@ -1,20 +1,21 @@
-.bodyMusicPlayer {
+.music-player-body {
     display:flex;
     margin-top: 20px;
-  }
+}
 
-  .bodyMusicPlayer__trackImage {
+.music-player-body__item-image {
     margin-left: 30px;
     margin-bottom: 30px;
-  }
-  .bodyMusicPlayer__trackImage img {
+}
+
+.music-player-body__item-image > img {
     width: 250px;
     height: 250px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
-.bodyMusicPlayer__trackArtist {
+.music-player-body__description {
     width: 680px;
     white-space: nowrap;
     overflow: hidden;
@@ -22,16 +23,12 @@
     margin-left: 30px;
 }
 
-.bodyMusicPlayer__trackArtist h1, h2, h6{
+.music-player-body__description > h1, h6{
     color: #1877F2;
 }
 
-.bodyMusicPlayer__trackArtist h2 {
+.music-player-body__description > h2 {
     color: rgb(163, 163, 163);
-}
-
-.bodyMusicPlayer__trackArtist br {
-    margin: 0;
 }
 
 

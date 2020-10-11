@@ -21,7 +21,7 @@ const PlayLists = (props) => {
   useEffect(() => {}, [props.ownPlayLists]);
 
   return (
-    <div className={"playLists"}>
+    <div className={"playlists"}>
       <HeaderPlayLists
         switchStateOfPlayLists={props.switchStateOfPlayLists}
         playListSwitcher={props.playListSwitcher}

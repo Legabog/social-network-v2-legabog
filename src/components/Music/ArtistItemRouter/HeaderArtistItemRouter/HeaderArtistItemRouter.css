@@ -1,19 +1,23 @@
 /* -------------------Button_back--------------------- */
 
-.headerArtistItemRouter__buttonBack {
+.artist-item-router__button-back {
   display: flex;
   height: 40px;
   color: #1877F2;
   margin-left: 15px;
 }
 
+.artist-item-router__button-back > a {
+  display: flex;
+  text-decoration: none;
+}
 
-.headerArtistItemRouter__buttonBack svg {
+.artist-item-router__button-back > a > svg {
   width: 30px;
   height: 40px;
 }
 
-.headerArtistItemRouter__buttonBack h3 {
+.artist-item-router__button-back > a > h3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,21 +30,16 @@
   /* ------------------------------------------------------------- */
 
   
-  .headerArtistItemRouter {
+  .artist-item-router__header {
     border-bottom: 1px solid #e9e9e9;
   }
   
-  .headerArtistItemRouter a {
-    display: flex;
-    text-decoration: none;
-  }
-  
-  .headerArtistItemRouter a:hover h3 {
+  .artist-item-router__header a:hover h3 {
     color: #F62A54;
   
   }
   
-  .headerArtistItemRouter h1 {
+  .artist-item-router__header > h1 {
       margin-left: 55px;
       color: #1877F2;
   }

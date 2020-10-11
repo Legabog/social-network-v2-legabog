@@ -13,9 +13,9 @@ const HeaderMusicPlayer = (props) => {
   };
 
   return (
-    <div className={"headerMusicPlayer"}>
+    <div className={"music-player-header"}>
       <div
-        className={"headerMusicPlayer__buttonBack"}
+        className={"music-player-header__button-back"}
         onClick={() => {
           props.toggleSwitcher(1);
         }}

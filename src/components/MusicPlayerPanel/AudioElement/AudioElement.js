@@ -4,7 +4,7 @@ const AudioElement = (props) => {
   let audio = document.getElementById("audio");
 
   return (
-    <React.Fragment>
+    <>
       <audio
         volume={props.volume}
         controls
@@ -133,7 +133,7 @@ const AudioElement = (props) => {
           }
         }}
       ></audio>
-    </React.Fragment>
+    </>
   );
 };
 

@@ -6,17 +6,17 @@ const AlbumItem = (props) => {
   return (
     <NavLink to={`/music-player/${props.author}/${props.title}`}>
       <div
-        className={"bodyAlbumsList__item"}
+        className={"albums-body__item"}
         onClick={() => {
           props.toggleSwitcher(2);
         }}
       >
         <img src={props.img} alt="description" />
-        <div className={"bodyAlbumsList__discription"}>
-          <h4 className={"bodyAlbumsList__album"}>
+        <div className={"albums-body__discription"}>
+          <h4 className={"albums-body__album"}>
             <strong>{props.title}</strong>
           </h4>
-          <h4 className={"bodyAlbumsList__artist"}>
+          <h4 className={"albums-body__artist"}>
             <strong>{props.author}</strong>
           </h4>
         </div>

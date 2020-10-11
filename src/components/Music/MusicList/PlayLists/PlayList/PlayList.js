@@ -25,7 +25,7 @@ const PlayList = (props) => {
             }}
           >
             <div
-              className={"playList"}
+              className={"playlist"}
               onClick={() => {
                 let i = 0;
 
@@ -50,10 +50,10 @@ const PlayList = (props) => {
               }}
             >
               <img src={props.img} alt="description" />
-              <div className={"playList__description"}>
+              <div className={"playlist__description"}>
                 <h3>{props.name}</h3>
               </div>
-              <div className={"playList__arrowRight"}>
+              <div className={"playlist__arrow-right"}>
                 {hover ? (
                   <ArrowForwardIosIcon style={{ color: "#F62A54" }} />
                 ) : (
@@ -73,12 +73,12 @@ const PlayList = (props) => {
             setHover(0);
           }}
         >
-          <div className={"playList"}>
+          <div className={"playlist"}>
             <img src={props.img} alt="description" />
-            <div className={"playList__description"}>
+            <div className={"playlist__description"}>
               <h3>{props.name}</h3>
             </div>
-            <div className={"playList__arrowRight"}>
+            <div className={"playlist__arrow-right"}>
               {hover ? (
                 <ArrowForwardIosIcon style={{ color: "#F62A54" }} />
               ) : (

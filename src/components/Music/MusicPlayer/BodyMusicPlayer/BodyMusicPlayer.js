@@ -7,14 +7,14 @@ import TracksItem from "./TrackItem/TrackItem.js";
 
 const BodyMusicPlayer = (props) => {
   return (
-    <div className={"bodyMusicPlayer"}>
-      <div className={"bodyMusicPlayer__trackImage"}>
+    <div className={"music-player-body"}>
+      <div className={"music-player-body__item-image"}>
         <img
           src={props.img || DefaultMusic}
           alt="description"
         />
       </div>
-      <div className={"bodyMusicPlayer__trackArtist"}>
+      <div className={"music-player-body__description"}>
         <h1>{props.title}</h1>
         <h2>{props.author}</h2>
 

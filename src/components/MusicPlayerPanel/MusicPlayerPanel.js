@@ -4,14 +4,14 @@ import "./MusicPlayerPanel.css";
 
 import BackDropMusicPlayerPanel from "../common/BackDropMusicPlayerPanel/BackDropMusicPlayerPanel.js";
 import AudioElement from "./AudioElement/AudioElement.js";
-import OpenPlayerPanelDescription from "./OpenPlayerPanelDescription/OpenPlayerPanelDescription.js";
-import OpenPlayerPanelControl from "./OpenPlayerPanelControl/OpenPlayerPanelControl.js";
-import DropDownButton from "./DropDownButton/DropDownButton.js";
-import ClosePlayerPanelDescription from "./ClosePlayerPanelDescription/ClosePlayerPanelDescription.js";
-import TrackBar from "./TrackBar/TrackBar.js";
-import ClosePlayerPanelControl from "./ClosePlayerPanelControl/ClosePlayerPanelControl.js";
-import VolumeBar from "./VolumeBar/VolumeBar.js";
-import ShuffleAndRepeatButton from "./ShuffleAndRepeatButton/SuffleAndRepeatButton.js";
+import CloseMusicPlayerPanelDescription from "./CloseMusicPlayerPanelDescription/CloseMusicPlayerPanelDescription";
+import CloseMusicPlayerPanelControl from "./CloseMusicPlayerPanelControl/CloseMusicPlayerPanelControl";
+import OpenMusicPlayerDropDownButton from "./OpenMusicPlayerDropDownButton/OpenMusicPlayerDropDownButton";
+import OpenMusicPlayerPanelDescription from "./OpenMusicPlayerPanelDescription/OpenMusicPlayerPanelDescription";
+import OpenMusicPlayerTrackBar from "./OpenMusicPlayerTrackBar/OpenMusicPlayerTrackBar.js";
+import OpenMusicPlayerPanelControl from "./OpenMusicPlayerPanelControl/OpenMusicPlayerPanelControl.js";
+import OpenMusicPlayerVolumeBar from "./OpenMusicPlayerVolumeBar/OpenMusicPlayerVolumeBar.js";
+import OpenMusicPlayerShuffleAndRepeatButton from "./OpenMusicPlayerShuffleAndRepeatButton/OpenMusicPlayerShuffleAndRepeatButton.js";
 
 const MusicPlayerPanel = (props) => {
   let audio = document.getElementById("audio");
@@ -60,44 +60,44 @@ const MusicPlayerPanel = (props) => {
     }
   };
 
-  let cls = "MusicPlayerPanel";
+  let cls = "music-player-panel";
 
   if (opened) {
-    cls += "__open";
+    cls += "_open";
   } else {
-    cls += "__close";
+    cls += "_close";
   }
 
   return (
-    <React.Fragment>
+    <>
       {!opened ? (
         <div className={cls}>
-          <OpenPlayerPanelDescription
+          <CloseMusicPlayerPanelDescription
             {...props}
             toggleMusicPanel={toggleMusicPanel}
           />
-          <OpenPlayerPanelControl {...props} repeatState={repeatState} />
+
+          <CloseMusicPlayerPanelControl {...props} repeatState={repeatState} />
         </div>
       ) : (
         <div className={cls}>
-          <DropDownButton toggleMusicPanel={toggleMusicPanel} />
-          <ClosePlayerPanelDescription {...props} />
-          <TrackBar
+          <OpenMusicPlayerDropDownButton toggleMusicPanel={toggleMusicPanel} />
+          <OpenMusicPlayerPanelDescription {...props} />
+          <OpenMusicPlayerTrackBar
             {...props}
             audioCurrentTime={audioCurrentTime}
             audioTimeHandler={audioTimeHandler}
           />
+          <OpenMusicPlayerPanelControl {...props} repeatState={repeatState} />
 
-          <ClosePlayerPanelControl {...props} repeatState={repeatState} />
-
-          <VolumeBar
+          <OpenMusicPlayerVolumeBar
             {...props}
             volume={volume}
             volumeH={volumeH}
             volumeHandler={volumeHandler}
           />
 
-          <ShuffleAndRepeatButton
+          <OpenMusicPlayerShuffleAndRepeatButton
             {...props}
             setRepeatState={setRepeatState}
             repeatState={repeatState}
@@ -106,7 +106,7 @@ const MusicPlayerPanel = (props) => {
       )}
       {opened ? <BackDropMusicPlayerPanel onClick={toggleMusicPanel} /> : null}
       <AudioElement {...props} volume={volume} repeatState={repeatState} />
-    </React.Fragment>
+    </>
   );
 };
 

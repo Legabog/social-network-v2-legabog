@@ -13,8 +13,8 @@ const HeaderAlbums = (props) => {
   };
 
   return (
-    <div className={"headerAlbums"}>
-      <div className={"headerAlbums__buttonBack"}>
+    <div className={"albums-header"}>
+      <div className={"albums-header__button-back"}>
         <NavLink
           to="/music-list"
           onMouseOver={() => {
@@ -33,7 +33,6 @@ const HeaderAlbums = (props) => {
         </NavLink>
       </div>
       <h1>Albums</h1>
-      <hr />
     </div>
   );
 };

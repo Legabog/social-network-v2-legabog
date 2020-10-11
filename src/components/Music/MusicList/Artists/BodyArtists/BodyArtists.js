@@ -15,7 +15,7 @@ const BodyArtists = (props) => {
   });
 
   return (
-    <div className={"bodyArtists"}>
+    <div className={"artists-body"}>
       {props.Fetching ? <ArtistsPreloader /> : null}
       {resultArray.map((e) => (
         <ItemArtists
@@ -24,8 +24,6 @@ const BodyArtists = (props) => {
           tracks={props.musicAlbums.map((e) => e.tracks)}
         />
       ))}
-
-      <div className={"lastBlock"}></div>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import HeaderCreateAlbum from "./HeaderCreateAlbum/HeaderCreateAlbum.js";
 
 const CreateAlbum = (props) => {
   return (
-    <div className={"createAlbum"}>
+    <div className={"create-album"}>
       <HeaderCreateAlbum
         fetch={props.fetch}
         addToPlayList={props.addToPlayList}

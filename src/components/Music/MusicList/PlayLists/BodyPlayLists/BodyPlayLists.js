@@ -1,6 +1,7 @@
 import React from "react";
 import "./BodyPlayLists.css";
 
+import AlbumIcon from "@material-ui/icons/Album";
 import PhotoAdd from "../../../../../utils/assets/apple theme/playlist_add.jpg";
 
 import { NavLink } from "react-router-dom";
@@ -9,10 +10,10 @@ import PlaylistPreloader from "./PlaylistsPreloader/PlaylistsPreloader";
 
 const BodyPlayLists = (props) => {
   return (
-    <div className={"bodyPlayLists"}>
+    <div className={"playlists-body"}>
       {props.playListSwitcher ? null : (
         <NavLink to="/music-list/playlists/create">
-          <div className={"bodyPlayLists__createPlayList"}>
+          <div className={"playlists-body__create-playlist"}>
             <img src={PhotoAdd} alt="descripion" />
             <h3>Create new playlist</h3>
           </div>
@@ -20,6 +21,11 @@ const BodyPlayLists = (props) => {
       )}
       {props.fetch ? (
         <PlaylistPreloader />
+      ) : props.ownPlayLists.length === 0 ? (
+        <div className={"playlists-body__no-playlists"}>
+          <AlbumIcon />
+          <h2>Now, you have not any playlists.</h2>
+        </div>
       ) : (
         props.ownPlayLists.map((e) => (
           <PlayList
@@ -37,7 +43,6 @@ const BodyPlayLists = (props) => {
           />
         ))
       )}
-      <div className={"lastBlock"}></div>
     </div>
   );
 };

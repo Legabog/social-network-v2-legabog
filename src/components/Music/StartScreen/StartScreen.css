@@ -1,4 +1,4 @@
-.music__startScreen__wrapper {
+.music-start-screen__wrapper {
     position: absolute;
     left: 41%;
     margin-right: -50%;
@@ -9,27 +9,27 @@
     animation-name: show;
 }
 
-.music__startScreen__wrapper:hover{
+.music-start-screen__wrapper:hover{
    transform: scale(1.1); 
 }
 
-.music__startScreen__wrapper:hover p{
+.music-start-screen__wrapper:hover p{
     color: #F62A54;
 }
 
-.music__startScreen__description {
+.music-start-screen__description {
     width: fit-content;
     display: flex;
 }
 
-.music__startScreen__description svg{
+.music-start-screen__description > svg {
     color: #F62A54;
     width: 40px;
     height: 40px;
     margin-top: 20px;
 }
 
-.music__startScreen__description h1 {
+.music-start-screen__description > h1 {
     font-weight: 700;
     margin-top: -6px;
     margin-left: 10px;
@@ -42,7 +42,7 @@
     margin-inline-end: 0px;
 }
 
-.music__startScreen__description p {
+.music-start-screen__description > p {
     padding-left: 10px;
     padding-top: 45px;
     width: fit-content;

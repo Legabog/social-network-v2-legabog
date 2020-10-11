@@ -12,8 +12,8 @@ const HeaderArtistItemRouter = (props) => {
   };
 
   return (
-    <div className={"headerArtistItemRouter"}>
-      <div className={"headerArtistItemRouter__buttonBack"}>
+    <div className={"artist-item-router__header"}>
+      <div className={"artist-item-router__button-back"}>
         <NavLink
           to="/music-list/artists"
           onMouseOver={() => {

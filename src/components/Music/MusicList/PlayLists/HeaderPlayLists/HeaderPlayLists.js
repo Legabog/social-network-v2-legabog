@@ -15,7 +15,7 @@ const HeaderPlayLists = (props) => {
   return (
     <>
       {props.playListSwitcher ? (
-        <div className={"headerPlayLists"}>
+        <div className={"playlists-header"}>
           <NavLink
             to={`/music-player/${props.tempTrack.author}/${props.tempTrack.albumTitle}`}
             onMouseOver={() => {
@@ -26,7 +26,7 @@ const HeaderPlayLists = (props) => {
             }}
             onClick={() => props.switchStateOfPlayLists(false)}
           >
-            <div className={"headerPlayLists__buttonBack"}>
+            <div className={"playlists-header__button-back"}>
               {hover ? (
                 <ArrowBackIosIcon style={{ color: "#F62A54" }} />
               ) : (
@@ -39,7 +39,7 @@ const HeaderPlayLists = (props) => {
         </div>
       ) : (
         <div
-          className={"headerPlayLists"}
+          className={"playlists-header"}
           onClick={() => props.switchStateOfPlayLists(false)}
         >
           <NavLink
@@ -51,7 +51,7 @@ const HeaderPlayLists = (props) => {
               setHover(0);
             }}
           >
-            <div className={"headerPlayLists__buttonBack"}>
+            <div className={"playlists-header__button-back"}>
               {hover ? (
                 <ArrowBackIosIcon style={{ color: "#F62A54" }} />
               ) : (

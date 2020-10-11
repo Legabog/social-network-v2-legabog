@@ -8,7 +8,7 @@ import { connect } from "react-redux";
 
 const ArtistItemRouter = (props) => {
   return (
-    <div className={"artistItemRouter"}>
+    <div className={"artist-item-router"}>
       <HeaderArtistItemRouter nameArtist={props.nameArtist} />
       <BodyArtistItemRouter
         nameArtist={props.nameArtist}

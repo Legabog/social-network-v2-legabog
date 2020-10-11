@@ -17,7 +17,7 @@ import {
 
 const MusicPlayer = (props) => {
   return (
-    <div className={"musicPlayer"}>
+    <div className={"music-player"}>
       <HeaderMusicPlayer
         nameArtist={props.nameArtist}
         switcher={props.musicAlbumsSwitcher}
