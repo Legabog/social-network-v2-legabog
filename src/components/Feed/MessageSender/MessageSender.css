@@ -1,4 +1,4 @@
-.messageSender {
+.message-sender {
     display: flex;
     margin-top: 30px;
     flex-direction: column;
@@ -8,18 +8,18 @@
     width: 100%;
 }
 
-.messageSender__top {
+.message-sender__top {
     display: flex;
     border-radius: 1px solid #eff2f5;
     padding: 15px;
 }
 
-.messageSender__top > form {
+.message-sender__top > form {
     flex: 1;
     display: flex;
 }
 
-.messageSender__top > form > input {
+.message-sender__top > form > input {
     outline-width: 0;
     border: none;
     padding: 5px 20px;
@@ -28,34 +28,40 @@
     background-color: #eff2f5;
 }
 
-.messageSender__top > form > button {
+.message-sender__top > form > button {
     display: none;
 }
 
-.messageSender__input {
+.message-sender__input {
     flex: 1;
 }
 
-.messageSender__bottom {
+.message-sender__bottom {
     display: flex;
+    padding: 0px 15px;
+    align-items: center;
     justify-content: space-evenly;
 }
 
-.messageSender__option {
+.message-sender__option {
     display: flex;
-    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    padding: 8px;
     align-items: center;
     color: gray;
     margin: 5px;
     cursor: pointer;
 }
 
-.messageSender__option > h3 {
+.message-sender__option > h3 {
     font-size: medium;
     margin-left: 10px;
 }
 
-.messageSender__option:hover { 
+.message-sender__option:hover { 
     background-color: #eff2f5;
-    border-radius: 20px;
+    border-radius: 8px;
 }

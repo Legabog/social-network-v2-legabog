@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+
+import "./ButtonNotificationsMenuWrapper.css";
+
 import CheckIcon from "@material-ui/icons/Check";
 import ArrowDropUpIcon from "@material-ui/icons/ArrowDropUp";
 import SettingsIcon from "@material-ui/icons/Settings";
 import DesktopWindowsIcon from "@material-ui/icons/DesktopWindows";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
-import "./ButtonNotificationsMenuWrapper.css";
 
 const ButtonNotificationsMenuWrapper = (props) => {
   const [optionPanel, setOptionalPanel] = useState(false);
@@ -35,48 +37,45 @@ const ButtonNotificationsMenuWrapper = (props) => {
           className="button-notifications-menu__options"
           style={{ display: optionPanel ? null : "none" }}
         >
-          <div className="button-notifications-menu__options-icon">
+          <div className="button-notifications-menu__arrow-icon">
             <ArrowDropUpIcon />
           </div>
           <div className="options-sections">
-            <div className="options-sections__wrapper">
+            <div
+              className="options-sections__wrapper"
+              onClick={() => {
+                props.toggleActiveButton();
+                toggleOptionPanel(false);
+              }}
+            >
               <div className="options-sections__icon">
-                <CheckIcon
-                  style={{
-                    width: "24px",
-                    height: "24px",
-                    marginTop: "6px",
-                    marginLeft: "6px",
-                  }}
-                />
+                <CheckIcon />
               </div>
               <span>Mark all as read</span>
             </div>
 
-            <div className="options-sections__wrapper">
+            <div
+              className="options-sections__wrapper"
+              onClick={() => {
+                props.toggleActiveButton();
+                toggleOptionPanel(false);
+              }}
+            >
               <div className="options-sections__icon">
-                <SettingsIcon
-                  style={{
-                    width: "24px",
-                    height: "24px",
-                    marginTop: "6px",
-                    marginLeft: "6px",
-                  }}
-                />
+                <SettingsIcon />
               </div>
               <span>Notifications settings</span>
             </div>
 
-            <div className="options-sections__wrapper">
+            <div
+              className="options-sections__wrapper"
+              onClick={() => {
+                props.toggleActiveButton();
+                toggleOptionPanel(false);
+              }}
+            >
               <div className="options-sections__icon">
-                <DesktopWindowsIcon
-                  style={{
-                    width: "24px",
-                    height: "24px",
-                    marginTop: "6px",
-                    marginLeft: "6px",
-                  }}
-                />
+                <DesktopWindowsIcon />
               </div>
               <span>Open Notifications</span>
             </div>

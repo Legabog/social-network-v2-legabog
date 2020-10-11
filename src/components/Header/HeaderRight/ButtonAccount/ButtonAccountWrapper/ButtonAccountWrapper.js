@@ -6,15 +6,15 @@ import ChangeAvatarSimplePreloader from "../../../../common/ChangeAvatarSimplePr
 
 const ButtonAccountWrapper = React.memo((props) => {
   return (
-    <div className={"button__account__wrapper"}>
+    <div className={"button-account__wrapper"}>
       {props.fetchAvatar ? (
         <ChangeAvatarSimplePreloader />
       ) : (
         <div
           className={
             props.activeButton === 3
-              ? "button__account__active"
-              : "button__account"
+              ? "button-account_active"
+              : "button-account"
           }
           onClick={() => {
             props.activeButton === 3

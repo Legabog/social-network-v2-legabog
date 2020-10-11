@@ -4,7 +4,7 @@ import Story from "./Story/Story";
 
 const StoryReel = (props) => {
   return (
-    <div className="storyReel">
+    <div className="story-reel">
       <Story
         image="https://sun9-29.userapi.com/TkD9XYtWpKzEtObReWO0v_TuMzRW7oOj93J5Pw/AI19d_85AEY.jpg"
         profileSrc="https://sun9-16.userapi.com/impf/c857732/v857732168/44898/su9UAswxZGE.jpg?size=50x0&quality=88&crop=430,430,1190,1190&sign=c6260020126bc44d2a5982aadfd3a8cf&ava=1"

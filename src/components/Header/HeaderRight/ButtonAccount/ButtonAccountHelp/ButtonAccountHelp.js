@@ -4,7 +4,7 @@ import "./ButtonAccountHelp.css";
 const ButtonAccountHelp = (props) => {
   return (
     <div
-      className="header__option__account__help"
+      className="button-account__help"
       style={{
         opacity: props.helpAccountOpacity,
         visibility: props.helpAccountVisibility,

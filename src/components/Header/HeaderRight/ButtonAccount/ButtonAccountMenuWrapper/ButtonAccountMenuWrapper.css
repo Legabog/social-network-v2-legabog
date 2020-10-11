@@ -1,4 +1,4 @@
-.button__account__menu__wrapper {
+.button-account-menu__wrapper {
     position: absolute;
     overflow: auto;
     display: block;
@@ -18,7 +18,7 @@
     transition: opacity 0.3s, visibility 0s linear 0.3s;
 }
 
-.button__account__menu__wrapper hr {
+.button-account-menu__wrapper hr {
     margin-right: 16px;
     background-color: #CED0D4;
     margin-left: 16px;
@@ -31,114 +31,80 @@
     height: 1px;
 }
 
-.button__account__menu__wrapper::-webkit-scrollbar {
+.button-account-menu__wrapper::-webkit-scrollbar {
     background-color: #eff2f5;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
-.button__account__menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
+.button-account-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
     background-color: #eff2f5;
     border-top-right-radius: 8px;
 }
 
-.button__account__menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
+.button-account-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
     background-color: #eff2f5;
     border-bottom-right-radius: 8px;
 }
 
-.button__account__menu__wrapper::-webkit-scrollbar-thumb {
+.button-account-menu__wrapper::-webkit-scrollbar-thumb {
     background-color: #cccecf;
 }
 
-.button__account__menu__header {
+.button-account-menu__header {
     color: #050505;
     font-weight: 600;
 }
 
-.button__account__menu__header a {
+.button-account-menu__header > a {
     text-decoration: none;
 }
 
-.button__account__section__border {
+.button-account-menu__block {
     margin-left: -8px;
     margin-right: -8px;
     border-radius: 8px;
-    padding-top: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 8px;
+    padding: 8px;
     display: flex;
 }
 
-.button__account__section__border:hover {
+.button-account-menu__block:hover {
     background-color: #eff2f5;
     cursor: pointer;
 }
 
-.button__account__section__border:active {
+.button-account-menu__block:active {
     background-color: #e9ebec;
     cursor: pointer;
 }
 
-.button__account__description {
-    display: block;
-}
-
-.button__account__description__category {
-    padding-left: 12px;
-}
-
-.button__account__description__help {
-    padding-left: 12px;
-}
-
-.button__account__description__category > span {
-    color: #050505;
-}
-
-.button__account__description__help > span {
-    color: #65676B;
-}
-
-.buttonAccount__section__border {
-    width: 350px;
-    border-radius: 8px;
-    padding-top: 8px;
-    padding-left: 8px;
-    padding-bottom: 8px;
+.button-account-menu__icon {
     display: flex;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.buttonAccount__section__border:hover {
-    background-color: #e9ebec;
-    cursor: pointer;
-}
-
-.buttonAccount__section__border:active {
-    background-color: #bfc2c4;
-    cursor: pointer;
-}
-
-.buttonAccount__section__border > span {
-    color: #050505;
-    padding-top: 5px;
-    padding-left: 10px;
-}
-
-.buttonAccount__section__icon > svg {
+.button-account-menu__icon > svg {
     width: 60px;
     height: 60px;
     color: gray;
 }
 
-.buttonAccount__section__accountDescription {
+.button-account-menu__icon > .MuiAvatar-root {
+    width: 60px;
+    height: 60px;
+}
+
+.button-account-menu__block__account-description {
     display: block;
     padding-top: 5px;
     padding-left: 10px;
 }
 
-.buttonAccount__section__accountName > span {
+.button-account-menu__block__account-name > span {
     font-weight: 600;
     text-align: left;
     color: #050505;
@@ -146,7 +112,7 @@
     word-break: break-word;
 }
 
-.buttonAccount__section__description > span {
+.button-account-menu__block__description > span {
     word-break: break-word;
     color: #65676B;    
     font-weight: normal;
@@ -154,49 +120,7 @@
     line-height: 1.3333;
 }
 
-.button__account__section__border {
-    margin-left: -8px;
-    margin-right: -8px;
-    border-radius: 8px;
-    padding-top: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 8px;
-    display: flex;
-}
-
-.button__account__section__border:hover {
-    background-color: #eff2f5;
-    cursor: pointer;
-}
-
-.button__account__section__border:active {
-    background-color: #e9ebec;
-    cursor: pointer;
-}
-
-.button__account__description {
-    display: block;
-}
-
-.button__account__description__category {
-    padding-left: 12px;
-}
-
-.button__account__description__help {
-    padding-left: 12px;
-}
-
-.button__account__description__category > span {
-    color: #050505;
-}
-
-.button__account__description__help > span {
-    color: #65676B;
-}
-
-/*  */
-.buttonAccount__menu__section {
+.button-account-menu__section {
     width: 350px;
     border-radius: 8px;
     padding-top: 8px;
@@ -205,35 +129,35 @@
     display: flex;
 }
 
-.buttonAccount__menu__section:hover {
+.button-account-menu__section:hover {
     background-color: #e9ebec;
     cursor: pointer;
 }
 
-.buttonAccount__menu__section:active {
+.button-account-menu__section:active {
     background-color: #bfc2c4;
     cursor: pointer;
 }
 
-.buttonAccount__menu__section > span {
+.button-account-menu__section > span {
     color: #050505;
     padding-top: 5px;
     padding-left: 10px;
 }
 
-.buttonAccount__menu__section__icon > svg {
+.button-account-menu__section-icon > svg {
     width: 36px;
     height: 36px;
     padding-top: 5px;
     color: gray;
 }
 
-.buttonAccount__section__info {
+.button-account-menu__section-info {
     display: block;
     padding-left: 10px;
 }
 
-.buttonAccount__section__info-main > span {
+.button-account-menu__section-info-main > span {
     font-weight: 600;
     text-align: left;
     color: #050505;
@@ -241,11 +165,11 @@
     word-break: break-word;
 }
 
-.buttonAccount__section__info-secondary {
+.button-account-menu__section-info-secondary {
     min-width: 200px;
 }
 
-.buttonAccount__section__info-secondary > span {
+.button-account-menu__section-info-secondary > span {
     word-break: break-word;
     color: #65676B;    
     font-weight: normal;
@@ -253,7 +177,7 @@
     line-height: 1.3333;
 }
 
-.buttonAccount__section__arrowLeft svg {
+.button-account-menu__section-arrow-left > svg {
     margin-top: 10px;
     margin-left: 70px;
     width: 24px;
@@ -261,24 +185,36 @@
     color: gray;
 }
 
-.buttonAccount__switch {
+.button-account-menu__switcher {
     position: relative;
     display: inline-block;
     margin-top: 8px;
     margin-left: 40px;
     width: 52px;
     height: 28px;
-  }
-  
-  /* Hide default HTML checkbox */
-.buttonAccount__switch input {
+}
+
+.button-account-menu__switcher > input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
+}
+
+.button-account-menu__switcher input:checked + .button-account-menu__slider-round {
+    background-color: #1877F2;
+}
   
-  /* The slider */
-.buttonAccount__slider__round {
+.button-account-menu__switcher input:focus + .button-account-menu__slider-round {
+    box-shadow: 0 0 1px #1877F2;
+}
+  
+.button-account-menu__switcher input:checked + .button-account-menu__slider-round:before {
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+}
+
+.button-account-menu__slider-round {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -287,10 +223,10 @@
     bottom: 0;
     background-color: #ccc;
     -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .buttonAccount__slider__round:before {
+    transition: .4s; 
+}
+
+.button-account-menu__slider-round:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -300,29 +236,16 @@
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  .buttonAccount__switch input:checked + .buttonAccount__slider__round {
-    background-color: #1877F2;
-  }
-  
-  .buttonAccount__switch input:focus + .buttonAccount__slider__round {
-    box-shadow: 0 0 1px #1877F2;
-  }
-  
-  .buttonAccount__switch input:checked + .buttonAccount__slider__round:before {
-    -webkit-transform: translateX(24px);
-    -ms-transform: translateX(24px);
-    transform: translateX(24px);
-  }
-  
-  /* Rounded sliders */
-  .buttonAccount__slider__round {
-    border-radius: 34px;
-  }
-  
-  .buttonAccount__slider__round:before {
-    border-radius: 50%;
-  }
-/*  */
+}
 
+.button-account-menu__slider-round {
+    border-radius: 34px;
+}
+
+.button-account-menu__slider-round:before {
+    border-radius: 50%;
+}
+
+
+  
+ 

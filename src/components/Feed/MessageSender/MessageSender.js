@@ -35,8 +35,8 @@ const MessageSender = (props) => {
   };
 
   return (
-    <div className="messageSender">
-      <div className="messageSender__top">
+    <div className="message-sender">
+      <div className="message-sender__top">
         <Avatar
           src={
             props.user === null || props.user.Avatars.activeAvatarUrl === ""
@@ -48,7 +48,7 @@ const MessageSender = (props) => {
           <input
             value={input}
             onChange={inputHandler}
-            className="messageSender__input"
+            className="message-sender__input"
             type="text"
             placeholder={`Type some message, ${
               props.user === null || props.user.Name === ""
@@ -67,18 +67,18 @@ const MessageSender = (props) => {
           </button>
         </form>
       </div>
-      <div className="messageSender__bottom">
-        <div className="messageSender__option">
+      <div className="message-sender__bottom">
+        <div className="message-sender__option">
           <VideocamIcon style={{ color: "red" }} />
           <h3>Live Video</h3>
         </div>
 
-        <div className="messageSender__option">
+        <div className="message-sender__option">
           <PhotoLibraryIcon style={{ color: "green" }} />
           <h3>Photo/Video</h3>
         </div>
 
-        <div className="messageSender__option">
+        <div className="message-sender__option">
           <InsertEmoticonIcon style={{ color: "yellow" }} />
           <h3>Feeling/Activity</h3>
         </div>
