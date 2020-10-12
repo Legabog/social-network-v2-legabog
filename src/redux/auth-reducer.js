@@ -196,6 +196,7 @@ export const signUp = (
                 FavoriteQuotes: "",
               },
               LifeEvents: [],
+              Hobbies: []
             },
           })
           .then(() => {

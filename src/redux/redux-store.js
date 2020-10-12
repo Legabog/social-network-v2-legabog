@@ -11,6 +11,7 @@ import welcomeComponentReducer from "./welcome-component-reducer";
 import profileBodyReducer from "./profile-body-reducer"
 import aboutComponentReducer from "./about-component-reducer"
 import profileEditDetailsReducer from "./profile-edit-details-about-you-reducer"
+import profileAddHobbiesReducer from "./profile-add-hobbies-reducer"
 
 import thunk from "redux-thunk";
 
@@ -26,7 +27,8 @@ let root_reducer = combineReducers({
   profileEditDetailsReducer,
   welcomeComponentReducer,
   profileBodyReducer,
-  aboutComponentReducer
+  aboutComponentReducer,
+  profileAddHobbiesReducer
 });
 
 let store = createStore(root_reducer, applyMiddleware(thunk));

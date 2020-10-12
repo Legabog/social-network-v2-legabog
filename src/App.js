@@ -92,7 +92,8 @@ import {
   lifeEventsDeleteLifeEvent,
   changeFieldFirebase,
 } from "./redux/about-component-reducer";
-import { toggleProfileEditDetails } from "./redux/profile-edit-details-about-you-reducer"
+import { toggleProfileEditDetails } from "./redux/profile-edit-details-about-you-reducer";
+import { toggleProfileAddHobbies } from "./redux/profile-add-hobbies-reducer";
 import { getMusicAlbumsData } from "./redux/musicalbums-reducer";
 import {
   addToPlayList,
@@ -759,6 +760,11 @@ const mapStateToProps = (state) => {
       state.profileEditDetailsReducer.profileEditDetailsVisibility,
     profileEditDetailsOpacity:
       state.profileEditDetailsReducer.profileEditDetailsOpacity,
+    // profile add hobbies component
+    profileAddHobbiesVisibility:
+      state.profileAddHobbiesReducer.profileAddHobbiesVisibility,
+    profileAddHobbiesOpacity:
+      state.profileAddHobbiesReducer.profileAddHobbiesOpacity,
   };
 };
 
@@ -834,6 +840,7 @@ export default compose(
     placeslivedDeleteACity,
     changeFieldFirebase,
     toggleProfileEditDetails,
+    toggleProfileAddHobbies,
     signIn,
     signUp,
     autoLogin,
