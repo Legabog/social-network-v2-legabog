@@ -1,4 +1,4 @@
-.prifleSelectAvatarBackground__recentPhotos__wrapper {
+.profile-select-avatar-background-recent-photos-wrapper {
     overflow-y: auto;
     text-align: left;
     padding-left: 16px;
@@ -6,7 +6,7 @@
     height: fit-content;
 }
 
-.prifleSelectAvatarBackground__recentPhotos {
+.profile-select-avatar-background-recent-photos {
     margin-top: 16px;
     margin-bottom: 16px;
     height: 100%;
@@ -16,7 +16,7 @@
     text-align: left;
 }
 
-.prifleSelectAvatarBackground__recentPhotos img {
+.profile-select-avatar-background-recent-photos > img {
     width: 165px;
     height: 100px;
     margin-right: 6px;
@@ -25,11 +25,11 @@
     object-fit: cover;
 }
 
-.prifleSelectAvatarBackground__recentPhotos img:hover {
+.profile-select-avatar-background-recent-photos img:hover {
     cursor: pointer;
     filter: brightness(95%);
 }
 
-.prifleSelectAvatarBackground__recentPhotos img:active {
+.profile-select-avatar-background-recent-photos img:active {
     transform: scale(0.95);
 }

@@ -3,21 +3,21 @@ import "./ProfileUpdateDiscardWindowBody.css";
 
 const ProfileUpdateDiscardWindowBody = (props) => {
   return (
-    <div className={"profileUpdateDiscardWindow__body"}>
-      <div className={"profileUpdateDiscardWindow__body__description"}>
+    <div className={"profile-update-discard-window-body"}>
+      <div className={"profile-update-discard-window-body__description"}>
         <span>Are you sure want to discard your changes?</span>
       </div>
-      <div className={"profileUpdateDiscardWindow__body__controlPanel"}>
-        <div className={"profileUpdateDiscardWindow__body__buttons"}>
+      <div className={"profile-update-discard-window-body__control-panel"}>
+        <div className={"profile-update-discard-window-body__buttons"}>
           <div
-            className={"profileUpdateDiscardWindow__body__cancelButton"}
+            className={"profile-update-discard-window-body__cancel-button"}
             onClick={() => {
               props.toggleDiscardWindow(false)
           }}
           >
             <span>Cancel</span>
           </div>
-          <div className={"profileUpdateDiscardWindow__body__saveButton"}
+          <div className={"profile-update-discard-window-body__save-button"}
           onClick={() => {
             props.toggleDiscardWindow(false)
             props.closeHandlerProfileUpdate()

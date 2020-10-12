@@ -10,15 +10,16 @@ const ProfileUpdateBodySection = (props) => {
   };
 
   return (
-    <div className={"prifleUpdateAvatar__body__Section"}>
+    <div className={"profle-update-avatar-body__section"}>
       <span>{props.titleSection}</span>
       {props.user === null || props.avatarsArray.length === 0 ? (
-        <div className={"prifleUpdateAvatar__body__Section__imgLine"}></div>
+        <div className={"profle-update-avatar-body__section-img-line"}></div>
       ) : props.avatarsArray.length <= maxLineOfImages ? (
-        <div className={"prifleUpdateAvatar__body__Section__imgLine"}>
+        <div className={"profle-update-avatar-body__section-img-line"}>
           {props.avatarsArray.map((e, index) => {
             return (
               <img
+                className={"profle-update-avatar-body__section-img"}
                 src={e}
                 key={index}
                 alt="description"
@@ -31,16 +32,19 @@ const ProfileUpdateBodySection = (props) => {
           })}
         </div>
       ) : (
-        <div className={"prifleUpdateAvatar__body__Section__imgLineOversize"}>
+        <div
+          className={"profle-update-avatar-body__section-img-line_oversized"}
+        >
           <div
             className={
-              "prifleUpdateAvatar__body__Section__imgLineOversize-main"
+              "profle-update-avatar-body__section-img-line-main_oversized"
             }
           >
             {props.avatarsArray.map((e, index) => {
               if (index <= maxLineOfImages - 1) {
                 return (
                   <img
+                    className={"profle-update-avatar-body__section-img"}
                     src={e}
                     alt="description"
                     key={index}
@@ -58,7 +62,7 @@ const ProfileUpdateBodySection = (props) => {
 
           <div
             className={
-              "prifleUpdateAvatar__body__Section__imgLineOversize-secondary"
+              "profle-update-avatar-body__section-img-line-secondary_oversized"
             }
             style={{ display: display }}
           >
@@ -66,6 +70,7 @@ const ProfileUpdateBodySection = (props) => {
               if (index > maxLineOfImages - 1) {
                 return (
                   <img
+                    className={"profle-update-avatar-body__section-img"}
                     src={e}
                     alt="description"
                     key={index}
@@ -81,9 +86,7 @@ const ProfileUpdateBodySection = (props) => {
             })}
           </div>
           <div
-            className={
-              "prifleUpdateAvatar__body__Section__imgLineOversize-button"
-            }
+            className={"section-img-line-secondary_oversized__button"}
             style={{ display: display !== "none" ? "none" : null }}
             onClick={toggleDisplay}
           >

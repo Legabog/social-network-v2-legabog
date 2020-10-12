@@ -3,7 +3,7 @@ import "./AvatarBackgroundPhotoAlbumsSection.css";
 
 const AvatarBackgroundPhotoAlbumsSection = (props) => {
   return (
-    <div className={"prifleSelectAvatarBackground__photoAlbums__section"}>
+    <div className={"profile-select-avatar-background-photo-albums__section"}>
       <img
         src={props.img}
         alt="description"
@@ -12,13 +12,13 @@ const AvatarBackgroundPhotoAlbumsSection = (props) => {
         }}
       />
       <div
-        className={"prifleSelectAvatarBackground__photoAlbums__section__title"}
+        className={"profile-select-avatar-background-photo-albums__title"}
       >
         <span>{props.title}</span>
       </div>
       <div
         className={
-          "prifleSelectAvatarBackground__photoAlbums__section__uploads"
+          "profile-select-avatar-background-photo-albums__uploads"
         }
       >
         <span>{props.uploads} Uploads</span>

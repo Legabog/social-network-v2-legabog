@@ -1,27 +1,27 @@
-.profileUpdateDiscardWindow__body {
+.profile-update-discard-window-body {
     display: block;
     max-height: 380px;
     padding: 8px 16px;
     overflow-x: hidden;
 }
 
-.profileUpdateDiscardWindow__body__description {
+.profile-update-discard-window-body__description {
     display: flex;
     text-align: left;
 }
 
-.profileUpdateDiscardWindow__body__controlPanel {
+.profile-update-discard-window-body__control-panel {
     display: flex;
     padding: 16px;
     padding-bottom: 0px;
 }
 
-.profileUpdateDiscardWindow__body__buttons {
+.profile-update-discard-window-body__buttons {
     display: flex;
     margin-left: 340px;
 }
 
-.profileUpdateDiscardWindow__body__cancelButton {
+.profile-update-discard-window-body__cancel-button {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -33,21 +33,21 @@
     border-radius: 6px;
 }
 
-.profileUpdateDiscardWindow__body__cancelButton span {
+.profile-update-discard-window-body__cancel-button > span {
     color: #1876F2;
 }
 
-.profileUpdateDiscardWindow__body__cancelButton:hover {
+.profile-update-discard-window-body__cancel-button:hover {
     background-color: #EFF2F5;
     cursor: pointer;
 }
 
-.profileUpdateDiscardWindow__body__cancelButton:active {
+.profile-update-discard-window-body__cancel-button:active {
     transform: scale(0.95);
     background-color: #ECF3FF;
 }
 
-.profileUpdateDiscardWindow__body__saveButton {
+.profile-update-discard-window-body__save-button {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -59,15 +59,15 @@
     background-color: #1876F2;
 }
 
-.profileUpdateDiscardWindow__body__saveButton span {
+.profile-update-discard-window-body__save-button > span {
     color: #fff;
 }
 
-.profileUpdateDiscardWindow__body__saveButton:hover {
+.profile-update-discard-window-body__save-button:hover {
     filter: brightness(95%);
     cursor: pointer;
 }
 
-.profileUpdateDiscardWindow__body__saveButton:active {
+.profile-update-discard-window-body__save-button:active {
     transform: scale(0.95);
 }

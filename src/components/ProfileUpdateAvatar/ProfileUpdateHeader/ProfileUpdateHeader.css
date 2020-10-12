@@ -1,10 +1,10 @@
-.prifleUpdateAvatar__header {
+.profile-update-avatar-header {
     min-height: 60px;
     display: flex;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
-.prifleUpdateAvatar__header__title {
+.profile-update-avatar-header__title {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -12,7 +12,7 @@
     flex: 1;
 }
 
-.prifleUpdateAvatar__header__title span {
+.profile-update-avatar-header__title > span {
     color: #050505;
     font-size: 1.25rem;
     font-weight: 700;
@@ -20,12 +20,12 @@
     padding-left: 70px;
 }
 
-.prifleUpdateAvatar__header__closeIcon {
+.profile-update-avatar-header__close-icon {
     padding-top: 5px;
     padding-right: 10px;
 }
 
-.prifleUpdateAvatar__header__controllPanel {
+.profile-update-avatar-header__controll-panel {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -33,7 +33,7 @@
     padding: 10px;
 }
 
-.prifleUpdateAvatar__header__uploadPhoto {
+.profile-update-avatar-header__upload-photo {
     width: 670px;
     height: 36px;
     border-radius: 6px;
@@ -45,54 +45,11 @@
     align-items: center;
 }
 
-.prifleUpdateAvatar__header__uploadPhoto:hover {
+.profile-update-avatar-header__upload-photo:hover {
     cursor: pointer;
     filter: brightness(95%)
 }
 
-.prifleUpdateAvatar__header__uploadPhoto:active {
-    transform: scale(0.95);
-}
-
-.prifleUpdateAvatar__header__addFrame {
-    width: 300px;
-    height: 36px;
-    margin-right: 10px;
-    border-radius: 6px;
-    color: #050505;
-    background-color: #E4E6EB;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.prifleUpdateAvatar__header__addFrame:hover {
-    cursor: pointer;
-    filter: brightness(95%);
-}
-
-.prifleUpdateAvatar__header__addFrame:active {
-    transform: scale(0.95);
-}
-
-.prifleUpdateAvatar__header__editButton {
-    min-width: 50px;
-    height: 36px;
-    border-radius: 6px;
-    color: #050505;
-    background-color: #E4E6EB;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.prifleUpdateAvatar__header__editButton:hover {
-    cursor: pointer;
-    filter: brightness(95%);
-}
-
-.prifleUpdateAvatar__header__editButton:active {
+.profile-update-avatar-header__upload-photo:active {
     transform: scale(0.95);
 }

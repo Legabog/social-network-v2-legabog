@@ -28,15 +28,14 @@ const ProfileEditDetailsBodySection = (props) => {
             }
 
             return (
-              <>
+              <React.Fragment key={index}>
                 <ProfileEditDetailsBodyNotNullSection
                   {...props}
                   index={index}
-                  key={index}
                   mainTitle={resultTitle}
                 />
-                <ProfileEditDetailsAddButton addIcon={ControlPointIcon} key={index} {...props} />
-              </>
+                <ProfileEditDetailsAddButton addIcon={ControlPointIcon} {...props} />
+              </React.Fragment>
             );
           })
         )

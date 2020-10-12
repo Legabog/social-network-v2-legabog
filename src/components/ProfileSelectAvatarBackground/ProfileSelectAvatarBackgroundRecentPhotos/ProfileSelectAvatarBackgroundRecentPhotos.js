@@ -4,9 +4,9 @@ import "./ProfileSelectAvatarBackgroundRecentPhotos.css";
 const ProfileSelectAvatarBackgroundRecentPhotos = (props) => {
   return (
     <div
-      className={"prifleSelectAvatarBackground__recentPhotos__wrapper"}
+      className={"profile-select-avatar-background-recent-photos-wrapper"}
     >
-      <div className={"prifleSelectAvatarBackground__recentPhotos"}>
+      <div className={"profile-select-avatar-background-recent-photos"}>
         {props.user === null || props.user.RecentUploads === []
           ? null
           : props.user.RecentUploads.map((e, index) => {

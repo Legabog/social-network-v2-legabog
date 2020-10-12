@@ -20,13 +20,13 @@ const ProfileSelectAvatarBackground = (props) => {
 
   return (
     <div
-      className={"prifleSelectAvatarBackground__wrapper"}
+      className={"profile-select-avatar-background-wrapper"}
       style={{
         visibility: props.profileSelectVisibility,
         opacity: props.profileSelectOpacity,
       }}
     >
-      <div className={"prifleSelectAvatarBackground"}>
+      <div className={"profile-select-avatar-background"}>
         <ProfileSelectAvatarBackgroundHeader
           selectComponentHeaderTitle={selectComponentHeaderTitle}
           selectComponentState={selectComponentState}

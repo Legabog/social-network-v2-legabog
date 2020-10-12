@@ -1,10 +1,10 @@
-.profileUpdateDiscardWindow__header {
+.profile-update-discard-window-header {
     min-height: 60px;
     display: flex;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
-.profileUpdateDiscardWindow__header__title {
+.profile-update-discard-window-header__title {
     padding: 0 16px;
     display: flex;
     text-align: left;
@@ -13,14 +13,14 @@
     flex: 1;
 }
 
-.profileUpdateDiscardWindow__header__title span {
+.profile-update-discard-window-header__title > span {
     color: #050505;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.2;
 }
 
-.profileUpdateDiscardWindow__header__closeIcon {
+.profile-update-discard-window-header__close-icon {
     padding-top: 5px;
     padding-right: 10px;
 }

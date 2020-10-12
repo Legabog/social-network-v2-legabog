@@ -8,11 +8,11 @@ const ProfileSelectAvatarBackgroundHeader = (props) => {
   return (
     <>
       {props.selectComponentState === 0 ? (
-        <div className={"prifleSelectAvatarBackground__header"}>
-          <div className={"prifleSelectAvatarBackground__header__title"}>
+        <div className={"profile-select-avatar-background-header"}>
+          <div className={"profile-select-avatar-background-header__title"}>
             <span>{props.selectComponentHeaderTitle}</span>
           </div>
-          <div className={"prifleSelectAvatarBackground__header__closeIcon"}>
+          <div className={"profile-select-avatar-background-header__close-icon"}>
             <IconButton
               onClick={() => {
                 props.toggleProfileSelectAvatarBackground(
@@ -27,8 +27,8 @@ const ProfileSelectAvatarBackgroundHeader = (props) => {
           </div>
         </div>
       ) : (
-        <div className={"prifleSelectAvatarBackground__header"}>
-          <div className={"prifleSelectAvatarBackground__header__backIcon"}>
+        <div className={"profile-select-avatar-background-header"}>
+          <div className={"profile-select-avatar-background-header__back-icon"}>
           <IconButton
           onClick={() => {
             props.toggleSelectComponent(0, "Select Photo");
@@ -37,10 +37,10 @@ const ProfileSelectAvatarBackgroundHeader = (props) => {
             <ArrowBackIcon />
           </IconButton>
           </div>
-          <div className={"prifleSelectAvatarBackground__header__title"}>
+          <div className={"profile-select-avatar-background-header__title"}>
             <span>{props.selectComponentHeaderTitle}</span>
           </div>
-          <div className={"prifleSelectAvatarBackground__header__closeIcon"}>
+          <div className={"profile-select-avatar-background-header__close-icon"}>
             <IconButton
               onClick={() => {
                 props.toggleProfileSelectAvatarBackground(

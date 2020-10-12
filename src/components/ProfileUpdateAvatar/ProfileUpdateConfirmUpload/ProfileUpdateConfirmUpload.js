@@ -5,24 +5,24 @@ import ChangeAvatarSimplePreloader from "../../common/ChangeAvatarSimplePreloade
 
 const ProfileUpdateConfirmUpload = (props) => {
   return (
-    <div className={"profileUpdateConfirmUpload"}>
-      <div className={"profileUpdateConfirmUpload__tempAvatar__wrapper"}>
-        <div className={"profileUpdateConfirmUpload__tempAvatar"}>
+    <div className={"profile-update-confirm-upload"}>
+      <div className={"profile-update-confirm-upload__temp-avatar-wrapper"}>
+        <div className={"profile-update-confirm-upload__temp-avatar"}>
           <img src={props.profileUpdateTempAvatar} alt="description" />
         </div>
       </div>
 
-      <div className={"profileUpdateConfirmUpload__description"}>
+      <div className={"profile-update-confirm-upload__description"}>
         <PublicIcon />
         <span>Your profile picture is public</span>
       </div>
-      <div className={"profileUpdateConfirmUpload__buttons__wrapper"}>
-        <div className={"profileUpdateConfirmUpload__buttons"}>
+      <div className={"profile-update-confirm-upload__buttons-wrapper"}>
+        <div className={"profile-update-confirm-upload__buttons"}>
           {props.fetchAvatar ? (
             <ChangeAvatarSimplePreloader width={"75px"} height={"36px"} />
           ) : (
             <div
-              className={"profileUpdateConfirmUpload__cancelButton"}
+              className={"profile-update-confirm-upload__cancel-button"}
               onClick={() => {
                 props.toggleDiscardWindow(true);
               }}
@@ -31,12 +31,12 @@ const ProfileUpdateConfirmUpload = (props) => {
             </div>
           )}
           {props.fetchAvatar ? (
-            <div className={"profileUpdateConfirmUpload__saveButton__disabled"}>
+            <div className={"profile-update-confirm-upload__save-button_disabled"}>
               <span>Save</span>
             </div>
           ) : (
             <div
-              className={"profileUpdateConfirmUpload__saveButton"}
+              className={"profile-update-confirm-upload__save-button"}
               onClick={() => {
                 props.profileUpdateConditionForAvatar === 0
                   ? props.sendAvatar(

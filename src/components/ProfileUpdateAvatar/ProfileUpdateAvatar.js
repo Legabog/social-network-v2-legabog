@@ -23,13 +23,13 @@ const ProfileUpdateAvatar = (props) => {
 
   return (
     <div
-      className={"prifleUpdateAvatar__wrapper"}
+      className={"profile-update-avatar-wrapper"}
       style={{
         visibility: props.profileUpdateVisibility,
         opacity: props.profileUpdateOpacity,
       }}
     >
-      <div className={"prifleUpdateAvatar"}>
+      <div className={"profile-update-avatar"}>
         <ProfileUpdateHeader
           toggleDiscardWindow={toggleDiscardWindow}
           {...props}

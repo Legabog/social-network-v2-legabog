@@ -8,7 +8,7 @@ const ProfileSelectAvatarBackgroundBody = (props) => {
   const [navigationState, setNavigationState] = useState(0);
 
   return (
-    <div className={"prifleSelectAvatarBackground__body"}>
+    <div className={"profile-select-avatar-background-body"}>
       <ProfileSelectAvatarBackgroundNavigation
         navigationState={navigationState}
         setNavigationState={setNavigationState}

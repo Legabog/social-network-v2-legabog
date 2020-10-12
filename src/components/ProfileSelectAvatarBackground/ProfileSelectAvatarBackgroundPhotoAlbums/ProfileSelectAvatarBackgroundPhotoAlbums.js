@@ -4,13 +4,13 @@ import "./ProfileSelectAvatarBackgroundPhotoAlbums.css";
 
 const ProfileSelectAvatarBackgroundPhotoAlbums = (props) => {
   return (
-    <div className={"prifleSelectAvatarBackground__photoAlbums__wrapper"}>
+    <div className={"profile-select-avatar-background-photo-albums-wrapper"}>
       {props.user === null ||
       (props.user.Avatars.pofileAvatars.length === 0 &&
         props.user.Avatars.pofileAvatars.length === 0) ? (
-        <div className={"prifleSelectAvatarBackground__photoAlbums"}></div>
+        <div className={"profile-select-avatar-background-photo-albums"}></div>
       ) : (
-        <div className={"prifleSelectAvatarBackground__photoAlbums"}>
+        <div className={"profile-select-avatar-background-photo-albums"}>
           {props.user === null ||
           props.user.Avatars.pofileAvatars.length === 0 ? null : (
             <AvatarBackgroundPhotoAlbumsSection

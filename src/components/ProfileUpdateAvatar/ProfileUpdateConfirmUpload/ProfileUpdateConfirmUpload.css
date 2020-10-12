@@ -1,13 +1,13 @@
-.profileUpdateConfirmUpload {
+.profile-update-confirm-upload {
     display: block;
 }
 
-.profileUpdateConfirmUpload__tempAvatar__wrapper {
+.profile-update-confirm-upload__temp-avatar-wrapper {
     display: flex;
     justify-content: center;
 }
 
-.profileUpdateConfirmUpload__tempAvatar {
+.profile-update-confirm-upload__temp-avatar {
     margin-top: 40px;
     margin-bottom: 40px;
     background-color: #EFF2F5;
@@ -17,7 +17,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
-.profileUpdateConfirmUpload__tempAvatar img {
+.profile-update-confirm-upload__temp-avatar > img {
     object-fit: cover;
     width: 299px;
     height: 299px;
@@ -25,7 +25,7 @@
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1); */
 }
 
-.profileUpdateConfirmUpload__description {
+.profile-update-confirm-upload__description {
     display: flex;
     text-align: center;
     align-items: center;
@@ -34,11 +34,11 @@
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
-.profileUpdateConfirmUpload__description svg {
+.profile-update-confirm-upload__description > svg {
     color: gray;
 }
 
-.profileUpdateConfirmUpload__description span {
+.profile-update-confirm-upload__description > span {
     margin-left: 16px;
     line-height: 1.1765;
     font-size: 1.0625rem;
@@ -46,17 +46,17 @@
     color: #65676B;
 }
 
-.profileUpdateConfirmUpload__buttons__wrapper {
+.profile-update-confirm-upload__buttons-wrapper {
     display: flex;
     padding: 16px;
 }
 
-.profileUpdateConfirmUpload__buttons {
+.profile-update-confirm-upload__buttons {
     display: flex;
     margin-left: 450px;
 }
 
-.profileUpdateConfirmUpload__cancelButton {
+.profile-update-confirm-upload__cancel-button {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -67,23 +67,23 @@
     border-radius: 6px;
 }
 
-.profileUpdateConfirmUpload__cancelButton span {
+.profile-update-confirm-upload__cancel-button > span {
     color: #1876F2;
 }
 
-.profileUpdateConfirmUpload__cancelButton:hover {
+.profile-update-confirm-upload__cancel-button:hover {
     background-color: #EFF2F5;
     cursor: pointer;
 }
 
-.profileUpdateConfirmUpload__cancelButton:active {
+.profile-update-confirm-upload__cancel-button:active {
     transform: scale(0.95);
     background-color: #ECF3FF;
 }
 
 /* Save button */
 
-.profileUpdateConfirmUpload__saveButton {
+.profile-update-confirm-upload__save-button {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -96,22 +96,22 @@
     background-color: #1876F2;
 }
 
-.profileUpdateConfirmUpload__saveButton span {
+.profile-update-confirm-upload__save-button > span {
     color: #fff;
 }
 
-.profileUpdateConfirmUpload__saveButton:hover {
+.profile-update-confirm-upload__save-button:hover {
     filter: brightness(95%);
     cursor: pointer;
 }
 
-.profileUpdateConfirmUpload__saveButton:active {
+.profile-update-confirm-upload__save-button:active {
     transform: scale(0.95);
 }
 
 /* Save button disabled */
 
-.profileUpdateConfirmUpload__saveButton__disabled {
+.profile-update-confirm-upload__save-button_disabled {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -124,11 +124,11 @@
     background-color: #EFF2F5;
 }
 
-.profileUpdateConfirmUpload__saveButton__disabled span {
+.profile-update-confirm-upload__save-button_disabled > span {
     color: gray;
 }
 
-.profileUpdateConfirmUpload__saveButton__disabled:hover {
+.profile-update-confirm-upload__save-button_disabled:hover {
     filter: brightness(95%);
     cursor: not-allowed;
 }

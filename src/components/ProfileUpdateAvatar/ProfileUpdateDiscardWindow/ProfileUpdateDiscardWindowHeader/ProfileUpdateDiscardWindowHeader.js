@@ -5,11 +5,11 @@ import "./ProfileUpdateDiscardWindowHeader.css";
 
 const ProfileUpdateDiscardWindowHeader = (props) => {
   return (
-    <div className={"profileUpdateDiscardWindow__header"}>
-      <div className={"profileUpdateDiscardWindow__header__title"}>
+    <div className={"profile-update-discard-window-header"}>
+      <div className={"profile-update-discard-window-header__title"}>
         <span>Discard Changes</span>
       </div>
-      <div className={"profileUpdateDiscardWindow__header__closeIcon"}>
+      <div className={"profile-update-discard-window-header__close-icon"}>
         <IconButton
           onClick={() => {
             props.toggleDiscardWindow(false);

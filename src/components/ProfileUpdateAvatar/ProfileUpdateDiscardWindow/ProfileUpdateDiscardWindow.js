@@ -7,13 +7,13 @@ import ProfileUpdateDiscardWindowHeader from "./ProfileUpdateDiscardWindowHeader
 const ProfileUpdateDiscardWindow = (props) => {
   return (
     <div
-      className={"profileUpdateDiscardWindow__wrapper"}
+      className={"profile-update-discard-window-wrapper"}
       style={{
         visibility: `${props.discardVisibility}`,
         opacity: `${props.discardOpacity}`,
       }}
     >
-      <div className={"profileUpdateDiscardWindow"}>
+      <div className={"profile-update-discard-window"}>
         <ProfileUpdateDiscardWindowHeader
           toggleDiscardWindow={props.toggleDiscardWindow}
           {...props}

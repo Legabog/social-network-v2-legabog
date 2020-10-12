@@ -1,4 +1,4 @@
-.profileUpdateDiscardWindow__wrapper {
+.profile-update-discard-window-wrapper {
     z-index: 200;
     position: absolute;
     top: 30%;
@@ -10,7 +10,7 @@
     transition: opacity 0.3s, visibility 0s linear 0.3s;
 }
 
-.profileUpdateDiscardWindow {
+.profile-update-discard-window {
     z-index: 200;
     max-width: 550px;
     height: 100%;

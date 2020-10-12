@@ -7,11 +7,11 @@ import "./ProfileUpdateHeader.css";
 const ProfileUpdateHeader = (props) => {
   return (
     <>
-      <div className={"prifleUpdateAvatar__header"}>
-        <div className={"prifleUpdateAvatar__header__title"}>
+      <div className={"profile-update-avatar-header"}>
+        <div className={"profile-update-avatar-header__title"}>
           <span>Update Profile Avatar</span>
         </div>
-        <div className={"prifleUpdateAvatar__header__closeIcon"}>
+        <div className={"profile-update-avatar-header__close-icon"}>
           <IconButton
             onClick={() => {
               props.profileUpdateStateComponent === 0
@@ -25,21 +25,13 @@ const ProfileUpdateHeader = (props) => {
       </div>
 
       {props.profileUpdateStateComponent === 0 ? (
-        <div className={"prifleUpdateAvatar__header__controllPanel"}>
+        <div className={"profile-update-avatar-header__controll-panel"}>
           <label htmlFor="avatar-uploader">
-            <div className={"prifleUpdateAvatar__header__uploadPhoto"}>
+            <div className={"profile-update-avatar-header__upload-photo"}>
               <AddIcon />
               <span>Upload Photo</span>
             </div>
           </label>
-
-          {/* <div className={"prifleUpdateAvatar__header__addFrame"}>
-          <VignetteIcon />
-          <span>Add Frame</span>
-        </div>
-        <div className={"prifleUpdateAvatar__header__editButton"}>
-          <EditIcon />
-        </div> */}
         </div>
       ) : null}
     </>

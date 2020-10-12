@@ -2,7 +2,7 @@
     display: block;
 } */
 
-.prifleSelectAvatarBackground__photoAlbums__section img {
+.profile-select-avatar-background-photo-albums__section > img {
     width: 165px;
     height: 100px;
     margin-right: 6px;
@@ -11,21 +11,21 @@
     object-fit: cover;
 }
 
-.prifleSelectAvatarBackground__photoAlbums__section img:hover {
+.profile-select-avatar-background-photo-albums__section img:hover {
     cursor: pointer;
     filter: brightness(95%);
 }
 
-.prifleSelectAvatarBackground__photoAlbums__section img:active {
+.profile-select-avatar-background-photo-albums__section img:active {
     transform: scale(0.95);
 }
 
-.prifleSelectAvatarBackground__photoAlbums__section__title {
+.profile-select-avatar-background-photo-albums__title {
     display: flex;
     text-align: left;
 }
 
-.prifleSelectAvatarBackground__photoAlbums__section__title span {
+.profile-select-avatar-background-photo-albums__title > span {
     word-break: break-word;
     color: #050505;
     font-size: .9375rem;
@@ -33,12 +33,12 @@
     line-height: 1.3333;
 }
 
-.prifleSelectAvatarBackground__photoAlbums__section__uploads {
+.profile-select-avatar-background-photo-albums__uploads {
     display: flex;
     text-align: left;
 }
 
-.prifleSelectAvatarBackground__photoAlbums__section__uploads span {
+.profile-select-avatar-background-photo-albums__uploads > span {
     word-break: break-word;
     color: #050505;
     font-size: .8125rem;

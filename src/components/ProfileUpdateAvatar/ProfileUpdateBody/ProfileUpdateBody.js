@@ -4,7 +4,7 @@ import ProfileUpdateBodySection from "./ProfileUpdateBodySection/ProfileUpdateBo
 
 const ProfileUpdateBody = (props) => {
   return (
-    <div className={"prifleUpdateAvatar__body"}>
+    <div className={"profle-update-avatar-body"}>
       <ProfileUpdateBodySection
         avatarsArray={
           props.user === null || props.user.RecentUploads.length === 0

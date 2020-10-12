@@ -3,8 +3,8 @@ import "./ProfileSelectAvatarBackgroundBodyActive.css";
 
 const ProfileSelectAvatarBackgroundBodyActive = (props) => {
   return (
-    <div className={"prifleSelectAvatarBackground__body__active__wrapper"}>
-      <div className={"prifleSelectAvatarBackground__body__active"}>
+    <div className={"profile-select-avatar-background-body-wrapper_active"}>
+      <div className={"profile-select-avatar-background-body_active"}>
         {props.selectComponentContent === 0
           ? props.user.Avatars.pofileAvatars.map((e, index) => {
               return (

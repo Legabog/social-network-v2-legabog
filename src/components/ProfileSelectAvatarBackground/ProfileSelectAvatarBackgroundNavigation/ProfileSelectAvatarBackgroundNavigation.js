@@ -3,12 +3,12 @@ import "./ProfileSelectAvatarBackgroundNavigation.css";
 
 const ProfileSelectAvatarBackgroundNavigation = (props) => {
   return (
-    <div className={"prifleSelectAvatarBackground__navigation"}>
+    <div className={"profile-select-avatar-background-navigation"}>
       <div
         className={
           props.navigationState === 0
-            ? "prifleSelectAvatarBackground__selector-active"
-            : "prifleSelectAvatarBackground__selector"
+            ? "profile-select-avatar-background-navigation__selector_active"
+            : "profile-select-avatar-background-navigation__selector"
         }
         onClick={() => {
           props.setNavigationState(0);
@@ -20,8 +20,8 @@ const ProfileSelectAvatarBackgroundNavigation = (props) => {
       <div
         className={
           props.navigationState === 1
-            ? "prifleSelectAvatarBackground__selector-active"
-            : "prifleSelectAvatarBackground__selector"
+            ? "profile-select-avatar-background-navigation__selector_active"
+            : "profile-select-avatar-background-navigation__selector"
         }
         onClick={() => {
           props.setNavigationState(1);
