@@ -33,11 +33,14 @@ const ProfileAddHobbiesFooter = (props) => {
             <div
               className={"profile-add-hobbies-footer__update-button"}
               onClick={() => {
+                console.log(props.tempHobbies)
+
                 props.toggleProfileAddHobbies(
                   props.profileAddHobbiesVisibility,
                   props.profileAddHobbiesOpacity
                 );
-                props.setTempHobbies([])
+                  console.log(props.tempHobbies)
+                // props.setTempHobbies([])
               }}
             >
               <span>Save</span>

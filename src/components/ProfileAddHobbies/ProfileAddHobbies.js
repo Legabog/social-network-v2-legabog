@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import _ from "lodash";
 import "./ProfileAddHobbies.css";
 
 import BackDrop from "../common/BackDrop/BackDrop";
@@ -9,16 +10,24 @@ import ProfileAddHobbiesFooter from "./ProfileAddHobbiesFooter/ProfileAddHobbies
 const ProfileAddHobbies = (props) => {
   const [tempHobbies, setTempHobbies] = useState([]);
 
-  const pushToTempHobbies = (hobbie) => {
-    if ( tempHobbies.includes(hobbie) === false ) {
-        setTempHobbies([...tempHobbies, hobbie]);
-    } 
-    console.log(tempHobbies)
+  const pushToTempHobbies = (hobbie, icon) => {
+    let result = 0;
+
+    tempHobbies.map( e => {
+      if (_.isEqual({ hobbie, icon }, e)) {
+        result += 1;
+      }
+    });
+
+    if (result === 0) {
+      setTempHobbies([...tempHobbies, { hobbie, icon }]);
+    }
   };
 
   const deleteElementFromTempHobbies = (index) => {
-    setTempHobbies(tempHobbies.slice(0, index).concat(tempHobbies.slice(index + 1)));
-    console.log(tempHobbies)
+    setTempHobbies(
+      tempHobbies.slice(0, index).concat(tempHobbies.slice(index + 1))
+    );
   };
 
   return (

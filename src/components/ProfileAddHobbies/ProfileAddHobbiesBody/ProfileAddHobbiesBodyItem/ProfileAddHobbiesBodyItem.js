@@ -1,29 +1,32 @@
-import React, { useState } from "react";
+import React from "react";
+import _ from "lodash";
 import "./ProfileAddHobbiesBodyItem.css";
 
 const ProfileAddHobbiesBodyItem = (props) => {
-  const [acttiveItem, setActiveItem] = useState(false);
-
-  const toggleItem = () => {
-    if (acttiveItem === false) {
-      props.pushToTempHobbies(props.description);
-      setActiveItem(true);
-    } else {
-      props.deleteElementFromTempHobbies(0)
-      setActiveItem(false);
-    }
-  };
+  
 
   return (
     <div
-      className={`profile-add-hobbies-body-item${acttiveItem ? "_active" : ""}`}
+      className={`profile-add-hobbies-body-item${
+        _.findIndex(props.tempHobbies, {
+          hobbie: props.description,
+          icon: props.Icon,
+        })
+          ? "_active"
+          : ""
+      }`}
       onClick={() => {
-        toggleItem()
+        props.pushToTempHobbies(props.description, props.Icon);
       }}
     >
       <div
         className={`profile-add-hobbies-body-item__icon${
-          acttiveItem ? "_active" : ""
+          _.findIndex( props.tempHobbies, {
+            hobbie: props.description,
+            icon: props.Icon,
+          })
+            ? "_active"
+            : ""
         }`}
       >
         <props.Icon />
@@ -31,7 +34,12 @@ const ProfileAddHobbiesBodyItem = (props) => {
 
       <div
         className={`profile-add-hobbies-body-item__description${
-          acttiveItem ? "_active" : ""
+          _.findIndex(props.tempHobbies, {
+            hobbie: props.description,
+            icon: props.Icon,
+          })
+            ? "_active"
+            : ""
         }`}
       >
         <span>{props.description}</span>
