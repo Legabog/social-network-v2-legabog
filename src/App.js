@@ -90,6 +90,8 @@ import {
   detailsAboutYouDeleteFavoriteQuotes,
   lifeEventsAddLifeEvent,
   lifeEventsDeleteLifeEvent,
+  addFromTempHobbies,
+  deleteHobbies,
   changeFieldFirebase,
 } from "./redux/about-component-reducer";
 import { toggleProfileEditDetails } from "./redux/profile-edit-details-about-you-reducer";
@@ -136,6 +138,7 @@ import Welcome from "./components/Welcome/Welcome";
 import Login from "./components/Login/Login";
 import RegistrationBlock from "./components/Login/RegistrationBlock/RegistrationBlock";
 import About from "./components/About/About";
+import { routesConfig } from "./utils/routes/routes-config";
 
 //
 
@@ -222,8 +225,8 @@ class App extends React.Component {
           <Switch>
             {this.props.Fetching ? <Preloader /> : null}
             <Route
-              path="/"
-              exact
+              path={routesConfig.authorizedRoutes.mainPage.path}
+              exact={routesConfig.authorizedRoutes.mainPage.exact}
               render={() => (
                 <>
                   <Header {...this.props} />
@@ -556,6 +559,7 @@ class App extends React.Component {
 
             <Route render={() => <ErrorRoute />} />
           </Switch>
+
           <MusicPlayerPanel
             isPlaying={this.props.isPlaying}
             playPlayer={this.props.playPlayer}
@@ -574,114 +578,101 @@ class App extends React.Component {
         </div>
       );
     } else {
-      if (this.props.fetching === true) {
-        return (
-          <div className="app">
-            <Preloader />
-          </div>
-        );
-      }
       return (
-        <Switch>
-          <Route
-            path="/"
-            exact
-            render={() => (
-              <>
-                <div className="app">
-                  <Login
-                    displayRegistrationBlockTrue={
-                      this.displayRegistrationBlockTrue
-                    }
-                    setUser={this.props.setUser}
-                    signIn={this.props.signIn}
-                    loginError={this.props.loginError}
-                  />
-                </div>
-                <RegistrationBlock
-                  displayRegistrationBlockFalse={
-                    this.displayRegistrationBlockFalse
-                  }
-                  visibilityRegistrationBlock={
-                    this.state.visibilityRegistrationBlock
-                  }
-                  opacityRegistrationBlock={this.state.opacityRegistrationBlock}
-                  signUp={this.props.signUp}
-                  registrationFetching={this.props.registrationFetching}
-                  registrationError={this.props.registrationError}
-                />
-              </>
-            )}
-          />
-          <Route
-            path="/confirm_email"
-            exact
-            render={() => (
-              <Suspense fallback={<Preloader />}>
-                <div className="app">
-                  <ConfirmEmailRoute
-                    displayRegistrationBlockFalse={
-                      this.displayRegistrationBlockFalse
-                    }
-                  />
-                </div>
-              </Suspense>
-            )}
-          />
-
-          <Route
-            path="/confirmed_email"
-            exact
-            render={() => (
-              <Suspense fallback={<Preloader />}>
-                <div className="app">
-                  <ConfirmedEmailRoute />
-                </div>
-              </Suspense>
-            )}
-          />
-          <Route
-            path="/login"
-            exact
-            render={() => (
-              <>
-                <Suspense fallback={<Preloader />}>
-                  <div className="app">
-                    <LoginRoute
-                      signIn={this.props.signIn}
+        <div className="app">
+          {this.props.fetching ? (
+            <Preloader />
+          ) : (
+            <Switch>
+              <Route
+                path="/"
+                exact
+                render={() => (
+                  <>
+                    <Login
                       displayRegistrationBlockTrue={
                         this.displayRegistrationBlockTrue
                       }
+                      setUser={this.props.setUser}
+                      signIn={this.props.signIn}
                       loginError={this.props.loginError}
-                      toggleLoginError={this.props.toggleLoginError}
                     />
-                  </div>
-                  <RegistrationBlock
-                    displayRegistrationBlockFalse={
-                      this.displayRegistrationBlockFalse
-                    }
-                    visibilityRegistrationBlock={
-                      this.state.visibilityRegistrationBlock
-                    }
-                    opacityRegistrationBlock={
-                      this.state.opacityRegistrationBlock
-                    }
-                    signUp={this.props.signUp}
-                    registrationFetching={this.props.registrationFetching}
-                    registrationError={this.props.registrationError}
-                  />
-                </Suspense>
-              </>
-            )}
-          />
-          <Route
-            render={() => (
-              <div className="app">
-                <ErrorRoute />
-              </div>
-            )}
-          />
-        </Switch>
+                    <RegistrationBlock
+                      displayRegistrationBlockFalse={
+                        this.displayRegistrationBlockFalse
+                      }
+                      visibilityRegistrationBlock={
+                        this.state.visibilityRegistrationBlock
+                      }
+                      opacityRegistrationBlock={
+                        this.state.opacityRegistrationBlock
+                      }
+                      signUp={this.props.signUp}
+                      registrationFetching={this.props.registrationFetching}
+                      registrationError={this.props.registrationError}
+                    />
+                  </>
+                )}
+              />
+              <Route
+                path="/confirm_email"
+                exact
+                render={() => (
+                  <Suspense fallback={<Preloader />}>
+                    <ConfirmEmailRoute
+                      displayRegistrationBlockFalse={
+                        this.displayRegistrationBlockFalse
+                      }
+                    />
+                  </Suspense>
+                )}
+              />
+
+              <Route
+                path="/confirmed_email"
+                exact
+                render={() => (
+                  <Suspense fallback={<Preloader />}>
+                    <ConfirmedEmailRoute />
+                  </Suspense>
+                )}
+              />
+              <Route
+                path="/login"
+                exact
+                render={() => (
+                  <>
+                    <Suspense fallback={<Preloader />}>
+                      <LoginRoute
+                        signIn={this.props.signIn}
+                        displayRegistrationBlockTrue={
+                          this.displayRegistrationBlockTrue
+                        }
+                        loginError={this.props.loginError}
+                        toggleLoginError={this.props.toggleLoginError}
+                      />
+                      <RegistrationBlock
+                        displayRegistrationBlockFalse={
+                          this.displayRegistrationBlockFalse
+                        }
+                        visibilityRegistrationBlock={
+                          this.state.visibilityRegistrationBlock
+                        }
+                        opacityRegistrationBlock={
+                          this.state.opacityRegistrationBlock
+                        }
+                        signUp={this.props.signUp}
+                        registrationFetching={this.props.registrationFetching}
+                        registrationError={this.props.registrationError}
+                      />
+                    </Suspense>
+                  </>
+                )}
+              />
+              <Route render={() => <ErrorRoute />} />
+            </Switch>
+          )}
+        </div>
       );
     }
   }
@@ -761,6 +752,10 @@ const mapStateToProps = (state) => {
     profileEditDetailsOpacity:
       state.profileEditDetailsReducer.profileEditDetailsOpacity,
     // profile add hobbies component
+    profileAddHobbiesStateComponent:
+      state.profileAddHobbiesReducer.profileAddHobbiesStateComponent,
+    profileAddHobbiesSearchListHobbies:
+      state.profileAddHobbiesReducer.profileAddHobbiesSearchListHobbies,
     profileAddHobbiesVisibility:
       state.profileAddHobbiesReducer.profileAddHobbiesVisibility,
     profileAddHobbiesOpacity:
@@ -841,6 +836,8 @@ export default compose(
     changeFieldFirebase,
     toggleProfileEditDetails,
     toggleProfileAddHobbies,
+    addFromTempHobbies,
+    deleteHobbies,
     signIn,
     signUp,
     autoLogin,

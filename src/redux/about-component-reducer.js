@@ -99,6 +99,9 @@ const DETAILS_ABOUT_YOU_DELETE_FAVORITE_QUOTES =
 const LIFE_EVENTS_ADD_LIFE_EVENT = "LIFE_EVENTS_ADD_LIFE_EVENT";
 const LIFE_EVENTS_DELETE_LIFE_EVENT = "LIFE_EVENTS_DELETE_LIFE_EVENT";
 
+const HOBBIES_ADD_HOBBIES = "HOBBIES_ADD_HOBBIES";
+const HOBBIES_DELETE_HOBBIES = "HOBBIES_DELETE_HOBBIES";
+
 let initialState = {
   fullUserInfoAbout: null,
   fetchFullUserInfoAbout: false,
@@ -898,6 +901,33 @@ const aboutComponentReducer = (state = initialState, action) => {
         },
       };
 
+      // Hobbies
+
+      case HOBBIES_ADD_HOBBIES:
+        return {
+          ...state,
+          fullUserInfoAbout: {
+            ...state.fullUserInfoAbout,
+            Hobbies: action.tempPayload,
+          },
+        };
+  
+      case HOBBIES_DELETE_HOBBIES:
+        return {
+          ...state,
+          fullUserInfoAbout: {
+            ...state.fullUserInfoAbout,
+            Hobbies: [
+              ...state.fullUserInfoAbout.Hobbies.slice(0, action.index).concat(
+                [...state.fullUserInfoAbout.Hobbies].slice(
+                  action.index + 1,
+                  [...state.fullUserInfoAbout.Hobbies].length
+                )
+              ),
+            ],
+          },
+        };
+
     default:
       return state;
   }
@@ -1286,6 +1316,22 @@ export const lifeEventsAddLifeEvent = (event, description) => {
 export const lifeEventsDeleteLifeEvent = (index) => {
   return {
     type: LIFE_EVENTS_DELETE_LIFE_EVENT,
+    index,
+  };
+};
+
+// Hobbies
+
+export const addFromTempHobbies = (tempPayload) => {
+  return {
+    type: HOBBIES_ADD_HOBBIES,
+    tempPayload
+  };
+};
+
+export const deleteHobbies = (index) => {
+  return {
+    type: HOBBIES_DELETE_HOBBIES,
     index,
   };
 };
