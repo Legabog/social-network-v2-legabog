@@ -3,12 +3,10 @@ import _ from "lodash";
 import "./ProfileAddHobbiesBodyItem.css";
 
 const ProfileAddHobbiesBodyItem = (props) => {
-  
-
   return (
     <div
       className={`profile-add-hobbies-body-item${
-        _.findIndex(props.tempHobbies, {
+        _.some(props.tempHobbies, {
           hobbie: props.description,
           icon: props.Icon,
         })
@@ -16,12 +14,19 @@ const ProfileAddHobbiesBodyItem = (props) => {
           : ""
       }`}
       onClick={() => {
-        props.pushToTempHobbies(props.description, props.Icon);
+        props.toggleTempHobbies(
+          props.description,
+          props.Icon,
+          _.findIndex(props.tempHobbies, {
+            hobbie: props.description,
+            icon: props.Icon,
+          })
+        );
       }}
     >
       <div
         className={`profile-add-hobbies-body-item__icon${
-          _.findIndex( props.tempHobbies, {
+          _.some(props.tempHobbies, {
             hobbie: props.description,
             icon: props.Icon,
           })
@@ -34,7 +39,7 @@ const ProfileAddHobbiesBodyItem = (props) => {
 
       <div
         className={`profile-add-hobbies-body-item__description${
-          _.findIndex(props.tempHobbies, {
+          _.some(props.tempHobbies, {
             hobbie: props.description,
             icon: props.Icon,
           })

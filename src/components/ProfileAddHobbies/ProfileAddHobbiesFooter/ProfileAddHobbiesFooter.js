@@ -24,7 +24,6 @@ const ProfileAddHobbiesFooter = (props) => {
                   props.profileAddHobbiesVisibility,
                   props.profileAddHobbiesOpacity
                 );
-                props.setTempHobbies([])
               }}
             >
               <span>Cancel</span>
@@ -39,8 +38,8 @@ const ProfileAddHobbiesFooter = (props) => {
                   props.profileAddHobbiesVisibility,
                   props.profileAddHobbiesOpacity
                 );
-                  console.log(props.tempHobbies)
-                // props.setTempHobbies([])
+                
+                props.addFromTempHobbies(props.tempHobbies)
               }}
             >
               <span>Save</span>

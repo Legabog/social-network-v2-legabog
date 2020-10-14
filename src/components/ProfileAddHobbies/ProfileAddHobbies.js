@@ -8,27 +8,22 @@ import ProfileAddHobbiesBody from "./ProfileAddHobbiesBody/ProfileAddHobbiesBody
 import ProfileAddHobbiesFooter from "./ProfileAddHobbiesFooter/ProfileAddHobbiesFooter";
 
 const ProfileAddHobbies = (props) => {
+  
   const [tempHobbies, setTempHobbies] = useState([]);
 
-  const pushToTempHobbies = (hobbie, icon) => {
-    let result = 0;
-
-    tempHobbies.map( e => {
-      if (_.isEqual({ hobbie, icon }, e)) {
-        result += 1;
-      }
-    });
-
-    if (result === 0) {
-      setTempHobbies([...tempHobbies, { hobbie, icon }]);
-    }
+  const toggleTempHobbies = (hobbie, icon, index) => {
+    !_.some(tempHobbies, { hobbie, icon }) 
+      ? setTempHobbies([...tempHobbies, { hobbie, icon }])
+      : setTempHobbies(
+        tempHobbies.slice(0, index).concat(tempHobbies.slice(index + 1))
+      )
   };
 
-  const deleteElementFromTempHobbies = (index) => {
-    setTempHobbies(
-      tempHobbies.slice(0, index).concat(tempHobbies.slice(index + 1))
-    );
-  };
+  // const deleteElementFromTempHobbies = (index) => {
+  //   setTempHobbies(
+  //     tempHobbies.slice(0, index).concat(tempHobbies.slice(index + 1))
+  //   );
+  // };
 
   return (
     <div
@@ -42,8 +37,7 @@ const ProfileAddHobbies = (props) => {
         <ProfileAddHobbiesHeader setTempHobbies={setTempHobbies} {...props} />
         <ProfileAddHobbiesBody
           tempHobbies={tempHobbies}
-          deleteElementFromTempHobbies={deleteElementFromTempHobbies}
-          pushToTempHobbies={pushToTempHobbies}
+          toggleTempHobbies={toggleTempHobbies}
           {...props}
         />
         <ProfileAddHobbiesFooter

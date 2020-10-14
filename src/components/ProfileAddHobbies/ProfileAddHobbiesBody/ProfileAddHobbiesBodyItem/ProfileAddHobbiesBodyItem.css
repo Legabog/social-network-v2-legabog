@@ -1,4 +1,7 @@
 .profile-add-hobbies-body-item {
+    margin-top: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +9,6 @@
     border: 1px solid #E4E6EB;
     border-radius: 100px;
     padding: 6px 12px;
-    margin: 4px;
 }
 
 .profile-add-hobbies-body-item:hover {
@@ -49,7 +51,9 @@
     border: 1px solid #E4E6EB;
     border-radius: 100px;
     padding: 6px 12px;
-    margin: 4px;
+    margin-top: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .profile-add-hobbies-body-item_active:hover {
