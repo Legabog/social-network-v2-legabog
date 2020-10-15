@@ -16,20 +16,22 @@ const HeaderRight = (props) => {
 
   return (
     <div className="header__right">
-
-      <ButtonFindFriends />
+      <ButtonFindFriends {...props} />
 
       <ButtonCreate
+        {...props}
         activeButton={activeButton}
         toggleActiveButton={toggleActiveButton}
       />
 
       <ButtonMessanger
+        {...props}
         activeButton={activeButton}
         toggleActiveButton={toggleActiveButton}
       />
 
       <ButtonNotifications
+        {...props}
         activeButton={activeButton}
         toggleActiveButton={toggleActiveButton}
       />
@@ -39,7 +41,6 @@ const HeaderRight = (props) => {
         activeButton={activeButton}
         toggleActiveButton={toggleActiveButton}
       />
-      
     </div>
   );
 };

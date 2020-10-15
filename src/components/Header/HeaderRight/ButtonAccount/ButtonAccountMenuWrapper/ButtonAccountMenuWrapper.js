@@ -8,13 +8,11 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import HelpIcon from "@material-ui/icons/Help";
 import Brightness2Icon from "@material-ui/icons/Brightness2";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
-import { NavLink, useHistory } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Avatar } from "@material-ui/core";
 import ChangeAvatarSimplePreloader from "../../../../common/ChangeAvatarSimplePreloader/ChangeAvatarSimplePreloader";
 
 const ButtonAccountMenuWrapper = React.memo((props) => {
-  const history = useHistory();
-
   const [themeSwitcher, switchTheme] = useState(false);
 
   const toggleSwitcher = () => {
@@ -170,7 +168,7 @@ const ButtonAccountMenuWrapper = React.memo((props) => {
           className="button-account-menu__section"
           onClick={() => {
             props.logoutButton();
-            history.push("/");
+            props.history.push("/");
           }}
         >
           <div className="button-account-menu__section-icon">
