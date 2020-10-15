@@ -71,6 +71,7 @@
 
 .create-album-header > img {
   margin-left: 55px;
+  object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
@@ -97,6 +98,7 @@
   margin-left: 55px;
 }
 .create-album-header__add-photo > label > img {
+  object-fit: cover;
   margin-top: 10px;
   margin-bottom: 20px;
   width: 300px;
