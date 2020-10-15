@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { NavLink, useHistory } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./LoginRoute.css";
 import WarningRoundedIcon from "@material-ui/icons/WarningRounded";
 
 const LoginRoute = (props) => {
-  let history = useHistory();
 
   const [inputEmail, setInputEmail] = useState("");
   const [inputPassword, setInputPassword] = useState("");
@@ -19,7 +18,7 @@ const LoginRoute = (props) => {
 
   const loginButtonSignInHandler = (e) => {
     e.preventDefault();
-    props.signIn(inputEmail, inputPassword, history, "/login");
+    props.signIn(inputEmail, inputPassword, props.history, "/login");
     setInputEmail("");
     setInputPassword("");
   };

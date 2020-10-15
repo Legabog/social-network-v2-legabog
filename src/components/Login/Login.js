@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./Login.css";
-import { NavLink, useHistory } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Login = (props) => {
-  let history = useHistory();
 
   const [inputEmail, setInputEmail] = useState("");
   // -------Focus attribute
@@ -33,7 +32,7 @@ const Login = (props) => {
     // let qwe = history.push("/login")
 
     e.preventDefault();
-    props.signIn(inputEmail, inputPassword, history, "/login");
+    props.signIn(inputEmail, inputPassword, props.history, "/login");
     setInputEmail("");
     setInputPassword("");
   };

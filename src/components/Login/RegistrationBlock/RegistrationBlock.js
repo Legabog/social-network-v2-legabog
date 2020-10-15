@@ -4,10 +4,8 @@ import BackDrop from "../../common/BackDrop/BackDrop";
 import RegistrationBlockHeader from "./RegistrationBlockHeader/RegistrationBlockHeader";
 import RegistrationBlockBody from "./RegistrationBlockBody/RegistrationBlockBody";
 import is from "is_js";
-import { useHistory } from "react-router-dom";
 
 const RegistrationBlock = (props) => {
-  let history = useHistory();
 
   // ----------Name input
   const [name, setName] = useState("");
@@ -226,7 +224,7 @@ const RegistrationBlock = (props) => {
                       mday,
                       yday,
                       sex,
-                      history
+                      props.history
                     );
                   }
                 }

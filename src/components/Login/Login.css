@@ -87,7 +87,6 @@
     height: 22px;
     line-height: 16px;
     vertical-align: middle;
-    -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
