@@ -1,5 +1,6 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import appReducer from "./app-reducer";
+import registrationBlockReducer from "./registration-block-reducer"
 import userReducer from "./user-reducer";
 import authReducer from "./auth-reducer";
 import musicAlbumsReducer from "./musicalbums-reducer";
@@ -17,6 +18,7 @@ import thunk from "redux-thunk";
 
 let root_reducer = combineReducers({
   appReducer,
+  registrationBlockReducer,
   userReducer,
   authReducer,
   musicAlbumsReducer,
