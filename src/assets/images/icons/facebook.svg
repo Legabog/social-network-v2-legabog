@@ -1,0 +1,19 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+ <title>logo_facebook_24</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Page-2">
+   <g id="logo_facebook_24">
+    <rect height="24" width="24" y="0" x="0" id="Rectangle-530"/>
+    <path fill="#4a76a8" id="Mask" d="m3,5l0,14c0,1.10457 0.89543,2 2,2l5.997,0l0,-6.0075l-2.002,0l0,-3.0015l2.0025,0l0,-2.032c0,-2.196 1.469036,-3.950638 4.03886,-3.950638c0.938,0 2.22714,0.128638 2.46214,0.160138l-0.098699,2.7955l-1.63,-0.039012c-0.98973,0.039012 -1.7828,0.798931 -1.7828,1.541931l-0.000001,1.524081l3.006,0l-0.331,3.0015l-2.675,0l0,6.0075l5.013,0c1.10457,0 2,-0.89543 2,-2l0,-14c0,-1.10457 -0.89543,-2 -2,-2l-14,0c-1.10457,0 -2,0.89543 -2,2z"/>
+   </g>
+  </g>
+ </g>
+</svg>

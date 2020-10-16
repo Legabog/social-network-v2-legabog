@@ -1,0 +1,19 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+ <title>dropdown_24</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Page-2">
+   <g id="dropdown_24">
+    <rect height="24" width="24" y="0" x="0" id="Rectangle-4"/>
+    <path fill-rule="nonzero" fill="#ffffff" id="Mask" d="m12,14.198292l-5.359816,-4.466513c-0.424276,-0.353564 -1.054841,-0.29624 -1.408405,0.128037c-0.353564,0.424276 -0.29624,1.054841 0.128037,1.408405l6,5c0.370846,0.309039 0.909522,0.309039 1.280368,0l6,-5c0.424277,-0.353564 0.481601,-0.984129 0.128037,-1.408405c-0.353564,-0.424277 -0.984129,-0.481601 -1.408405,-0.128037l-5.359816,4.466513z"/>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+ <title>cancel_16</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Page-2">
+   <g id="cancel_16">
+    <rect height="16" width="16" y="0" x="0" id="Rectangle"/>
+    <path fill-rule="nonzero" fill="#ffffff" id="Mask" d="m8,6.72721l3.46361,-3.46361c0.35147,-0.35147 0.92132,-0.35147 1.27279,0c0.35147,0.35147 0.35147,0.92132 0,1.27279l-3.46361,3.46361l3.46361,3.46361c0.35147,0.35147 0.35147,0.92132 0,1.27279c-0.35147,0.35147 -0.92132,0.35147 -1.27279,0l-3.46361,-3.46361l-3.46361,3.46361c-0.35147,0.35147 -0.92132,0.35147 -1.27279,0c-0.35147,-0.35147 -0.35147,-0.92132 0,-1.27279l3.46361,-3.46361l-3.46361,-3.46361c-0.35147,-0.35147 -0.35147,-0.92132 0,-1.27279c0.35147,-0.35147 0.92132,-0.35147 1.27279,0l3.46361,3.46361z"/>
+   </g>
+  </g>
+ </g>
+</svg>

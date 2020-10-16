@@ -1,0 +1,19 @@
+<svg width="20" height="28" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+ <title>chevron_back_28</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Page-2">
+   <g id="chevron_back_28">
+    <rect height="28" width="20" y="0" x="0" id="Body"/>
+    <path fill="#4a76a8" id="Chevron" d="m4.56066,12.93934l8.43934,-8.43934c0.552285,-0.552285 1.447715,-0.552285 2,0l0,0c0.552285,0.552285 0.552285,1.447715 0,2l-7.5,7.5l7.5,7.5c0.552285,0.552285 0.552285,1.447715 0,2l0,0c-0.552285,0.552285 -1.447715,0.552285 -2,0l-8.43934,-8.43934c-0.585786,-0.585786 -0.585786,-1.535534 0,-2.12132z"/>
+   </g>
+  </g>
+ </g>
+</svg>

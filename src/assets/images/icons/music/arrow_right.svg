@@ -1,0 +1,22 @@
+<svg width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+
+ <title>chevron_right_outline_28</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Page-1">
+   <g id="chevron_right_outline_28">
+    <rect id="svg_1" height="28" width="28" y="0" x="0"/>
+    <g stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="#8BC1FF" id="Source">
+     <polyline points="11,7.5 17.5,14 11.000000000000284,20.5 " id="Path-2"/>
+    </g>
+    <path fill-rule="nonzero" fill="#4a76a8" id="↳-Icon-Color" d="m16.085786,14l-5.792893,5.792893c-0.390524,0.390525 -0.390524,1.023689 0,1.414214c0.390525,0.390524 1.02369,0.390524 1.414214,0l6.5,-6.5c0.390524,-0.390524 0.390524,-1.023689 0,-1.414214l-6.5,-6.5c-0.390524,-0.390524 -1.023689,-0.390524 -1.414214,0c-0.390524,0.390525 -0.390524,1.023689 0,1.414214l5.792893,5.792893z"/>
+   </g>
+  </g>
+ </g>
+</svg>
