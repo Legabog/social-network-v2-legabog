@@ -1,4 +1,4 @@
-import db from "../utils/firebase/firebase";
+import db from "utils/firebase/firebase";
 
 const SET_FULL_USER_INFO_ABOUT = "SET_FULL_USER_INFO_ABOUT";
 const TOGGLE_FETCH_FULL_USER_INFO_ABOUT = "TOGGLE_FETCH_FULL_USER_INFO_ABOUT";

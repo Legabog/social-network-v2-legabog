@@ -1,5 +1,5 @@
 import Axios from "axios";
-import db, { firebaseConfig } from "../utils/firebase/firebase";
+import db, { firebaseConfig } from "utils/firebase/firebase";
 import { setActiveUser, setUser } from "./user-reducer";
 
 const AUTH_SUCCESS = "AUTH_SUCCESS";

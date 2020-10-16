@@ -1,5 +1,5 @@
-import db from "../utils/firebase/firebase";
-import { storage, addToArray } from "../utils/firebase/firebase";
+import db from "utils/firebase/firebase";
+import { storage, addToArray } from "utils/firebase/firebase";
 import { setFullUserInfoAbout } from "./about-component-reducer";
 import {
   closeHandlerProfileUpdate,

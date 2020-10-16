@@ -1,4 +1,4 @@
-import { userAPI } from "../utils/api/api";
+import { musicApi } from "api/music-api";
 
 const SET_MUSIC_ALBUMS_DATA = "SET_MUSIC_ALBUMS_DATA";
 const TOGGLE_FETCHING = "TOGGLE_FETCHING";
@@ -110,7 +110,7 @@ export const pushToRecentlyPlayed = (img, title, author) => {
 export const getMusicAlbumsData = () => {
   return (dispatch) => {
     dispatch(toggleFetching(true));
-    userAPI.getMusicAlbums().then((response) => {
+    musicApi.getMusicAlbums().then((response) => {
       dispatch(setMusicAlbumsData(response));
       dispatch(toggleFetching(false));
     });
