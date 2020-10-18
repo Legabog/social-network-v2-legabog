@@ -1,0 +1,215 @@
+.login-route__wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-route {
+    margin-top: 80px;
+}
+
+.login-route__header {
+    padding-bottom: 16px;
+}
+
+.login-route__header > h1 {
+    color: #2e81f4;
+    font-weight: 800;
+}
+
+.login-route__body {
+    background-color: #fff; 
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 400px;
+}
+
+.login-route__body__header {
+    padding: 24px 0 16px 0;
+    display: block;
+    text-align: center;
+}
+
+.login-route__body__header > span {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.login-route__body__input {
+    display: block;
+    width: 364px;
+    padding: 6px 0;
+    margin: auto;
+    zoom: 1;
+}
+
+.login-route__body__input_error {
+    display: flex;
+}
+
+.login-route__input {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    padding-right:40px;
+    width: 305px;
+
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+
+}
+
+.login-route__input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.login-route__warning-icon {
+    position: absolute;
+    color: red;
+    margin-top: 14px;
+    margin-left: 330px;
+}
+
+.login-route__error-info {
+    color: #f02849;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.login-route__error-info > a {
+    color: #f02849;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login-route__body__button {
+    display: block;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.button-signin {
+    background-color: #1877f2;
+    margin: 0;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+
+.button-signin:hover {
+    background-color: #166fe5;
+}
+
+.button-signin:focus {
+    outline: none;
+}
+
+.login-route__body__restore-account {
+    margin-top: 16px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.login-route__body__restore-account > a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login-route__body__restore-account > a:hover {
+    text-decoration: underline;
+}
+
+.login-route__body__or {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.login-route__body__or:before,
+.login-route__body__or:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 160px;
+    height: 2px;
+    background-color: #dadde1;
+    position: relative;
+}
+
+.login-route__body__or:before {
+    margin-top: 5px;
+    margin-left: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    left: -15px;
+}
+.login-route__body__or:after {
+    margin-top: 5px;
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -15px;
+}
+
+.or {
+    color: #96999e;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+

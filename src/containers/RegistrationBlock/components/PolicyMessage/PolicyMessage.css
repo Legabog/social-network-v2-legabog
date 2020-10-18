@@ -1,0 +1,17 @@
+.policy-message {
+    padding-left: 16px;
+    position: relative;
+    width: 400px;
+}
+
+.policy-message > p {
+    width: auto;
+    color: #777;
+    font-size: 11px;
+    margin: 1em 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
