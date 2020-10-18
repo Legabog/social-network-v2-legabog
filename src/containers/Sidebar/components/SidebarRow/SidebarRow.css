@@ -1,0 +1,62 @@
+.sidebar-row {
+    min-width: 330px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar-row:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.sidebar-row:active {
+    background-color: #bfc2c4;
+    border-radius: 10px;
+}
+
+.sidebar-row > span {
+    word-break: break-word;
+    color: #050505;
+    font-size: .9375rem;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.3333;
+    margin-left: 20px;
+}
+
+.sidebar-row > .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: #2e81f4;
+}
+
+.sidebar-row__icon-from-sprite {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.sidebar-row__icon-from-sprite svg {
+    width: 30px;
+    height: 30px;
+}
+
+.sidebar-row__img {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.sidebar-row__img > img {
+    object-fit: cover;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+}
