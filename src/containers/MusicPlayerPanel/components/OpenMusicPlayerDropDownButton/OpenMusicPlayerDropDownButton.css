@@ -1,0 +1,25 @@
+.music-player-panel_open__dropDown {
+  text-align: center;
+}
+
+.music-player-panel_open__dropDown > svg {
+  cursor: pointer;
+}
+
+.music-player-panel_open__dropDown > svg {
+  width: 30px;
+  height: 30px; 
+  border-radius: 4px;
+  color: #1877F2;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.music-player-panel_open__dropDown > svg:hover {
+  background-color: #eff2f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.music-player-panel_open__dropDown > svg:active {
+  transform: scale(0.90);
+}
