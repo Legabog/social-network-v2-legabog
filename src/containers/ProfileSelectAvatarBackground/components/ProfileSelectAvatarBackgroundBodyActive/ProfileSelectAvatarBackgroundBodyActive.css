@@ -1,0 +1,29 @@
+.profile-select-avatar-background-body-wrapper_active {
+    overflow-y: auto;
+    text-align: left;
+    padding: 16px;
+    min-height: 0;
+    height: fit-content;
+}
+
+.profile-select-avatar-background-body_active {
+    display: inline-block;
+}
+
+.profile-select-avatar-background-body_active > img {
+    width: 165px;
+    height: 100px;
+    margin-right: 6px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    object-fit: cover;
+}
+
+.profile-select-avatar-background-body_active img:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.profile-select-avatar-background-body_active img:active {
+    transform: scale(0.95);
+}

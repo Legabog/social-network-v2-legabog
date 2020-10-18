@@ -1,0 +1,12 @@
+.profile-select-avatar-background-photo-albums-wrapper {
+    padding-left: 16px;
+    display: block;
+}
+
+.profile-select-avatar-background-photo-albums {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}

@@ -1,0 +1,73 @@
+.profile-update-discard-window-body {
+    display: block;
+    max-height: 380px;
+    padding: 8px 16px;
+    overflow-x: hidden;
+}
+
+.profile-update-discard-window-body__description {
+    display: flex;
+    text-align: left;
+}
+
+.profile-update-discard-window-body__control-panel {
+    display: flex;
+    padding: 16px;
+    padding-bottom: 0px;
+}
+
+.profile-update-discard-window-body__buttons {
+    display: flex;
+    margin-left: 340px;
+}
+
+.profile-update-discard-window-body__cancel-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 36px;
+    margin-right: 10px;
+    padding: 0px 12px;
+    border-radius: 6px;
+}
+
+.profile-update-discard-window-body__cancel-button > span {
+    color: #1876F2;
+}
+
+.profile-update-discard-window-body__cancel-button:hover {
+    background-color: #EFF2F5;
+    cursor: pointer;
+}
+
+.profile-update-discard-window-body__cancel-button:active {
+    transform: scale(0.95);
+    background-color: #ECF3FF;
+}
+
+.profile-update-discard-window-body__save-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 36px;
+    padding: 0px 12px;
+    border-radius: 6px;
+    background-color: #1876F2;
+}
+
+.profile-update-discard-window-body__save-button > span {
+    color: #fff;
+}
+
+.profile-update-discard-window-body__save-button:hover {
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.profile-update-discard-window-body__save-button:active {
+    transform: scale(0.95);
+}

@@ -1,0 +1,73 @@
+.profile-edit-details-footer {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.profile-edit-details-footer__controll-panel {
+    display: flex;
+    padding: 16px;
+}
+
+
+.profile-edit-details-footer__buttons {
+    display: flex;
+    margin-left: 380px;
+}
+
+.profile-edit-details-footer__buttons > a {
+    text-decoration: none;
+}
+
+/* Update button */
+
+.profile-edit-details-footer__update-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 36px;
+    padding: 0px 12px;
+    border-radius: 6px;
+    background-color: #1876F2;
+}
+
+.profile-edit-details-footer__update-button > span {
+    color: #fff;
+}
+
+.profile-edit-details-footer__update-button:hover {
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.profile-edit-details-footer__update-button:active {
+    transform: scale(0.95);
+}
+
+/* Cancel button */
+
+.profile-edit-details-footer__cancel-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 36px;
+    padding: 0px 12px;
+    border-radius: 6px;
+    margin-right: 6px;
+}
+
+.profile-edit-details-footer__cancel-button > span {
+    color: #1876F2;
+}
+
+.profile-edit-details-footer__cancel-button:hover {
+    background-color: #EFF2F5;
+    cursor: pointer;
+}
+
+.profile-edit-details-footer__cancel-button:active {
+    transform: scale(0.95);
+    background-color: #ECF3FF;
+}

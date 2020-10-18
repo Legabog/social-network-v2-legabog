@@ -1,0 +1,6 @@
+.profle-update-avatar-body {
+    display: block;
+    max-height: 380px;
+    padding: 8px 16px;
+    overflow-x: hidden;
+}
