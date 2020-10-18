@@ -1,0 +1,59 @@
+.button-account__wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 40px;
+    padding-right: 10px;
+}
+
+.button-account {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #eff2f5;
+    border-radius: 999px;
+}
+
+.button-account:hover {
+    filter: contrast(80%);
+}
+
+.button-account:active {
+    transform: scale(0.98);
+}
+
+.button-account_active {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ECF3FF;
+    border-radius: 999px;
+}
+
+.button-account_active:hover {
+    filter: contrast(80%);
+}
+
+.button-account_active:active {
+    transform: scale(0.98);
+}
+
+.button-account > svg {
+    color: #050505;
+}
+
+.button-account_active > svg {
+    color:  #1877F2;
+}

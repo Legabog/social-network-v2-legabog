@@ -1,0 +1,110 @@
+.button-messanger-menu__wrapper {
+    position: absolute;
+    overflow: auto;
+    display: block;
+    top: 57px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    width: 360px;
+    min-height: fit-content;
+    border-radius: 8px;
+    max-width: calc(100vw - 24px);
+    max-height: calc(100vh - 60px);
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+}
+
+
+.button-messanger-menu__wrapper::-webkit-scrollbar {
+    background-color: #eff2f5;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.button-messanger-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background-color: #eff2f5;
+    border-top-right-radius: 8px;
+}
+
+.button-messanger-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-color: #eff2f5;
+    border-bottom-right-radius: 8px;
+}
+
+.button-messanger-menu__wrapper::-webkit-scrollbar-thumb {
+    background-color: #cccecf;
+}
+
+.button-messanger-menu__header {
+    display: flex;
+    text-align: center;
+}
+
+.button-messanger-menu__header > h2 {
+    color: #050505;
+    font-weight: 700;
+    height: fit-content;
+}
+
+.button-messanger-menu__panel {
+    margin-left: 80px;
+    height: 40px;
+    display: flex;
+}
+
+.button-messanger-menu__body {
+    display: block;
+}
+
+.button-messanger-menu__searches {
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    display: block;
+    text-align: center;
+}
+
+.button-messanger-menu__searches > span {
+    word-break: break-word;
+    text-align: center;
+    font-weight: normal;
+    color: #050505;
+}
+
+.button-messanger-menu__description  > span {
+    word-break: break-word;
+    text-align: center;
+    color: #8A8D91;
+    font-weight: normal;
+}
+
+.button-messanger-menu__searches a {
+    font-weight: 600;
+    color: #1877F2;
+    text-decoration: none;
+}
+
+.button-messanger-menu__searches a:hover {
+    text-decoration: underline;
+}
+
+.button-messanger-menu__searches hr {
+    min-width: 392px;
+    margin-left: -32px;
+    background-color: #CED0D4;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    background: #dadde1;
+    border-width: 0;
+    color: #dadde1;
+    height: 1px;
+}
+
+
+
+
+
