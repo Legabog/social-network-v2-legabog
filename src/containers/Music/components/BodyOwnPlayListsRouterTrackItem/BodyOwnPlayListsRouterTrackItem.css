@@ -1,0 +1,55 @@
+.bodyOwnPlayListsRouter__item {
+    display: block;
+  }
+  
+  .bodyOwnPlayListsRouter__item:hover {
+    cursor: pointer;
+    background-color: rgb(214, 233, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  }
+
+  .bodyOwnPlayListsRouter__item h2 {
+    color: #1877F2;
+  }
+
+  .bodyOwnPlayListsRouter__item p {
+    font-size: 130%;
+    margin-top: -5px;
+    color: rgb(163, 163, 163);
+  }
+  
+  .bodyOwnPlayListsRouter__item:hover h2{
+    margin-left: 40px;
+    color: #F62A54;  
+  }
+
+  .bodyOwnPlayListsRouter__item:hover p{
+    margin-left: 40px;
+    color: #F62A54;  
+  }
+
+  .bodyOwnPlayListsRouter__item:hover button {
+    margin-left: -40px;
+    
+  }
+
+  .bodyOwnPlayListsRouter__description {
+    display: flex;
+  }
+  
+  .bodyOwnPlayListsRouter__description h2 {
+    font-size: 160%;
+    width: 605px;
+    margin-bottom: 0px;
+  }
+
+  .bodyOwnPlayListsRouter__item hr {
+    margin: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid rgb(240, 236, 236);
+  }
+
+  .bodyOwnPlayListsRouter__titleAndAuthor {
+    display: block;
+  }

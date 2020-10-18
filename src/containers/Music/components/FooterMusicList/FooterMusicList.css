@@ -1,0 +1,14 @@
+.music-list-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.music-list-footer > h3 {
+  font-size: 21px;
+  margin-left: 10px;
+  Color: #1877F2;
+}
+
+.music-list-footer > a {
+  text-decoration: none;
+}
