@@ -68,21 +68,4 @@ export const toggleProfileEditDetails = (visibility, opacity) => {
       }
     };
   };
-
-// export const closeHandlerProfileUpdate = () => {
-//   return (dispatch) => {
-//     dispatch(toggleProfileUpdateStateComponent(0));
-//     dispatch(toggleProfileUpdateConditionForAvatar(0));
-//     dispatch(toggleProfileUpdateVisibility("hidden"));
-//     dispatch(toggleProfileUpdateOpacity(0));
-//     dispatch(setTempAvatar(null));
-//     dispatch(setTempAvatarName(null));
-
-//     //-------- For the same pictures
-//     document.getElementById("avatar-uploader").value = "";
-//   };
-// };
-
-
-
 export default profileEditDetailsReducer;
