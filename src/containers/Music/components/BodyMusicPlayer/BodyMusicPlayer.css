@@ -1,0 +1,35 @@
+.music-player-body {
+    display:flex;
+    margin-top: 20px;
+}
+
+.music-player-body__item-image {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.music-player-body__item-image > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.music-player-body__description {
+    width: 680px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 30px;
+}
+
+.music-player-body__description > h1, h6{
+    color: #1877F2;
+}
+
+.music-player-body__description > h2 {
+    color: rgb(163, 163, 163);
+}
+
+
+  
