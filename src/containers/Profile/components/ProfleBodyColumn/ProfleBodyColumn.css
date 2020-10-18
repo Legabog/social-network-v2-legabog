@@ -1,0 +1,7 @@
+.profile__body__column {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}

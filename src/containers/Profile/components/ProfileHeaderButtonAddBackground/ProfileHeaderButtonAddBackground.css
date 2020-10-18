@@ -1,0 +1,33 @@
+.profile__header__buttonAddCover {
+    z-index: 2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 36px;
+    border-radius: 6px;
+    margin-left: 700px;
+    margin-top: 280px;
+    position: absolute;
+    display: flex;
+    background-color: #E4E6EB;
+}
+
+.profile__header__buttonAddCover span {
+    color: #050505;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+}
+
+.profile__header__buttonAddCover:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.profile__header__buttonAddCover:active {
+    transform: scale(0.97);
+    filter: brightness(70%);
+}

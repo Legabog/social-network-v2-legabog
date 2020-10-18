@@ -1,0 +1,36 @@
+.profile__header__navigation__special__item {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+
+.profile__header__navigation__special__item:hover {
+    background-color: #eff2f5;
+}
+
+
+.profile__header__navigation__special__item span {
+    word-break: break-word;
+    white-space: nowrap;
+    color: #65676B;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.profile__header__navigation__special__itemIcon {
+    margin-left: -15px;
+    padding-right: 16px;
+}
+
+.profile__header__navigation__special__itemIcon svg {
+    margin-top: 3px;
+    color: #65676B;
+}

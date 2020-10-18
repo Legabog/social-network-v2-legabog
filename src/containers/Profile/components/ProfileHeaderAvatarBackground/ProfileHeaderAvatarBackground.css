@@ -1,0 +1,38 @@
+.profile__header__avatarBackground {
+    width: 940px;
+    height: 350px;
+    border-radius: 8px;
+    background: rgb(36,0,0);
+    background: linear-gradient(0deg, rgba(36,0,0,1) 0%, rgba(240,242,245,1) 100%);
+}
+
+.profile__header__avatarBackground__active__wrapper {
+    width: 940px;
+    height: 350px;  
+    border-radius: 8px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.profile__header__avatarBackground__active__wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.profile__header__avatarBackground__active {
+    width: 940px;
+    min-height: fit-content;
+    max-height: fit-content;
+    border-radius: 8px;
+}
+
+.profile__header__avatarBackground__active:hover {
+    cursor: move;
+}
+
+.profile__header__avatarBackground__active img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 8px;
+    object-fit: cover;
+}
