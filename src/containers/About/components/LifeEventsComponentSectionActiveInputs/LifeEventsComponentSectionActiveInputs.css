@@ -1,0 +1,141 @@
+.LifeEventsComponentSectionActiveInputs__input__wrapper {
+    margin: auto;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 17px;
+    width: 550px;
+}
+
+.LifeEventsComponentSectionActiveInputs__input {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 500px;
+
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+
+}
+
+.LifeEventsComponentSectionActiveInputs__input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.LifeEventsComponentSectionActiveInputs__controllButtons {
+    display: flex;
+    padding-left: 420px;
+}
+
+.LifeEventsComponentSectionActiveInputs__cancelButton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    height: 36px;
+    margin-right: 5px;
+    border-radius: 6px;
+    padding: 0px 12px;
+    background-color: #eff2f5;
+}
+
+.LifeEventsComponentSectionActiveInputs__cancelButton:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+
+}
+
+.LifeEventsComponentSectionActiveInputs__cancelButton:active {
+    transform: scale(0.97);
+}
+
+.LifeEventsComponentSectionActiveInputs__cancelButton span {
+    margin: 0;
+    text-overflow: ellipsis;
+    color: #050505;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-weight: 600;
+    font-size: .9375rem;
+    max-height: 20px;
+}
+
+.LifeEventsComponentSectionActiveInputs__saveButton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    height: 36px;
+    border-radius: 6px;
+    padding: 0px 12px;
+    background-color: #1877F2;
+  }
+  
+  .LifeEventsComponentSectionActiveInputs__saveButton:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+  }
+  
+  .LifeEventsComponentSectionActiveInputs__saveButton:active {
+    transform: scale(0.97);
+  }
+  
+  .LifeEventsComponentSectionActiveInputs__saveButton span {
+    margin: 0;
+    text-overflow: ellipsis;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-weight: 600;
+    font-size: .9375rem;
+    max-height: 20px;
+  }
+
+.LifeEventsComponentSectionActiveInputs__saveButton-disabled {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    height: 36px;
+    border-radius: 6px;
+    padding: 0px 12px;
+    background-color: #eff2f5;
+}
+
+.LifeEventsComponentSectionActiveInputs__saveButton-disabled:hover {
+    cursor: not-allowed;
+
+}
+
+.LifeEventsComponentSectionActiveInputs__saveButton-disabled span {
+    margin: 0;
+    text-overflow: ellipsis;
+    color: rgb(179, 175, 175);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-weight: 600;
+    font-size: .9375rem;
+    max-height: 20px;
+}
