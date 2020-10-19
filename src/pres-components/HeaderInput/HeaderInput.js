@@ -7,36 +7,34 @@ export const HeaderInput = (props) => {
     document.getElementById(componentId).focus();
   };
 
+  const clickSerachIcon = () => {
+    props.toggleActiveInput();
+    setTimeout(() => {
+      focusInput("header-input");
+    }, 100);
+  };
+
+  const clickInput = () => {
+    if (props.activeInput) {
+      focusInput("header-input");
+    } else {
+      props.toggleActiveInput();
+      setTimeout(() => {
+        focusInput("header-input");
+      }, 100);
+    }
+  };
+
   return (
     <div
       className={props.activeInput ? "header__input_active" : "header__input"}
     >
-      {props.activeInput ? null : (
-        <SearchIcon
-          onClick={(e) => {
-            e.preventDefault();
-            props.toggleActiveInput();
-            setTimeout(() => {
-              focusInput("header-input");
-            }, 100);
-          }}
-        />
-      )}
+      {props.activeInput ? null : <SearchIcon onClick={clickSerachIcon} />}
       <input
         type="text"
         id="header-input"
         placeholder="Search Social Network"
-        onClick={(e) => {
-          e.preventDefault();
-          if (props.activeInput) {
-            focusInput("header-input");
-          } else {
-            props.toggleActiveInput();
-            setTimeout(() => {
-              focusInput("header-input");
-            }, 100);
-          }
-        }}
+        onClick={clickInput}
         onBlur={props.toggleActiveInput}
       />
     </div>
