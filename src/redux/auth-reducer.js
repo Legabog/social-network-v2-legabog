@@ -280,6 +280,7 @@ export const logout = () => {
   localStorage.removeItem("userId");
   localStorage.removeItem("expirationDate");
   localStorage.removeItem("emailActiveUser");
+  
 
   return {
     type: AUTH_LOGOUT,

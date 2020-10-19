@@ -3,6 +3,7 @@ import { Routes } from "routes/routes";
 import { connect } from "react-redux";
 import { compose } from "redux";
 import { Route, Switch, withRouter } from "react-router-dom";
+import _ from "lodash";
 
 import { autoLogin } from "redux/auth-reducer";
 import { getMusicAlbumsData } from "redux/musicalbums-reducer";
@@ -173,7 +174,7 @@ const App = (props) => {
           />
           {props.musicAlbums.map((e, index) => (
             <Route
-              key={index}
+              key={_.uniqueId(`d-r1_${e}`)}
               path={Routes.MUSIC_LIST_ARTISTS + `/${e.author}`}
               exact
               render={() => (
@@ -190,7 +191,7 @@ const App = (props) => {
           ))}
           {props.musicAlbums.map((e, index) => (
             <Route
-              key={index}
+              key={_.uniqueId(`d-r2_${e}`)}
               path={Routes.MUSIC_PLAYER + `/${e.author}/${e.title}`}
               exact
               render={() => (
@@ -211,7 +212,7 @@ const App = (props) => {
           ))}
           {props.ownPlayLists.map((e, index) => (
             <Route
-              key={index}
+              key={_.uniqueId(`d-r3_${e}`)}
               path={`/music-playlists/${e.title}/`}
               exact
               render={() => (
@@ -291,7 +292,7 @@ const App = (props) => {
           />
           {Routes.PROFILE_ABOUT.map((e, index) => (
             <Route
-              key={index}
+              key={_.uniqueId(`d-r4_${e}`)}
               path={e}
               exact
               render={() => (
