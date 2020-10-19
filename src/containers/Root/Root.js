@@ -4,7 +4,7 @@ import "./Root.css";
 
 export const Root = (props) => {
   return (
-    <div className={"app"}>
+    <div className="app">
       {props.Fetching ? (
         <Preloader />
       ) : (
