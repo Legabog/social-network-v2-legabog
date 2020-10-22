@@ -1,0 +1,29 @@
+.profile-edit-details__add-button {
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    width: 555px;
+    height: 36px;
+}
+
+.profile-edit-details__add-button:hover {
+    cursor: pointer;
+}
+
+.profile-edit-details__add-button > svg {
+    color: #1877F2;
+}
+
+.profile-edit-details__add-button__description {
+    display: flex;
+}
+
+.profile-edit-details__add-button__description > span {
+    word-break: break-word;
+    font-size: .9375rem;
+    font-weight: 500;
+    line-height: 1.3333;
+    padding: 6px;
+    color: #1877F2;
+}

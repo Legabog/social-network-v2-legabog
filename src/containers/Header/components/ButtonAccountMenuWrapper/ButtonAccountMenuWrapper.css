@@ -1,0 +1,251 @@
+.button-account-menu__wrapper {
+    position: absolute;
+    overflow: auto;
+    display: block;
+    top: 57px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    width: 360px;
+    min-height: 215px;
+    border-radius: 8px;
+    max-width: calc(100vw - 24px);
+    max-height: calc(100vh - 60px);
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+}
+
+.button-account-menu__wrapper hr {
+    margin-right: 16px;
+    background-color: #CED0D4;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+    background: #dadde1;
+    border-width: 0;
+    color: #dadde1;
+    height: 1px;
+}
+
+.button-account-menu__wrapper::-webkit-scrollbar {
+    background-color: #eff2f5;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.button-account-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background-color: #eff2f5;
+    border-top-right-radius: 8px;
+}
+
+.button-account-menu__wrapper::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-color: #eff2f5;
+    border-bottom-right-radius: 8px;
+}
+
+.button-account-menu__wrapper::-webkit-scrollbar-thumb {
+    background-color: #cccecf;
+}
+
+.button-account-menu__header {
+    color: #050505;
+    font-weight: 600;
+}
+
+.button-account-menu__header > a {
+    text-decoration: none;
+}
+
+.button-account-menu__block {
+    margin-left: -8px;
+    margin-right: -8px;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+}
+
+.button-account-menu__block:hover {
+    background-color: #eff2f5;
+    cursor: pointer;
+}
+
+.button-account-menu__block:active {
+    background-color: #e9ebec;
+    cursor: pointer;
+}
+
+.button-account-menu__icon {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-account-menu__icon > svg {
+    width: 60px;
+    height: 60px;
+    color: gray;
+}
+
+.button-account-menu__icon > .MuiAvatar-root {
+    width: 60px;
+    height: 60px;
+}
+
+.button-account-menu__block__account-description {
+    display: block;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.button-account-menu__block__account-name > span {
+    font-weight: 600;
+    text-align: left;
+    color: #050505;
+    line-height: 1.1765;
+    word-break: break-word;
+}
+
+.button-account-menu__block__description > span {
+    word-break: break-word;
+    color: #65676B;    
+    font-weight: normal;
+    font-size: .9375rem;
+    line-height: 1.3333;
+}
+
+.button-account-menu__section {
+    width: 350px;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    display: flex;
+}
+
+.button-account-menu__section:hover {
+    background-color: #e9ebec;
+    cursor: pointer;
+}
+
+.button-account-menu__section:active {
+    background-color: #bfc2c4;
+    cursor: pointer;
+}
+
+.button-account-menu__section > span {
+    color: #050505;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.button-account-menu__section-icon > svg {
+    width: 36px;
+    height: 36px;
+    padding-top: 5px;
+    color: gray;
+}
+
+.button-account-menu__section-info {
+    display: block;
+    padding-left: 10px;
+}
+
+.button-account-menu__section-info-main > span {
+    font-weight: 600;
+    text-align: left;
+    color: #050505;
+    line-height: 1.1765;
+    word-break: break-word;
+}
+
+.button-account-menu__section-info-secondary {
+    min-width: 200px;
+}
+
+.button-account-menu__section-info-secondary > span {
+    word-break: break-word;
+    color: #65676B;    
+    font-weight: normal;
+    font-size: .9375rem;
+    line-height: 1.3333;
+}
+
+.button-account-menu__section-arrow-left > svg {
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 24px;
+    height: 24px;
+    color: gray;
+}
+
+.button-account-menu__switcher {
+    position: relative;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 40px;
+    width: 52px;
+    height: 28px;
+}
+
+.button-account-menu__switcher > input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.button-account-menu__switcher input:checked + .button-account-menu__slider-round {
+    background-color: #1877F2;
+}
+  
+.button-account-menu__switcher input:focus + .button-account-menu__slider-round {
+    box-shadow: 0 0 1px #1877F2;
+}
+  
+.button-account-menu__switcher input:checked + .button-account-menu__slider-round:before {
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+}
+
+.button-account-menu__slider-round {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s; 
+}
+
+.button-account-menu__slider-round:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.button-account-menu__slider-round {
+    border-radius: 34px;
+}
+
+.button-account-menu__slider-round:before {
+    border-radius: 50%;
+}
+
+
+  
+ 

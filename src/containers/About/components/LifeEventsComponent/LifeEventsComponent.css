@@ -1,0 +1,66 @@
+.LifeEventsComponent__wrapper {
+    display: flex;
+    text-align: center;
+    padding: 16px 32px 32px 16px;
+}
+
+.LifeEventsComponent {
+    display: block;
+}
+
+.LifeEventsComponent hr {
+    margin-right: 16px;
+    background-color: #CED0D4;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    margin-top: 8px;
+    background: #dadde1;
+    border-width: 0;
+    color: #dadde1;
+    height: 1px;
+}
+
+
+.LifeEventsComponent__section {
+    display: block;
+    text-align: left;
+    justify-content: left;
+}
+
+.LifeEventsComponent__sectionTitle {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.LifeEventsComponent__sectionTitle span {
+    text-align: left;
+    word-break: break-word;    
+    font-weight: 600;
+    color: #050505;
+    line-height: 1.1765;
+    font-size: 1.0625rem;
+}
+
+.LifeEventsComponent__section__description {
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    width: 555px;
+    height: 36px;
+}
+
+.LifeEventsComponent__section__description svg {
+    padding: 6px;
+    color: #65676B;
+}
+
+
+.LifeEventsComponent__section__description span {
+    word-break: break-word;
+    font-size: .9375rem;
+    font-weight: 500;
+    line-height: 1.3333;
+    padding: 6px;
+    color: #65676B;
+}

@@ -1,0 +1,19 @@
+.DetailsAboutYouComponentSection__section {
+    display: block;
+    text-align: left;
+    justify-content: left;
+}
+
+.DetailsAboutYouComponentSection__sectionTitle {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.DetailsAboutYouComponentSection__sectionTitle span {
+    text-align: left;
+    word-break: break-word;    
+    font-weight: 600;
+    color: #050505;
+    line-height: 1.1765;
+    font-size: 1.0625rem;
+}

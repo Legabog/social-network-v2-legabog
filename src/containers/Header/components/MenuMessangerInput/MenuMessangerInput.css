@@ -1,0 +1,64 @@
+.button-messanger-menu__input__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.button-messanger-menu__input {
+    width: 100%;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    background-color: #eff2f5;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 999px;
+}
+
+.button-messanger-menu__input:hover {
+    cursor: pointer;
+}
+
+.button-messanger-menu__input > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.button-messanger-menu__input > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.button-messanger-menu__input > input:hover {
+    cursor: pointer;
+}
+
+.button-messanger-menu__input_active {
+    width: 100%;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    background-color: #eff2f5;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 999px;
+}
+
+.button-messanger-menu__input_active:hover {
+    cursor: pointer;
+}
+
+.button-messanger-menu__input_active > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.button-messanger-menu__input_active > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.button-messanger-menu__input_active > input:hover {
+    cursor: pointer;
+}

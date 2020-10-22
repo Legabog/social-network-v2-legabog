@@ -1,0 +1,23 @@
+.profile__header__navigation__wrap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.profile__header__navigation {
+    display: flex;
+    width: 910px;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.profile__header__navigationBar {
+    display: flex;
+}
+
+.profile__header__buttonPanel {
+    display: flex;
+    margin-left: 8px;
+}

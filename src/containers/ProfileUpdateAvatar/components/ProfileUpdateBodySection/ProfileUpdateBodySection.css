@@ -1,0 +1,94 @@
+.profle-update-avatar-body__section {
+    display: block;
+    width: 670px;
+    min-height: 150px;
+}
+
+.profle-update-avatar-body__section-img {
+    object-fit: cover;
+    width: 105px;
+    height: 105px;
+    border-radius: 6px;
+    margin-right: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin-bottom: 16px;
+}
+
+.profle-update-avatar-body__section > span {
+    display: flex;
+    font-weight: 600;
+    color: #050505;
+    line-height: 1.1765;
+    font-size: 1.0625rem;
+}
+
+.profle-update-avatar-body__section-img-line {
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.profle-update-avatar-body__section-img-line img:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.profle-update-avatar-body__section-img-line img:active {
+    transform: scale(0.95);
+}
+
+.profle-update-avatar-body__section-img-line_oversized {
+    margin-top: 10px;
+    display: block;
+}
+
+.profle-update-avatar-body__section-img-line-main_oversized {
+    display: flex;
+}
+
+.profle-update-avatar-body__section-img-line_oversized img:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.profle-update-avatar-body__section-img-line_oversized img:active {
+    transform: scale(0.95);
+}
+
+.profle-update-avatar-body__section-img-line-secondary_oversized {
+    margin-top: 5px;
+    width: 100%;
+    display: inline-block;
+    text-align: start;
+    margin-bottom: 16px;
+}
+
+
+.section-img-line-secondary_oversized__button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #E4E6EB;
+}
+
+.section-img-line-secondary_oversized__button > span {
+    color: #050505;
+    font-size: .9375rem;
+    line-height: 1.3333;
+    font-weight: 600;
+}
+
+.section-img-line-secondary_oversized__button:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.section-img-line-secondary_oversized__button:active {
+    transform: scale(0.95);
+}

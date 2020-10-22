@@ -1,0 +1,42 @@
+
+.registration-block__field-error {
+    width: 300px;
+    /* right: 713px;
+    top: 276px; */
+    z-index: 400;
+    opacity: 1;
+    height: 0;
+    position: absolute;
+    outline: none;
+    font-size: 12px;
+}
+
+.registration-block__field-error__label {
+    right: 0px;
+    position: absolute;
+}
+
+.registration-block__field-error__body {
+    padding-right: 18px;
+}
+
+.registration-block__field-error__content {
+    background-color: #be4b49;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(139, 3, 0, .75), 0 1px 10px rgba(0, 0, 0, .35);
+    color: #fff;
+    font-size: 13px;
+    max-width: 300px;
+    padding: 13px;
+    position: relative;
+}
+
+.registration-block__field-error__icon {
+    background-image: url(https://en-gb.facebook.com/rsrc.php/v3/yN/r/bn50JeIPkQ7.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden;
+    position: absolute;
+    font-style: italic;
+}

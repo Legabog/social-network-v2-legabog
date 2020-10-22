@@ -1,0 +1,61 @@
+.profile__header__avatarBackground__window__wrapper {
+    position: absolute;
+    top: 360px;
+    margin-left: 540px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.profile__header__avatarBackground__window {
+    margin-top: 30px;
+    z-index: 100;
+    width: 320px;
+    padding: 8px;
+    height: fit-content;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+}
+
+.profile__header__avatarBackground__windowSection {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 36px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.profile__header__avatarBackground__windowSection svg {
+    width: 20px;
+    height: 20px;
+    color: gray;
+}
+
+
+.profile__header__avatarBackground__windowSection span {
+    margin-left: 10px;
+    word-break: break-word;
+    color: #050505;
+    font-size: .9375rem;
+    font-weight: 500;
+    line-height: 1.3333;
+}
+
+.profile__header__avatarBackground__windowSection:hover {
+    cursor: pointer;
+    background-color: #eff2f5;
+}
+
+.profile__header__avatarBackground__windowSection:hover {
+    cursor: pointer;
+    background-color: #eff2f5;
+}
+
+.profile__header__avatarBackground__windowSection:active {
+    background-color: #bfc2c4;
+}

@@ -1,0 +1,142 @@
+.confirmChangeAvatarBackground__wrapper {
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 60px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.confirmChangeAvatarBackground {
+    display: flex;
+    padding: 12px 16px;
+}
+
+.confirmChangeAvatarBackground__description {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
+
+.confirmChangeAvatarBackground__description svg {
+    color: #fff;
+}
+.confirmChangeAvatarBackground__description span {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.confirmChangeAvatarBackground__controlPanel {
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+}
+
+.confirmChangeAvatarBackground__controlPanel__cancelButton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    padding: 0 12px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.confirmChangeAvatarBackground__controlPanel__cancelButton span {
+    color: #E4E6EB;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+}
+
+.confirmChangeAvatarBackground__controlPanel__cancelButton:hover {
+    cursor: pointer;
+    filter: brightness(95%)
+}
+
+.confirmChangeAvatarBackground__controlPanel__cancelButton:active {
+    transform: scale(0.95);
+    filter: brightness(80%)
+}
+
+.confirmChangeAvatarBackground__controlPanel__cancelButton-disabled {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    padding: 0 12px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.confirmChangeAvatarBackground__controlPanel__cancelButton-disabled span {
+    color: #E4E6EB;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+}
+
+.confirmChangeAvatarBackground__controlPanel__cancelButton-disabled {
+    cursor: not-allowed;
+}
+
+.confirmChangeAvatarBackground__controlPanel__saveButton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    padding: 0 40px;
+    margin-left: 10px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #2D88FF;
+}
+
+.confirmChangeAvatarBackground__controlPanel__saveButton span {
+    color: #fff;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+}
+
+.confirmChangeAvatarBackground__controlPanel__saveButton:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.confirmChangeAvatarBackground__controlPanel__saveButton:active {
+    transform: scale(0.95);
+    filter: brightness(80%)
+}
+
+.confirmChangeAvatarBackground__controlPanel__saveButton-disabled {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    padding: 0 40px;
+    margin-left: 10px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.confirmChangeAvatarBackground__controlPanel__saveButton-disabled span {
+    color: #E4E6EB;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+}
+
+.confirmChangeAvatarBackground__controlPanel__saveButton-disabled:hover {
+    cursor: not-allowed;
+}

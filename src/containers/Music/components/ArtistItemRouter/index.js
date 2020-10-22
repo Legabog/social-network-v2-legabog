@@ -1,0 +1,1 @@
+export { ArtistItemRouter as default } from "./ArtistItemRouter"

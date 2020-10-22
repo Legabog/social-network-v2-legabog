@@ -1,0 +1,48 @@
+.registration-block__wrapper {
+    opacity: 1;
+    min-width: 472px;
+    padding-top: 5px;
+    left: 0;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: table;
+    height: 100% !important;
+    table-layout: fixed;
+    width: 100%;
+    outline: none;
+    background: transparent;
+    transition: opacity 200ms linear, visibility 200ms linear;
+}
+
+.registration-block__main-wrapper {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.registration-block__main-block {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    z-index: 100;
+}
+
+.registration-block {
+    background-color: transparent;
+    overflow: visible;
+    padding: 0;
+    width: 432px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.registration-block > hr {
+    height: 0;
+    border: none;
+    border-top: 1px solid #f0ecec;
+}
+

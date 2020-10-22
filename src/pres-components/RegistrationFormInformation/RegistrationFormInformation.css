@@ -1,0 +1,78 @@
+.registration-form-inforamtion {
+    position: absolute;
+    z-index: 1000;
+}
+
+.registration-form-inforamtion__body {
+    width: 352px;
+    margin-left: -290px;
+    margin-top: -80px;
+}
+
+.registration-form-inforamtion__block {
+    top: 0px;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 10px rgba(0, 0, 0, .35);
+    background: var(--card-background, #FFFFFF);
+    position: relative;
+}
+
+.registration-form-inforamtion__block__content {
+    padding: 12px;
+}
+
+.registration-form-inforamtion__block__footer {
+    border-top: 1px solid #dddfe2;
+    margin: 0 12px;
+    padding: 8px 0;
+    text-align: right;
+}
+
+.registration-form-inforamtion__button {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 22px;
+    background-color: #4267b2;
+    border-color: #4267b2;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+
+    border: 1px solid;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+.information__gbutton:hover {
+    filter: opacity(80%)
+}
+
+.registration-form-inforamtion__icon {
+    margin-top: -160px;
+    background-image: url(https://en-gb.facebook.com/rsrc.php/v3/yN/r/bn50JeIPkQ7.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -54px -212px;
+    height: 16px;
+    right: -8px;
+    width: 8px;
+    overflow: hidden;
+    position: absolute;
+    font-style: italic;
+}
+
+
+
+
+

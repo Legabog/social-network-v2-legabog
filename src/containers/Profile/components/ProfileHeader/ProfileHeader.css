@@ -1,0 +1,34 @@
+.profile__header {
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    width: 100%;
+    height: 50%;
+}
+
+.profile__header__pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__header__hr {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__header__hr hr {
+    width: 910px;
+    background: #dadde1;
+    border-width: 0;
+    color: #dadde1;
+    height: 1px;
+}
+
+.profile__header__lastBlock {
+    height: 20px;
+}
+
+

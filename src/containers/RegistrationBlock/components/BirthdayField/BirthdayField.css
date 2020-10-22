@@ -1,0 +1,83 @@
+.birthday-field {
+    padding-left: 16px;
+}
+
+.birthday-field__description {
+    display: flex;
+    align-items: center;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.birthday-field__description > button {
+    width: 10px;
+    height: 10px;
+    padding-left: 12px;
+}
+
+.birthday-field__description svg {
+    width: 15.6px;
+    height: 15.6px;
+}
+
+
+.birthday-field__error-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 29px;
+    color: red;
+}
+
+.birthday-field__selects {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.birthday-field__block {
+    padding-right: 12px;
+}
+
+
+.birthday-field__block__select {
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    width: 125px;
+    padding: 5px;
+    background-color: #fff;
+    overflow: visible !important;
+    border: 1px solid #ccd0d5;
+
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+.birthday-field__block__select:focus {
+    outline: none;
+}

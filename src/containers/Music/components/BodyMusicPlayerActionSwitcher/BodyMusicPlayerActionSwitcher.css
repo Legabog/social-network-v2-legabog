@@ -1,0 +1,80 @@
+.action-switcher__root:focus {
+  outline: none;
+}
+
+.action-switcher__root {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.action-switcher__icon > svg {
+  width: 28px;
+  height: 28px;
+  margin-top: 10px;
+}
+
+.action-switcher__description-header {
+  width: 350px;
+  display: flex;
+}
+
+.action-switcher__description-header:focus {
+  outline: none;
+}
+
+.action-switcher__description-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.action-switcher__description-header > svg {
+  width: 20px;
+  height: 20px;
+}
+
+.action-switcher__description-header svg:hover {
+  cursor: pointer;
+  filter: opacity(70%)
+}
+
+.action-switcher__title-and-author {
+  margin-left: 10px;
+}
+
+.action-switcher__title-and-author > h3 {
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+  color: #1877F2;
+}
+
+.action-switcher__title-and-author > p {
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(163, 163, 163)
+}
+
+.action-switcher__add {
+  display: flex;
+  height: 30px;
+}
+
+.action-switcher__add > h3 {
+  margin-top: 3px;
+  margin-left: 150px;
+  color: rgb(163, 163, 163);
+}
+
+.action-switcher__add > svg {
+  margin-top: 3px;
+  margin-left: 0px;
+  width: 28px;
+  height: 28px;
+}

@@ -1,0 +1,70 @@
+.bodyOwnPlayListsRouter {
+    display:flex;
+    word-break: break-all;
+    margin-bottom: 50px;
+}
+
+.bodyOwnPlayListsRouter a {
+    text-decoration: none;
+}
+
+.bodyOwnPlayListsRouter__playListImage {
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.bodyOwnPlayListsRouter__playListImage img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1)
+}
+
+.bodyOwnPlayListsRouter__playListTitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 30px;
+}
+
+.bodyOwnPlayListsRouter__playListTitle h1 {
+    color: #1877F2;
+    font-size: 160%;
+}
+
+.bodyOwnPlayListsRouter__playListTitle h2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(163, 163, 163);
+    margin-bottom: 20px;
+}
+
+.bodyOwnPlayListsRouter__playListTitle br {
+    margin: 0;
+}
+.bodyOwnPlayListsRouter__playListTracks h2 {
+    color: #1877F2;
+}
+
+.bodyOwnPlayListsRouter__playListTracks hr {
+    margin: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid rgb(240, 236, 236);
+}
+
+.bodyOwnPlayListsRouter__delete {
+    width: fit-content;
+    margin-top: 30px; 
+}
+
+.bodyOwnPlayListsRouter__delete svg {
+    width: 35px;
+    height: 35px;
+}
+
+

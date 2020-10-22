@@ -1,0 +1,55 @@
+.profile-update-avatar-header {
+    min-height: 60px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.profile-update-avatar-header__title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.profile-update-avatar-header__title > span {
+    color: #050505;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-left: 70px;
+}
+
+.profile-update-avatar-header__close-icon {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.profile-update-avatar-header__controll-panel {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-update-avatar-header__upload-photo {
+    width: 670px;
+    height: 36px;
+    border-radius: 6px;
+    color: #1876F2;
+    background-color: #E7E3FF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.profile-update-avatar-header__upload-photo:hover {
+    cursor: pointer;
+    filter: brightness(95%)
+}
+
+.profile-update-avatar-header__upload-photo:active {
+    transform: scale(0.95);
+}

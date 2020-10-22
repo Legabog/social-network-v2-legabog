@@ -1,0 +1,13 @@
+.header-navigation-bar {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-navigation-bar > a  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-right: 10px;
+}

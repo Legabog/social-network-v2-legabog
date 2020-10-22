@@ -1,0 +1,42 @@
+
+.music-player-panel_open__shuffle-and-repeat-button {
+  margin-top: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.music-player-panel_open__shuffle-and-repeat {
+  width: 90%;
+}
+
+.music-player-panel_open__shuffle-and-repeat > button {
+  background-color: #fff;
+  border-radius: 60px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  border: none;
+}
+
+.music-player-panel_open__shuffle-and-repeat > button > svg{
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+
+.music-player-panel_open__shuffle-and-repeat > button:hover {
+  background-color: #eff2f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+.music-player-panel_open__shuffle-and-repeat > button:active {
+  transform: scale(0.90);
+}
+
+
+.music-player-panel_open__shuffle-and-repeat > button:focus {
+  outline: none;
+}

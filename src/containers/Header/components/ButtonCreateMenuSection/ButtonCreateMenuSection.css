@@ -1,0 +1,54 @@
+.button-create-menu__section {
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.button-create-menu__section:hover {
+    background-color: #e9ebec;
+    cursor: pointer;
+}
+
+.button-create-menu__section:active {
+    background-color: #bfc2c4;
+    cursor: pointer;
+}
+
+
+.button-create-menu__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: #F0F2F5;
+    border-radius: 50px;
+}
+
+.button-create-menu__icon > .MuiSvgIcon-root {
+    color: gray;
+}
+
+
+.button-create-menu__description {
+    display: block;
+}
+
+.button-create-menu__category {
+    padding-left: 12px;
+}
+
+.button-create-menu__category > span {
+    color: #050505;
+}
+
+
+.button-create-menu__help {
+    padding-left: 12px;
+}
+
+.button-create-menu__help > span {
+    color: #65676B;
+}

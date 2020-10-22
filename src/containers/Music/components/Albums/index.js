@@ -1,0 +1,1 @@
+export { AlbumsList as default } from "./Albums"

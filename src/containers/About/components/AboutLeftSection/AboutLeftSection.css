@@ -1,0 +1,25 @@
+.AboutLeftSection {
+    display: block;
+    width: 30%;
+    padding: 16px 6px;
+    border-right: 1px solid #CED0D4;
+}
+
+.AboutLeftSection a {
+    text-decoration: none;
+}
+
+.AboutLeftSection__header {
+    display: flex;
+    text-align: left;
+    padding: 0px 12px;
+    margin-bottom: 10px;
+}
+
+.AboutLeftSection__header span {
+    word-break: break-word;
+    color: #050505;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}

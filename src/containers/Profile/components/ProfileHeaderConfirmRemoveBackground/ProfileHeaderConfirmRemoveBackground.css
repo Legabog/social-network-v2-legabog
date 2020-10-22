@@ -1,0 +1,24 @@
+.profileHeaderConfirmRemoveBackground__wrapper {
+    z-index: 250;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+}
+
+.profileHeaderConfirmRemoveBackground {
+    z-index: 250;
+    width: 550px;
+    height: fit-content;
+    border-radius: 8px;
+    padding-top: 5px;
+    display: table;
+    table-layout: fixed;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}

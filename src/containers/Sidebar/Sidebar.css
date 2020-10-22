@@ -1,0 +1,41 @@
+.sidebar {
+    padding: 25px 10px;
+    flex: 0,33;
+    min-width: 350px;
+    max-width: 350px;
+    max-height: 580px;
+    overflow-x: hidden;
+}
+
+.sidebar > a {
+    text-decoration: none;
+}
+
+.sidebar > hr {
+    margin-right: 16px;
+    background-color: #CED0D4;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    margin-top: 8px;
+    background: #dadde1;
+    border-width: 0;
+    color: #dadde1;
+    height: 1px;
+}
+
+.sidebar__title-section {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    display: flex;
+    text-align: left;
+
+}
+
+.sidebar__title-section > span {
+    text-align: left;
+    word-break: break-word;
+    font-weight: 600;
+    color: #050505;
+    line-height: 1.1765;
+    font-size: 1.0625rem;
+}

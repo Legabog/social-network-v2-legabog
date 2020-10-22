@@ -1,0 +1,31 @@
+.profile-body-column-component-intro-item {
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+  width: 555px;
+  height: 36px; 
+  margin-top: 10px;
+}
+
+.profile-body-column-component-intro-item svg {
+  padding: 6px;
+  color: gray;
+}
+
+.profile-body-column-component-intro-item__description {
+  display: flex;
+  width: 330px;
+  margin-left: 5px;
+}
+
+.profile-body-column-component-intro-item__description span {
+  word-break: break-word;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: .9375rem;
+  line-height: 1.3333;
+  padding: 6px;
+  color: #050505;
+}

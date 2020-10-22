@@ -1,0 +1,26 @@
+.profile-select-avatar-background-wrapper {
+    position: fixed;
+    z-index: 3;
+    top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    transition: opacity 0.1s, visibility 0s linear 0.1s;
+}
+
+.profile-select-avatar-background {
+    z-index: 51;
+    max-width: 550px;
+    max-height: 635px;
+    height: 100%;
+    border-radius: 8px;
+    padding-top: 5px;
+    width: 100%;
+    outline: none;
+    background-color: #fff;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}

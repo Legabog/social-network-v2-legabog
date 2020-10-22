@@ -1,0 +1,19 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+ <title>report_24</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Page-2">
+   <g id="report_24">
+    <polygon points="0 0 24 0 24 24 0 24" id="Bounds"/>
+    <path fill-rule="nonzero" fill="#eeff00" id="Mask" d="m15.73,3l5.27,5.27l0,7.46l-5.27,5.27l-7.46,0l-5.27,-5.27l0,-7.46l5.27,-5.27l7.46,0zm-3.98,11.75c-0.55228,0 -1,0.44772 -1,1l0,0.5c0,0.55228 0.44772,1 1,1l0.5,0c0.55228,0 1,-0.44772 1,-1l0,-0.5c0,-0.55228 -0.44772,-1 -1,-1l-0.5,0zm0.25,-1.75c0.55228,0 1,-0.44772 1,-1l0,-4c0,-0.55228 -0.44772,-1 -1,-1c-0.55228,0 -1,0.44772 -1,1l0,4c0,0.55228 0.44772,1 1,1z"/>
+   </g>
+  </g>
+ </g>
+</svg>

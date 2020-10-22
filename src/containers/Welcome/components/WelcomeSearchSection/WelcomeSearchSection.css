@@ -1,0 +1,72 @@
+.welcome-search-section__wrapper {
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    padding: 16px;
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 500px;
+    height: 130px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.welcome-search-section {
+    padding: 8px 16px;
+    display: block;
+    text-align: left;
+    justify-self: start;
+}
+
+.welcome-search-section__description-main > span {
+    word-break: break-word;
+    color: #050505;
+    font-size: 1.25rem;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.welcome-search-section__description-secondary {
+    margin-top: 2px;
+}
+
+.welcome-search-section__description-secondary > span {
+    word-break: break-word;
+    color: #65676B;
+    font-weight: normal;
+    line-height: 1.1765;
+    font-size: 1.0625rem;
+}
+
+.welcome-search-section__input {
+    width: 440px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    background-color: #eff2f5;
+    margin-top: 20px;
+    padding: 0px 16px;
+    border-radius: 999px;
+}
+
+.welcome-search-section__input:hover {
+    cursor: pointer;
+}
+
+.welcome-search-section__input > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.welcome-search-section__input > input {
+    width: 100%;
+    border: none;
+    height: 40px;
+    font-size: .9375rem;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.welcome-search-section__input > input:hover {
+    cursor: pointer;
+}

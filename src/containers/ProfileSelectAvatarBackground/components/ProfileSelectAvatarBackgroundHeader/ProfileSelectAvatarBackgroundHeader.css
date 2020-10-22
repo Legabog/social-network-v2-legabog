@@ -1,0 +1,34 @@
+.profile-select-avatar-background-header {
+  min-height: 60px;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.profile-select-avatar-background-header__back-icon {
+  position: absolute;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.profile-select-avatar-background-header__title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 60px;
+}
+
+.profile-select-avatar-background-header__title > span {
+  color: #050505;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.profile-select-avatar-background-header__close-icon {
+  padding-top: 5px;
+  position: absolute;
+  margin-left: 490px;
+}
+

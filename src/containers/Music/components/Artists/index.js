@@ -1,0 +1,1 @@
+export { ArtistsList as default } from "./Artists"

@@ -1,0 +1,19 @@
+<svg width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+ <title>more_horizontal_28</title>
+ <desc>Created with Sketch.</desc>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill-rule="evenodd" fill="none" id="Page-2">
+   <g id="more_horizontal_28">
+    <rect height="28" width="28" y="0" x="0" id="Bounds"/>
+    <path fill="#4a76a8" id="Mask" d="m6.75,16.5c-1.242641,0 -2.25,-1.007359 -2.25,-2.25c0,-1.242641 1.007359,-2.25 2.25,-2.25c1.242641,0 2.25,1.007359 2.25,2.25c0,1.242641 -1.007359,2.25 -2.25,2.25zm7,0c-1.242641,0 -2.25,-1.007359 -2.25,-2.25c0,-1.242641 1.007359,-2.25 2.25,-2.25c1.242641,0 2.25,1.007359 2.25,2.25c0,1.242641 -1.007359,2.25 -2.25,2.25zm7,0c-1.242641,0 -2.25,-1.007359 -2.25,-2.25c0,-1.242641 1.007359,-2.25 2.25,-2.25c1.242641,0 2.25,1.007359 2.25,2.25c0,1.242641 -1.007359,2.25 -2.25,2.25z"/>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,73 @@
+.profileHeaderConfirmRemoveBackground__body {
+    display: block;
+    max-height: 380px;
+    padding: 8px 16px;
+    overflow-x: hidden;
+}
+
+.profileHeaderConfirmRemoveBackground__body__description {
+    display: flex;
+    text-align: left;
+}
+
+.profileHeaderConfirmRemoveBackground__body__controlPanel {
+    display: flex;
+    padding: 16px;
+    padding-bottom: 0px;
+}
+
+.profileHeaderConfirmRemoveBackground__body__buttons {
+    display: flex;
+    margin-left: 340px;
+}
+
+.profileHeaderConfirmRemoveBackground__body__cancelButton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 36px;
+    margin-right: 10px;
+    padding: 0px 12px;
+    border-radius: 6px;
+}
+
+.profileHeaderConfirmRemoveBackground__body__cancelButton span {
+    color: #1876F2;
+}
+
+.profileHeaderConfirmRemoveBackground__body__cancelButton:hover {
+    background-color: #EFF2F5;
+    cursor: pointer;
+}
+
+.profileHeaderConfirmRemoveBackground__body__cancelButton:active {
+    transform: scale(0.95);
+    background-color: #ECF3FF;
+}
+
+.profileHeaderConfirmRemoveBackground__body__saveButton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 36px;
+    padding: 0px 12px;
+    border-radius: 6px;
+    background-color: #1876F2;
+}
+
+.profileHeaderConfirmRemoveBackground__body__saveButton span {
+    color: #fff;
+}
+
+.profileHeaderConfirmRemoveBackground__body__saveButton:hover {
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.profileHeaderConfirmRemoveBackground__body__saveButton:active {
+    transform: scale(0.95);
+}

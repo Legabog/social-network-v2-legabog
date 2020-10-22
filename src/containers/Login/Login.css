@@ -1,0 +1,233 @@
+.login {
+    display: flex;
+    height: 100vh;
+}
+
+.login__main-block {
+    width: 100%;
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+
+.login__block {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+}
+
+.login__description {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    vertical-align: top;
+}
+
+.login__description > h1 {
+    color: #2e81f4;
+    font-weight: 800;
+    padding: 112px 0 16px;
+}
+
+.login__description > h2 {
+    display: block;
+    padding: 0 0 20px;
+    margin-top: 0;
+    color: #1c1e21;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.login__signin-block {
+    display: block;
+    height: 456px;
+    width: 396px;
+}
+
+.login__signin-block__form {
+    display: block;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    text-align: center;
+}
+
+.login__signin-block__inputs {
+    margin: auto;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 17px;
+    width: 364px;
+}
+
+.signin-block__input {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    background: #FFFFFF repeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+}
+
+#login-password {
+    margin-top: 12px;
+}
+
+.signin-block__input:focus {
+    outline: none !important;
+}
+
+.login__signin-block__button {
+    display: block;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.button-signin {
+    background-color: #1877f2;
+    margin: 0;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+
+.button-signin:hover {
+    background-color: #166fe5;
+}
+
+.button-signin:focus {
+    outline: none;
+}
+
+.login__signin-block__restore-password {
+    margin-top: 16px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.login__signin-block__restore-password > a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login__signin-block__restore-password > a:hover {
+    text-decoration: underline;
+}
+
+.login__signin-block__hr {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.button-create-account {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #42b72a;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+.button-create-account:hover {
+    background-color: #36a420;
+}
+
+.button-create-account:focus {
+    outline: none;
+}
+
+.login__signin-block__help {
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.login__signin-block__help > a {
+    color: #1c1e21;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login__signin-block__help > a:hover {
+    text-decoration: underline;
+}

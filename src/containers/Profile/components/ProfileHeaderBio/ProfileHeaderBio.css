@@ -1,0 +1,20 @@
+.profile__header__bioUnfilledSpan span {
+    word-break: break-word;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+    color: #1877F2;
+}
+
+.profile__header__bioFilledSpan span {
+    word-break: break-word;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+    color: #65676B;
+}
+
+.profile__header__bioUnfilledSpan span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

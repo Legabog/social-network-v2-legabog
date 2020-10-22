@@ -1,0 +1,10 @@
+.music-list-header h1 {
+  margin-left: 55px;
+  font-weight: bold;
+  color: #1877F2;
+}
+
+.music-list-header__title {
+  padding-top: 40px;
+  border-bottom: 1px solid #e9e9e9;
+}

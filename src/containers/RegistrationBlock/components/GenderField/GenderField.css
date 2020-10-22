@@ -1,0 +1,93 @@
+.gender-field {
+    padding-left: 16px;
+}
+
+.gender-field__description {
+    display: flex;
+    align-items: center;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+.gender-field__description > button {
+    width: 10px;
+    height: 10px;
+    padding-left: 12px;
+}
+
+.gender-field__description svg {
+    width: 15.6px;
+    height: 15.6px;
+}
+
+.gender-field-error {
+    position: absolute;
+    cursor: pointer;
+    right: 29px;
+    color: red;
+}
+
+.gender-field__inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px -6px -6px;
+    width: 411px;
+}
+
+.gender-field__input {
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+    margin: 8px 6px 6px;
+    padding: 0;
+    position: relative;
+    width: auto;
+    border-radius: 4px;
+}
+
+.gender-field__input__label {
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+    width: 100%;
+    font-weight: normal;
+    cursor: default;
+}
+
+.gender-field-input {
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    cursor: default;
+    appearance: radio;
+    box-sizing: border-box;
+    padding: initial;
+    border: initial;
+
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    font: 400 13.3333px Arial;
+}

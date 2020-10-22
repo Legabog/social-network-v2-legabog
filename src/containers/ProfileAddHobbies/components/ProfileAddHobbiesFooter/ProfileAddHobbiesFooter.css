@@ -1,0 +1,96 @@
+.profile-add-hobbies-footer__public {
+    display: flex;
+}
+
+.profile-add-hobbies-footer__public-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #050505;
+}
+
+.profile-add-hobbies-footer__public-description {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.profile-add-hobbies-footer__public-description {
+    color: #050505;
+    font-weight: normal;
+    font-size: .9375rem;
+    line-height: 1.3333;
+}
+
+.profile-add-hobbies-footer__controll-panel {
+    display: flex;
+    padding: 16px;
+}
+
+
+.profile-add-hobbies-footer__buttons {
+    display: flex;
+    margin-left: 150px;
+}
+
+.profile-add-hobbies-footer__buttons > a {
+    text-decoration: none;
+}
+
+/* save button */
+
+.profile-add-hobbies-footer__update-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 36px;
+    padding: 0px 12px;
+    border-radius: 6px;
+    background-color: #1876F2;
+}
+
+.profile-add-hobbies-footer__update-button > span {
+    color: #fff;
+}
+
+.profile-add-hobbies-footer__update-button:hover {
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.profile-add-hobbies-footer__update-button:active {
+    transform: scale(0.95);
+}
+
+/* Cancel button */
+
+.profile-add-hobbies-footer__cancel-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 36px;
+    padding: 0px 12px;
+    border-radius: 6px;
+    margin-right: 6px;
+}
+
+.profile-add-hobbies-footer__cancel-button > span {
+    color: #1876F2;
+}
+
+.profile-add-hobbies-footer__cancel-button:hover {
+    background-color: #EFF2F5;
+    cursor: pointer;
+}
+
+.profile-add-hobbies-footer__cancel-button:active {
+    transform: scale(0.95);
+    background-color: #ECF3FF;
+}
